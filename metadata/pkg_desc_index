@@ -1,0 +1,48 @@
+acct-group/gamemode 0: System group: gamemode
+app-admin/gwe 0.14.0 9999: System utility designed to provide information, control the fans and overclock your NVIDIA card
+app-emulation/dxvk 1.5.5 1.6 1.6.1 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk-config 1.5.5 1.6 1.6.1 9999: dxvk_config.dll library from Valve's Proton (winelib)
+app-emulation/dxvk-mingw 1.5.5 1.6 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk-mingw-config 1.5.5 1.6 9999: dxvk_config.dll library from Valve's Proton (mingw)
+app-emulation/protonhax 9999: Program to help executing outside programs in proton.
+app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
+app-emulation/wine-staging 5.6: Free implementation of Windows(tm) on Unix, Staging patchset.
+app-text/urlview 0.9_p21: A curses URL parser for text files
+app-vim/vundle 9999: Vundle, the plug-in manager for Vim
+app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
+dev-go/gopls 0.3.3: 'gopls' is the official language server for the Go language.
+dev-python/Rx 3.1.0: Reactive Extensions for Python
+dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
+dev-python/peewee 3.13.1: Small python ORM
+dev-python/plexapi 3.4.0 9999: Python bindings for the Plex API.
+dev-python/py3nvml 0.2.5: Python 3 bindings for the NVIDIA Management Library
+dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
+dev-python/requests-futures 1.0.0: Asynchronous Python HTTP Requests for Humans using Futures
+dev-python/vdf 9999: Package for working with Valve's text and binary KeyValue format
+dev-util/ccls 9999: C/C++/ObjC language server
+dev-util/renderdoc 1.7 9999: A tool for tracing, analyzing, and debugging graphics APIs
+dev-vcs/git-extras 5.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
+games-action/minecraft-launcher 2.1.13829: Official launcher for Minecraft
+games-util/gamemode 9999: Optimise Linux system performance on demand
+games-util/mangohud 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
+media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
+media-gfx/ueberzug 9999: ueberzug is an alternative for w3mimgdisplay
+media-libs/raspberrypi-userland 0_pre20160704 9999: Raspberry Pi userspace tools and libraries
+media-plugins/gst-plugins-webrtc 1.14.5: WebRTC plugins for GStreamer
+media-plugins/gst-plugins-webrtcdsp 1.14.5: Audio Filter using WebRTC Audio Processing library plugin for GStreamer
+media-sound/cava 9999: Console-based Audio Visualizer for ALSA (=CAVA)
+media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
+media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
+media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
+net-im/discord-rpc 3.4.0: Library for interfacing your game with a locally running Discord desktop client.
+net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
+sys-kernel/liquorix-sources 5.5.19_p1: The Liquorix Kernel Sources v5.x
+virtual/linux-sources 3-r5: Virtual for Linux kernel sources
+x11-drivers/nvidia-drivers 440.66.09 440.82: NVIDIA Accelerated Graphics Driver
+x11-misc/betterlockscreen 3.0.1: sweet looking lockscreen for linux system
+x11-misc/i3lock-color 2.12-r1: Simple screen locker
+x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
+x11-misc/polybar 9999: A fast and easy-to-use status bar
+x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
+x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
