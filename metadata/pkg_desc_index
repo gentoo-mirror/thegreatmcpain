@@ -10,7 +10,7 @@ app-emulation/wine-staging 5.6: Free implementation of Windows(tm) on Unix, Stag
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/vundle 9999: Vundle, the plug-in manager for Vim
 app-vim/youcompleteme 99999999: vim plugin: a code-completion engine for Vim
-dev-go/gopls 0.3.3: 'gopls' is the official language server for the Go language.
+dev-go/gopls 0.3.3 0.4.0: 'gopls' is the official language server for the Go language.
 dev-python/Rx 3.1.0: Reactive Extensions for Python
 dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
 dev-python/peewee 3.13.1: Small python ORM
