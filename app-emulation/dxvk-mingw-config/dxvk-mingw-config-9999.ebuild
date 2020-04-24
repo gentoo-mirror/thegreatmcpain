@@ -8,7 +8,7 @@ MULTILIB_COMPAT=( abi_x86_{32,64} )
 inherit meson multilib-minimal flag-o-matic
 
 DESCRIPTION="dxvk_config.dll library from Valve's Proton (mingw)"
-HOMEPAGE="https://github.com/Joshua-Ashton/d9vk"
+HOMEPAGE="https://github.com/ValveSoftware/dxvk"
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="https://github.com/doitsujin/dxvk.git"
@@ -67,7 +67,7 @@ dxvk_check_mingw() {
 		ewarn
 		ewarn "You need to have a mingw32 toolchain installed."
 		ewarn "To set up a mingw32 toolchain please read the 'Setting up Mingw in Gentoo' section here."
-		ewarn "https://gitlab.com/TheGreatMcPain/thegreatmcpain-overlay/app-emulation#setting-up-mingw-in-gentoo"
+		ewarn "https://gitlab.com/TheGreatMcPain/thegreatmcpain-overlay/-/tree/master/app-emulation#setting-up-mingw-in-gentoo"
 		ewarn
 		die "Mingw32 toolchain required."
 	fi
