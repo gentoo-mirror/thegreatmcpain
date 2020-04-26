@@ -19,7 +19,6 @@ dev-python/py3nvml 0.2.5: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0: Asynchronous Python HTTP Requests for Humans using Futures
 dev-python/vdf 9999: Package for working with Valve's text and binary KeyValue format
-dev-util/ccls 9999: C/C++/ObjC language server
 dev-util/renderdoc 1.7 9999: A tool for tracing, analyzing, and debugging graphics APIs
 dev-vcs/git-extras 5.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/minecraft-launcher 2.1.13829: Official launcher for Minecraft
