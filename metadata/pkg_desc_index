@@ -23,7 +23,7 @@ dev-util/renderdoc 1.7 9999: A tool for tracing, analyzing, and debugging graphi
 dev-vcs/git-extras 5.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/minecraft-launcher 2.1.13829: Official launcher for Minecraft
 games-util/gamemode 9999: Optimise Linux system performance on demand
-games-util/mangohud 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+games-util/mangohud 0.3.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-gfx/ueberzug 9999: ueberzug is an alternative for w3mimgdisplay
