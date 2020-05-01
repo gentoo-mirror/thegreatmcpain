@@ -22,7 +22,7 @@ fi
 
 LICENSE="ZLIB"
 SLOT=0
-
+IUSE="custom-cflags dxvk-config"
 RESTRICT="test strip"
 
 RDEPEND="
@@ -37,9 +37,7 @@ if [[ ${PV} != "9999" ]] ; then
 	S="${WORKDIR}/dxvk-${PV}"
 fi
 
-PATCHES=(
-	"${FILESDIR}/flags.patch"
-)
+PATCHES=()
 
 bits() { [[ ${ABI} = amd64 ]] && echo 64 || echo 32; }
 
@@ -48,9 +46,14 @@ dxvk_check_mingw() {
 	use abi_x86_64 && categories+=("cross-x86_64-w64-mingw32")
 	use abi_x86_32 && categories+=("cross-i686-w64-mingw32")
 
+	# Check if pthread is enabled on mingw toolchains. (from tastytea's overlay)
+	local thread_model="$(LC_ALL=C ${categories//cross-/}-gcc -v 2>&1 \
+							| grep 'Thread model' | cut -d' ' -f3)"
+
 	for cat in ${categories[@]}; do
 		if ! has_version -b "${cat}/mingw64-runtime[libraries]" ||
-				! has_version -b "${cat}/gcc"; then
+				! has_version -b "${cat}/gcc" ||
+				[[ "${thread_model}" != "posix" ]]; then
 			eerror "The ${cat} toolchain is not properly installed."
 			eerror "Make sure to install ${cat}/gcc with:"
 			eerror "EXTRA_ECONF=\"--enable-threads=posix --disable-sjlj-exceptions --with-dwarf2\""
@@ -73,6 +76,15 @@ pkg_setup() {
 }
 
 src_prepare() {
+	if use dxvk-config; then
+		PATCHES+=(
+			"${FILESDIR}/add-dxvk_config-mingw-library.patch"
+			"${FILESDIR}/add-dxvk_config-to-setup.patch"
+		)
+	fi
+	if use custom-cflags; then
+		PATCHES+=("${FILESDIR}/flags-mingw.patch")
+	fi
 	default
 
 	# For some reason avx is causing issues,
@@ -107,6 +119,9 @@ src_prepare() {
 }
 
 multilib_src_configure() {
+	# If we use portage's strip FEATURE it will
+	# try to use the native strip program, so let meson
+	# do the stripping.
 	local emesonargs=(
 		--cross-file="${S}/build-win$(bits).txt"
 		--libdir="$(get_libdir)/dxvk-mingw"
