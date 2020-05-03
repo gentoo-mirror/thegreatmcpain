@@ -7,7 +7,8 @@ app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (St
 app-emulation/wine-staging 5.6-r1 9999: Free implementation of Windows(tm) on Unix, Staging patchset.
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/vundle 9999: Vundle, the plug-in manager for Vim
-app-vim/youcompleteme 99999999-r1: vim plugin: a code-completion engine for Vim
+app-vim/youcompleteme 99999999-r2: vim plugin: a code-completion engine for Vim
+dev-dotnet/omnisharp-roslyn-http-bin 1.35.0: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-go/gopls 0.3.3 0.4.0: 'gopls' is the official language server for the Go language.
 dev-node/typescript 3.8.3: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.0: Reactive Extensions for Python
