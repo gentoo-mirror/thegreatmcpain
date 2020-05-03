@@ -33,6 +33,7 @@ app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide DirectX D3
 app-emulation/wine-staging:vulkan - Enable Vulkan layer graphics support using media-libs/vulkan-loader.
 app-vim/youcompleteme:clang - Enable c-family semantic completion via libclang.
 app-vim/youcompleteme:go - Enable Go semantic completion via dev-go/gopls.
+app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Language Server.
 app-vim/youcompleteme:mono - Enable C# semantic completion via dev-dotnet/omnisharp-roslyn-http-bin.
 app-vim/youcompleteme:rust - Enable rust semantic completion via rls.
 app-vim/youcompleteme:typescript - Enable TypeScript semantic completion via dev-node/typescript. (Also works with JavaScript.)
