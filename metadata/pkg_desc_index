@@ -40,7 +40,6 @@ media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client
 media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
 net-im/discord-rpc 3.4.0: Library for interfacing your game with a locally running Discord desktop client.
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
-sys-apps/systemd 242-r7: System and service manager for Linux
 sys-kernel/liquorix-sources 5.5.19_p1 5.6.10_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r5: Virtual for Linux kernel sources
 x11-drivers/nvidia-drivers 440.66.11-r2 440.66.12 440.82: NVIDIA Accelerated Graphics Driver
