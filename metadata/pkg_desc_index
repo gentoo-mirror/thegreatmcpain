@@ -1,5 +1,5 @@
 acct-group/gamemode 0: System group: gamemode
-app-admin/gwe 0.14.0 9999: System utility designed to provide information, control the fans and overclock your NVIDIA card
+app-admin/gwe 0.14.0-r1 0.14.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-emulation/dxvk 1.5.5-r1 1.6-r1 1.6.1-r1 9999-r1: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/dxvk-mingw 1.5.5-r1 1.6-r1 1.6.1-r1 9999-r1: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protonhax 9999: Program to help executing outside programs in proton.
@@ -16,12 +16,10 @@ dev-libs/inih 49 9999: Simple .INI file parser for C/C++
 dev-node/typescript 3.8.3: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.0: Reactive Extensions for Python
 dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
-dev-python/peewee 3.13.1: Small python ORM
 dev-python/plexapi 3.4.0 9999: Python bindings for the Plex API.
-dev-python/py3nvml 0.2.5: Python 3 bindings for the NVIDIA Management Library
+dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0: Asynchronous Python HTTP Requests for Humans using Futures
-dev-python/vdf 9999: Package for working with Valve's text and binary KeyValue format
 dev-util/renderdoc 1.7 9999: A tool for tracing, analyzing, and debugging graphics APIs
 dev-vcs/git-extras 5.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/minecraft-launcher 2.1.13829: Official launcher for Minecraft
