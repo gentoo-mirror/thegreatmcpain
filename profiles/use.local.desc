@@ -41,6 +41,7 @@ dev-util/renderdoc:python - Build with python support.
 dev-util/renderdoc:qt5 - Build Qt5 based GUI.
 games-util/goverlay:mangohud - Install games-util/mangohud.
 games-util/goverlay:opengl - Use x11-apps/mesa-progs for opengl preview.
+games-util/goverlay:vkbasalt - Install games-util/vkbasalt.
 games-util/goverlay:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
