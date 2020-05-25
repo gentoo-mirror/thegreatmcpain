@@ -37,6 +37,8 @@ app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Lan
 app-vim/youcompleteme:mono - Enable C# semantic completion via dev-dotnet/omnisharp-roslyn-http-bin.
 app-vim/youcompleteme:rust - Enable rust semantic completion via rls.
 app-vim/youcompleteme:typescript - Enable TypeScript semantic completion via dev-node/typescript. (Also works with JavaScript.)
+dev-games/godot:clang - Build with sys-devel/clang.
+dev-games/godot:lto - Enable LTO
 dev-util/renderdoc:python - Build with python support.
 dev-util/renderdoc:qt5 - Build Qt5 based GUI.
 games-util/goverlay:opengl - Use x11-apps/mesa-progs for opengl preview.
