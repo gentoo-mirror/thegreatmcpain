@@ -45,9 +45,9 @@ media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client
 media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
 net-im/discord-rpc 3.4.0: Library for interfacing your game with a locally running Discord desktop client.
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
-sys-kernel/liquorix-sources 5.6.10_p1 5.6.12_p2 5.6.13_p1 5.6.14_p1: The Liquorix Kernel Sources v5.x
+sys-kernel/liquorix-sources 5.6.10_p1 5.6.12_p2 5.6.13_p1 5.6.14_p1 5.6.15_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r5: Virtual for Linux kernel sources
-x11-drivers/nvidia-drivers 440.66.12-r1 440.66.14 440.82-r1: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 440.66.12-r1 440.66.14 440.66.15 440.82-r1: NVIDIA Accelerated Graphics Driver
 x11-misc/betterlockscreen 3.0.1: sweet looking lockscreen for linux system
 x11-misc/i3lock-color 2.12-r1: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
