@@ -10,7 +10,7 @@ COMPRESSTYPE=".tar.gz"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-TAG="5.6-16"
+TAG="5.6-18"
 
 CKV="$(ver_cut 1-2)"
 ETYPE="sources"
