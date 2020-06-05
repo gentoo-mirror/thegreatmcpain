@@ -1,34 +1,34 @@
 acct-group/gamemode 0: System group: gamemode
-app-admin/gwe 0.14.0-r1 0.14.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
+app-admin/gwe 0.14.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-emulation/dxvk 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protonhax 9999: Program to help executing outside programs in proton.
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
-app-emulation/wine-staging 5.6-r1 9999: Free implementation of Windows(tm) on Unix, Staging patchset.
+app-emulation/wine-staging 5.6-r1 5.7: Free implementation of Windows(tm) on Unix, Staging patchset.
 app-shells/shfmt 3.1.1: A shell formatter written in Go.
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/vundle 9999: Vundle, the plug-in manager for Vim
 app-vim/youcompleteme 99999999-r3: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.201: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.201: Common files shared between multiple slots of .NET Core
-dev-dotnet/omnisharp-roslyn-http-bin 1.35.0: OmniSharp server (HTTP) based on Roslyn workspaces
+dev-dotnet/dotnetcore-sdk-bin 3.1.300: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.300: Common files shared between multiple slots of .NET Core
+dev-dotnet/omnisharp-roslyn-http-bin 1.35.2: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.1 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.4.1: 'gopls' is the official language server for the Go language.
 dev-libs/inih 49 9999: Simple .INI file parser for C/C++
-dev-node/typescript 3.8.3: TypeScript is a language for application scale JavaScript development
+dev-node/typescript 3.8.3 3.9.5: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.0: Reactive Extensions for Python
 dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
-dev-python/plexapi 3.4.0 9999: Python bindings for the Plex API.
+dev-python/plexapi 3.4.0 3.5.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0: Asynchronous Python HTTP Requests for Humans using Futures
 dev-qt/qtstyleplugins 5.0.0_p20170311: Additional style plugins for Qt5 (gtk2, cleanlooks, plastic, motif)
-dev-util/renderdoc 1.7 9999: A tool for tracing, analyzing, and debugging graphics APIs
-dev-util/reshade-shaders 20200510: Post-processing shaders written in the ReShade FX shader language
+dev-util/renderdoc 1.7 1.8 9999: A tool for tracing, analyzing, and debugging graphics APIs
+dev-util/reshade-shaders 20200521: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-extras 5.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
-games-action/minecraft-launcher 2.1.13829: Official launcher for Minecraft
-games-arcade/osu-lazer 2020.429.0 2020.602.0 9999: rhythm is just a *click* away!
+games-action/minecraft-launcher 2.1.13829 2.1.15166: Official launcher for Minecraft
+games-arcade/osu-lazer 2020.429.0 2020.602.0 2020.603.0 9999: rhythm is just a *click* away!
 games-util/gamemode 9999-r1: Optimise Linux system performance on demand
 games-util/goverlay 9999: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.3.5 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
@@ -49,7 +49,7 @@ sys-kernel/liquorix-sources 5.6.16_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r5: Virtual for Linux kernel sources
 x11-drivers/nvidia-drivers 440.66.12-r1 440.66.14 440.66.15 440.82-r1: NVIDIA Accelerated Graphics Driver
 x11-misc/betterlockscreen 3.0.1: sweet looking lockscreen for linux system
-x11-misc/i3lock-color 2.12-r1: Simple screen locker
+x11-misc/i3lock-color 2.12-r1 2.12.4: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
 x11-misc/polybar 9999: A fast and easy-to-use status bar
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
