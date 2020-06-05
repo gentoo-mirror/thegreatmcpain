@@ -16,6 +16,7 @@ dev-dotnet/omnisharp-roslyn-http-bin 1.35.2: OmniSharp server (HTTP) based on Ro
 dev-games/godot 3.2.1 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.4.1: 'gopls' is the official language server for the Go language.
 dev-libs/inih 49 9999: Simple .INI file parser for C/C++
+dev-node/js-beautify 1.11.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 3.8.3 3.9.5: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.0: Reactive Extensions for Python
 dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
