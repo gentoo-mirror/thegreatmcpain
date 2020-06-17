@@ -1,5 +1,5 @@
 acct-group/gamemode 0: System group: gamemode
-app-admin/gwe 0.14.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
+app-admin/gwe 0.14.1 0.15.0 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-emulation/dxvk 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
