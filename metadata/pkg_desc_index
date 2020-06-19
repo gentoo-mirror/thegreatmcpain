@@ -44,7 +44,7 @@ media-sound/cava 9999: Console-based Audio Visualizer for ALSA (=CAVA)
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
-media-video/tsmuxer 9999: 
+media-video/tsmuxer 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
 net-im/discord-rpc 3.4.0: Library for interfacing your game with a locally running Discord desktop client.
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
 sys-auth/pam-gnupg 0.1 9999: Unlock GnuPG keys on login
