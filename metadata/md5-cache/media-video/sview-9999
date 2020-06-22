@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare unpack
+DEPEND=x11-libs/gtk+:2 media-video/ffmpeg media-libs/openal dev-libs/libconfig x11-libs/libXpm webp? ( media-libs/libwebp )
+DESCRIPTION=Stereoscopic media player
+EAPI=7
+HOMEPAGE=http://www.sview.ru
+IUSE=webp
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:2 media-video/ffmpeg media-libs/openal dev-libs/libconfig x11-libs/libXpm webp? ( media-libs/libwebp )
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
+_md5_=09bdef5e776b67508f519d2716bbd106
