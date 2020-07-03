@@ -6,9 +6,9 @@ HOMEPAGE=http://liquorix.net/
 IUSE=symlink build
 KEYWORDS=-* ~amd64 ~ppc ~ppc64 ~x86
 LICENSE=GPL-2
-RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf )
+RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
 SLOT=5.6.16_p2
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.6.tar.xz https://github.com/damentz/liquorix-package/archive/5.6-19.tar.gz
-_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	62ce5abb4a3cde62969c4314bbf96d6f	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	b018f94025c867de0d2a56af55679a7a	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=5d883651d751279b0f06f2c623ac990b
