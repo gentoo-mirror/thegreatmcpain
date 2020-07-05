@@ -44,6 +44,7 @@ media-sound/cava 9999: Console-based Audio Visualizer for ALSA (=CAVA)
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
+media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/sview 9999: Stereoscopic media player
 media-video/tsmuxer 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
 net-im/discord-rpc 3.4.0: Library for interfacing your game with a locally running Discord desktop client.
