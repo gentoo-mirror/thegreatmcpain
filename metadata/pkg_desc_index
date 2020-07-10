@@ -1,7 +1,7 @@
 acct-group/gamemode 0: System group: gamemode
 app-admin/gwe 0.15.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
-app-emulation/dxvk 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protonhax 9999: Program to help executing outside programs in proton.
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
@@ -15,21 +15,21 @@ dev-dotnet/dotnetcore-sdk-bin-common 3.1.300: Common files shared between multip
 dev-dotnet/omnisharp-roslyn-http-bin 1.35.2: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.1 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.4.1: 'gopls' is the official language server for the Go language.
-dev-libs/inih 49 9999: Simple .INI file parser for C/C++
+dev-libs/inih 51 9999: Simple .INI file parser for C/C++
 dev-node/js-beautify 1.11.0: Beautifier for javascript https://beautifier.io
-dev-node/typescript 3.8.3 3.9.5: TypeScript is a language for application scale JavaScript development
+dev-node/typescript 3.9.6: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.0: Reactive Extensions for Python
 dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
-dev-python/plexapi 3.4.0 3.5.0 9999: Python bindings for the Plex API.
+dev-python/plexapi 3.5.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0: Asynchronous Python HTTP Requests for Humans using Futures
 dev-qt/qtstyleplugins 5.0.0_p20170311: Additional style plugins for Qt5 (gtk2, cleanlooks, plastic, motif)
-dev-util/renderdoc 1.7 1.8 9999: A tool for tracing, analyzing, and debugging graphics APIs
+dev-util/renderdoc 1.8 9999: A tool for tracing, analyzing, and debugging graphics APIs
 dev-util/reshade-shaders 20200521: Post-processing shaders written in the ReShade FX shader language
-dev-vcs/git-extras 5.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
-games-action/minecraft-launcher 2.1.13829 2.1.15166: Official launcher for Minecraft
-games-arcade/osu-lazer 2020.429.0 2020.602.0 2020.603.0 9999: rhythm is just a *click* away!
+dev-vcs/git-extras 5.1.0 6.0.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
+games-action/minecraft-launcher 2.1.15852: Official launcher for Minecraft
+games-arcade/osu-lazer 2020.707.0 9999: rhythm is just a *click* away!
 games-util/gamemode 9999-r1: Optimise Linux system performance on demand
 games-util/goverlay 9999: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.3.5 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
