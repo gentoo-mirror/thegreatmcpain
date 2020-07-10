@@ -31,15 +31,13 @@ dev-vcs/git-extras 5.1.0 6.0.0 9999: GIT utilities -- repo summary, repl, change
 games-action/minecraft-launcher 2.1.15852: Official launcher for Minecraft
 games-arcade/osu-lazer 2020.707.0 9999: rhythm is just a *click* away!
 games-util/gamemode 9999-r1: Optimise Linux system performance on demand
-games-util/goverlay 9999: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
-games-util/mangohud 0.3.5 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
-games-util/vkbasalt 9999-r1: A vulkan post processing layer
+games-util/goverlay 0.3.5 9999: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
+games-util/mangohud 0.4.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+games-util/vkbasalt 0.3.2.2 9999-r1: A vulkan post processing layer
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-gfx/ueberzug 9999: ueberzug is an alternative for w3mimgdisplay
 media-libs/raspberrypi-userland 0_pre20160704 9999: Raspberry Pi userspace tools and libraries
-media-plugins/gst-plugins-webrtc 1.14.5: WebRTC plugins for GStreamer
-media-plugins/gst-plugins-webrtcdsp 1.14.5: Audio Filter using WebRTC Audio Processing library plugin for GStreamer
 media-sound/cava 9999: Console-based Audio Visualizer for ALSA (=CAVA)
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
@@ -53,7 +51,6 @@ sys-auth/pam-gnupg 0.1 9999: Unlock GnuPG keys on login
 sys-kernel/liquorix-sources 5.7.8_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r5: Virtual for Linux kernel sources
 x11-drivers/nvidia-drivers 440.66.17: NVIDIA Accelerated Graphics Driver
-x11-misc/betterlockscreen 3.0.1: sweet looking lockscreen for linux system
 x11-misc/i3lock-color 2.12-r1 2.12.4: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
 x11-misc/polybar 9999: A fast and easy-to-use status bar
