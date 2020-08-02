@@ -12,7 +12,7 @@ inherit autotools flag-o-matic l10n multilib multilib-minimal pax-utils toolchai
 inherit git-r3
 EGIT_REPO_URI="https://github.com/lutris/wine.git"
 if [ -z ${EGIT_BRANCH+x} ]; then
-	EGIT_BRANCH="lutris-fshack-5.6"
+	EGIT_BRANCH="lutris-eac-testing-5.5-2"
 fi
 if [[ ${PV} = "9999" ]]; then
 	KEYWORDS=""
@@ -370,16 +370,18 @@ multilib_src_install_all() {
 
 pkg_postinst() {
 	wine_pkg_postinst
-	einfo ""
+	einfo
 	einfo "This ebuild pulls it's sources from ${EGIT_REPO_URI}."
 	einfo "Which is the sources that are used for the lutris wine runtimes."
-	einfo ""
+	einfo
 	einfo "By default we are using the ${EGIT_BRANCH} branch."
 	einfo "If you want you can change branches by setting the EGIT_BRANCH variable"
 	einfo "to a different branch using 'package.env'."
-	einfo ""
+	einfo
+	ewarn "WARNING! lutris-eac-testing-5.5-2 is for testing EasyAntiCheat, and is unstable!"
+	einfo
 	einfo "Since this ebuild uses bobwya's wine-eselect it is possible to"
 	einfo "add this wine-staging ebuild to your own local overlay,"
 	einfo "and name it 'wine-staging-9999_p1.ebuild' to have multiple slotted '9999' versions."
-	einfo ""
+	einfo
 }
