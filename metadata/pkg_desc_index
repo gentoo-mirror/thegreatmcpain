@@ -10,9 +10,9 @@ app-shells/shfmt 3.1.1: A shell formatter written in Go.
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/vundle 9999: Vundle, the plug-in manager for Vim
 app-vim/youcompleteme 99999999-r3: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.300: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.300: Common files shared between multiple slots of .NET Core
-dev-dotnet/omnisharp-roslyn-http-bin 1.35.2: OmniSharp server (HTTP) based on Roslyn workspaces
+dev-dotnet/dotnetcore-sdk-bin 3.1.300 3.1.302: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.300 3.1.302: Common files shared between multiple slots of .NET Core
+dev-dotnet/omnisharp-roslyn-http-bin 1.35.4: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.1 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.4.1: 'gopls' is the official language server for the Go language.
 dev-libs/inih 51 9999: Simple .INI file parser for C/C++
