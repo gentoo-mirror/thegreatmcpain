@@ -10,7 +10,7 @@ COMPRESSTYPE=".tar.gz"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="5.7-18"
+GIT_COMMIT="5.7-19"
 
 CKV="$(ver_cut 1-2)"
 ETYPE="sources"
@@ -24,7 +24,7 @@ HOMEPAGE="http://liquorix.net/"
 LIQUORIX_VERSION="${GIT_COMMIT/_p[0-9]*}"
 LIQUORIX_FILE="${LIQUORIX_VERSION}${COMPRESSTYPE}"
 LIQUORIX_URI="https://github.com/damentz/liquorix-package/archive/${LIQUORIX_FILE}"
-SRC_URI="${KERNEL_URI} ${LIQUORIX_URI}";
+SRC_URI="${KERNEL_URI} ${LIQUORIX_URI} -> ${P}.${COMPRESSTYPE}";
 
 KEYWORDS="-* ~amd64 ~ppc ~ppc64 ~x86"
 IUSE=""
