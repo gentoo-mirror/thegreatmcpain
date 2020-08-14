@@ -1,11 +1,11 @@
 acct-group/gamemode 0: System group: gamemode
 app-admin/gwe 0.15.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
-app-emulation/dxvk 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk 1.7 9999: A Vulkan-based translation layer for Direct3D 9/10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protonhax 9999: Program to help executing outside programs in proton.
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
-app-emulation/wine-staging 5.5 5.7 5.7_p1 5.14: Free implementation of Windows(tm) on Unix, Staging patchset.
+app-emulation/wine-staging 5.5 5.7 5.7_p1 5.14: Free implementation of Windows(tm) on Unix, with Wine Staging patchset
 app-shells/shfmt 3.1.1: A shell formatter written in Go.
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/vundle 9999: Vundle, the plug-in manager for Vim
