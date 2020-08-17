@@ -12,7 +12,7 @@ AMD64_NV_PACKAGE="NVIDIA-Linux-x86_64-${PV}"
 
 NV_URI="https://us.download.nvidia.com/XFree86/"
 NV_DEV_URI="https://developer.nvidia.com/"
-NV_SETTINGS_PV="$(ver_cut '1').64"
+NV_SETTINGS_PV="$(ver_cut '1').57"
 NV_VULKAN_BETA_PV="$(ver_rs 1- '')"
 
 SRC_URI="
@@ -86,63 +86,23 @@ QA_PREBUILT="opt/* usr/lib*"
 S=${WORKDIR}/
 PATCHES=(
 	"${FILESDIR}"/${PN}-440.26-locale.patch
-	# Taken from AUR package which took from:
-	# https://gitlab.com/snippets/1945940
-	"${FILESDIR}"/vulkan-kernel-5.6.patch
-
-	# https://gitlab.com/snippets/1965550
-	"${FILESDIR}"/vulkan-kernel-5.7.patch
 )
-nvidia_drivers_versions_check() {
-	CONFIG_CHECK=""
-
-	if use kernel_linux && kernel_is ge 5 6; then
-		ewarn "Gentoo supports kernels which are supported by NVIDIA"
-		ewarn "which are limited to the following kernels:"
-		ewarn "<sys-kernel/gentoo-sources-5.6"
-		ewarn "<sys-kernel/vanilla-sources-5.6"
-		ewarn ""
-		ewarn "You are free to utilize epatch_user to provide whatever"
-		ewarn "support you feel is appropriate, but will not receive"
-		ewarn "support as a result of those changes."
-		ewarn ""
-		ewarn "Do not file a bug report about this."
-		ewarn ""
-	fi
-
-	# Since Nvidia ships many different series of drivers, we need to give the user
-	# some kind of guidance as to what version they should install. This tries
-	# to point the user in the right direction but can't be perfect. check
-	# nvidia-driver.eclass
-	nvidia-driver_check
-
-	if use kms; then
-		if kernel_is lt 4 2; then
-			ewarn "NVIDIA does not support kernel moddsetting on"
-			ewarn "the fallowing kernel:"
-			ewarn "<sys-kernel/gentoo-sources-4.2"
-			ewarn "<sys-kernel/vanilla-sources-4.2"
-			ewarn
-		else
-			einfo "USE +kms: checking kernel for KMS CONFIG recommended by NVIDIA."
-			einfo
-			CONFIG_CHECK+=" ~DRM_KMS_HELPER ~DRM_KMS_FB_HELPER"
-		fi
-	fi
-
-	# Kernel features/options to check for
-	CONFIG_CHECK+=" !DEBUG_MUTEXES !I2C_NVIDIA_GPU ~!LOCKDEP ~MTRR ~SYSVIPC ~ZONE_DMA"
-
-	# Now do the above checks
-	use kernel_linux && check_extra_config
-}
+NK_KV_MAX_PLUS="5.9"
+CONFIG_CHECK="
+	!DEBUG_MUTEXES
+	~!I2C_NVIDIA_GPU
+	~!LOCKDEP
+	~DRM
+	~DRM_KMS_HELPER
+	~SYSVIPC
+"
 
 pkg_pretend() {
-	nvidia_drivers_versions_check
+	nvidia-driver_check
 }
 
 pkg_setup() {
-	nvidia_drivers_versions_check
+	nvidia-driver_check
 
 	# try to turn off distcc and ccache for people that have a problem with it
 	export DISTCC_DISABLE=1
@@ -216,14 +176,11 @@ src_prepare() {
 
 	if use tools; then
 		cp "${FILESDIR}"/nvidia-settings-linker.patch "${WORKDIR}" || die
-		cp "${FILESDIR}"/nvidia-settings-fno-common.patch "${WORKDIR}" || dir
 		sed -i \
 			-e "s:@PV@:${NV_SETTINGS_PV}:g" \
 			"${WORKDIR}"/nvidia-settings-linker.patch \
-			"${WORKDIR}"/nvidia-settings-fno-common.patch \
 			|| die
 		eapply "${WORKDIR}"/nvidia-settings-linker.patch
-		eapply "${WORKDIR}"/nvidia-settings-fno-common.patch
 	fi
 
 	default
@@ -517,7 +474,6 @@ src_install-libs() {
 			"libnvidia-compiler.so.${NV_SOVER}"
 			"libnvidia-eglcore.so.${NV_SOVER}"
 			"libnvidia-encode.so.${NV_SOVER}"
-			"libnvidia-fatbinaryloader.so.${NV_SOVER}"
 			"libnvidia-fbc.so.${NV_SOVER}"
 			"libnvidia-glcore.so.${NV_SOVER}"
 			"libnvidia-glsi.so.${NV_SOVER}"
