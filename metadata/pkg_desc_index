@@ -1,5 +1,6 @@
 acct-group/gamemode 0: System group: gamemode
 app-admin/gwe 0.15.1 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
+app-admin/liquidctl 1.4.1 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-emulation/dxvk 1.7 1.7.1 9999: A Vulkan-based translation layer for Direct3D 9/10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 9999: A Vulkan-based translation layer for Direct3D 10/11
@@ -19,6 +20,7 @@ dev-libs/inih 51 9999: Simple .INI file parser for C/C++
 dev-node/js-beautify 1.11.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 3.9.6: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.0: Reactive Extensions for Python
+dev-python/hidapi 0.9.0.3: Reactive Extensions for Python
 dev-python/injector 0.18.3: Python dependency injection framework, inspired by Guice
 dev-python/plexapi 3.5.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
