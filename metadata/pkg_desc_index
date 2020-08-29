@@ -16,6 +16,7 @@ dev-dotnet/dotnetcore-sdk-bin-common 3.1.300 3.1.302: Common files shared betwee
 dev-dotnet/omnisharp-roslyn-http-bin 1.35.4: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.1 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.4.1: 'gopls' is the official language server for the Go language.
+dev-lang/gnat-gpl 2019-r3: GNAT Ada Compiler - GPL version
 dev-libs/inih 51 9999: Simple .INI file parser for C/C++
 dev-node/js-beautify 1.11.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 3.9.6: TypeScript is a language for application scale JavaScript development
