@@ -7,12 +7,11 @@ app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 9999: A Vulkan-based translation laye
 app-emulation/protonhax 9999: Program to help executing outside programs in proton.
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/wine-staging 5.5 5.7 5.7_p1 5.14: Free implementation of Windows(tm) on Unix, with Wine Staging patchset
-app-shells/shfmt 3.1.1: A shell formatter written in Go.
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/vundle 9999: Vundle, the plug-in manager for Vim
 app-vim/youcompleteme 99999999-r3: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.300 3.1.302: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.300 3.1.302: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 3.1.300 3.1.302 3.1.401: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.300 3.1.302 3.1.401: Common files shared between multiple slots of .NET Core
 dev-dotnet/omnisharp-roslyn-http-bin 1.35.4: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.1 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.4.1: 'gopls' is the official language server for the Go language.
@@ -31,7 +30,7 @@ dev-util/renderdoc 1.8 9999: A tool for tracing, analyzing, and debugging graphi
 dev-util/reshade-shaders 20200521: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-extras 5.1.0 6.0.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/minecraft-launcher 2.1.15852: Official launcher for Minecraft
-games-arcade/osu-lazer 2020.707.0 2020.806.0 9999: rhythm is just a *click* away!
+games-arcade/osu-lazer 2020.825.0 9999: rhythm is just a *click* away!
 games-util/gamemode 9999-r1: Optimise Linux system performance on demand
 games-util/goverlay 0.3.5 9999: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.4.1-r1 9999-r1: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.

@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=opengl? ( x11-apps/mesa-progs ) vulkan? ( dev-util/vulkan-tools )
 SLOT=0
 _eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=8891cc36f50c006a47b3593a02f46510
+_md5_=ee67c767be840277f9b8cd219a2a1bbc
