@@ -24,7 +24,7 @@ dev-python/injector 0.18.3: Python dependency injection framework, inspired by G
 dev-python/plexapi 4.1.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
-dev-python/requests-futures 1.0.0: Asynchronous Python HTTP Requests for Humans using Futures
+dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP Requests for Humans using Futures
 dev-util/renderdoc 1.8 1.9 9999: A tool for tracing, analyzing, and debugging graphics APIs
 dev-util/reshade-shaders 20200521: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-extras 5.1.0 6.0.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
