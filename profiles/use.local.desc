@@ -123,6 +123,7 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
+net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
 virtual/linux-sources:firmware - Install linux kernel firmware
 x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
 x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
