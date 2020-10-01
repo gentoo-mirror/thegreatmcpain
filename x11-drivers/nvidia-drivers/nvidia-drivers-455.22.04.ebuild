@@ -1,9 +1,9 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-inherit eutils flag-o-matic linux-info linux-mod multilib-minimal nvidia-driver \
-	portability toolchain-funcs unpacker udev systemd
+EAPI=7
+inherit desktop flag-o-matic linux-info linux-mod multilib-minimal nvidia-driver \
+	portability systemd toolchain-funcs unpacker udev
 
 DESCRIPTION="NVIDIA Accelerated Graphics Driver"
 HOMEPAGE="https://www.nvidia.com/"
@@ -12,7 +12,7 @@ AMD64_NV_PACKAGE="NVIDIA-Linux-x86_64-${PV}"
 
 NV_URI="https://us.download.nvidia.com/XFree86/"
 NV_DEV_URI="https://developer.nvidia.com/"
-NV_SETTINGS_PV="$(ver_cut '1').57"
+NV_SETTINGS_PV="$(ver_cut '1').23.04"
 NV_VULKAN_BETA_PV="$(ver_rs 1- '')"
 
 SRC_URI="
@@ -23,12 +23,12 @@ SRC_URI="
 "
 
 LICENSE="GPL-2 NVIDIA-r2"
-SLOT="0/${PV%.*}"
+SLOT="0/${PV%%.*}"
 KEYWORDS="-* ~amd64"
 RESTRICT="bindist mirror"
 EMULTILIB_PKG="true"
 
-IUSE="compat +driver gtk3 kernel_FreeBSD kernel_linux +kms libglvnd multilib static-libs systemd +tools uvm wayland +X"
+IUSE="compat +driver gtk3 kernel_FreeBSD kernel_linux +kms +libglvnd multilib static-libs +tools uvm wayland +X"
 REQUIRED_USE="
 	tools? ( X )
 	static-libs? ( tools )
@@ -36,6 +36,7 @@ REQUIRED_USE="
 RESTRICT="test"
 
 COMMON="
+	driver? ( kernel_linux? ( acct-group/video ) )
 	kernel_linux? ( >=sys-libs/glibc-2.6.1 )
 	tools? (
 		dev-libs/atk
@@ -80,13 +81,14 @@ RDEPEND="
 		>=x11-libs/libvdpau-1.0[${MULTILIB_USEDEP}]
 		sys-libs/zlib[${MULTILIB_USEDEP}]
 	)
+	kernel_linux? ( net-libs/libtirpc )
 "
 QA_PREBUILT="opt/* usr/lib*"
 S=${WORKDIR}/
 PATCHES=(
 	"${FILESDIR}"/${PN}-440.26-locale.patch
 )
-NK_KV_MAX_PLUS="5.9"
+NV_KV_MAX_PLUS="5.9"
 CONFIG_CHECK="
 	!DEBUG_MUTEXES
 	~!I2C_NVIDIA_GPU
@@ -153,7 +155,7 @@ pkg_setup() {
 }
 
 src_configure() {
-	tc-export AR CC LD
+	tc-export AR CC LD OBJCOPY
 
 	default
 }
@@ -163,15 +165,6 @@ src_prepare() {
 	for man_file in "${NV_MAN}"/*1.gz; do
 		gunzip $man_file || die
 	done
-
-	if use systemd; then
-		bsdtar -xf ${NV_OBJ}/nvidia-persistenced-init.tar.bz2 || die
-		cp \
-			${NV_OBJ}/nvidia-persistenced-init/systemd/nvidia-persistenced.service.template \
-			${NV_OBJ}/nvidia-persistenced.service
-		sed -i 's/\/usr\/bin\/nvidia-persistenced/\/opt\/bin\/nvidia-persistenced/' ${NV_OBJ}/nvidia-persistenced.service || die
-		sed -i 's/ --user __USER__//' ${NV_OBJ}/nvidia-persistenced.service || die
-	fi
 
 	if use tools; then
 		cp "${FILESDIR}"/nvidia-settings-linker.patch "${WORKDIR}" || die
@@ -253,12 +246,10 @@ donvidia() {
 	# If the library has a SONAME and SONAME does not match the library name,
 	# then we need to create a symlink
 	if [[ ${nv_SOVER} ]] && ! [[ "${nv_SOVER}" = "${nv_LIBNAME}" ]]; then
-		dosym ${nv_LIBNAME} ${nv_DEST}/${nv_SOVER} \
-			|| die "failed to create ${nv_DEST}/${nv_SOVER} symlink"
+		dosym ${nv_LIBNAME} ${nv_DEST}/${nv_SOVER}
 	fi
 
-	dosym ${nv_LIBNAME} ${nv_DEST}/${nv_LIBNAME/.so*/.so} \
-		|| die "failed to create ${nv_LIBNAME/.so*/.so} symlink"
+	dosym ${nv_LIBNAME} ${nv_DEST}/${nv_LIBNAME/.so*/.so}
 }
 
 src_install() {
@@ -330,6 +321,12 @@ src_install() {
 		doins ${NV_X11}/10_nvidia_wayland.json
 	fi
 
+	insinto /etc/vulkan/icd.d
+	doins nvidia_icd.json
+
+	insinto /etc/vulkan/implicit_layer.d
+	doins nvidia_layers.json
+
 	# OpenCL ICD for NVIDIA
 	if use kernel_linux; then
 		insinto /etc/OpenCL/vendors
@@ -341,9 +338,6 @@ src_install() {
 
 	if use X; then
 		doexe ${NV_OBJ}/nvidia-xconfig
-
-		insinto /etc/vulkan/icd.d
-		doins nvidia_icd.json
 	fi
 
 	if use kernel_linux; then
@@ -365,9 +359,6 @@ src_install() {
 		newinitd "${FILESDIR}/nvidia-smi.init" nvidia-smi
 		newconfd "${FILESDIR}/nvidia-persistenced.conf" nvidia-persistenced
 		newinitd "${FILESDIR}/nvidia-persistenced.init" nvidia-persistenced
-		if use systemd; then
-			systemd_dounit ${NV_OBJ}/nvidia-persistenced.service
-		fi
 	fi
 
 	if use tools; then
@@ -410,12 +401,12 @@ src_install() {
 
 	systemd_dounit *.service
 	dobin nvidia-sleep.sh
-	exeinto /lib/systemd/systemd-sleep
+	exeinto /lib/systemd/system-sleep
 	doexe nvidia
 
 	if has_multilib_profile && use multilib; then
 		local OABI=${ABI}
-		for ABI in $(get_install_abis); do
+		for ABI in $(multilib_get_enabled_abis); do
 			src_install-libs
 		done
 		ABI=${OABI}
@@ -442,6 +433,8 @@ src_install() {
 	fi
 
 	readme.gentoo_create_doc
+
+	dodoc supported-gpus.json
 
 	docinto html
 	dodoc -r ${NV_DOC}/html/*
@@ -494,10 +487,10 @@ src_install-libs() {
 			)
 		fi
 
-		if use wayland && has_multilib_profile && [[ ${ABI} == "amd64" ]];
+		if use wayland && [[ ${ABI} == "amd64" ]];
 		then
 			NV_GLX_LIBRARIES+=(
-				"libnvidia-egl-wayland.so.1.1.3"
+				"libnvidia-egl-wayland.so.1.1.5"
 			)
 		fi
 
@@ -514,10 +507,11 @@ src_install-libs() {
 			)
 		fi
 
-		if use kernel_linux && has_multilib_profile && [[ ${ABI} == "amd64" ]];
+		if use kernel_linux && [[ ${ABI} == "amd64" ]];
 		then
 			NV_GLX_LIBRARIES+=(
 				"libnvidia-cbl.so.${NV_SOVER}"
+				"libnvidia-ngx.so.${NV_SOVER}"
 				"libnvidia-rtcore.so.${NV_SOVER}"
 				"libnvoptix.so.${NV_SOVER}"
 			)
