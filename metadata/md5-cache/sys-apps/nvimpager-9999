@@ -10,4 +10,4 @@ RDEPEND=app-shells/bash:* >=app-editors/neovim-0.4.0[-nvimpager]
 SLOT=0
 SRC_URI=https://www.drchip.org/astronaut/vim/vbafiles/AnsiEsc.vba.gz
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=12477e7687031743c44a56c9978b80b8
+_md5_=6453b82e16071018882c654601470165
