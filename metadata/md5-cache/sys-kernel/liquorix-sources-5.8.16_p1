@@ -8,7 +8,7 @@ KEYWORDS=-* ~amd64 ~ppc ~ppc64 ~x86
 LICENSE=GPL-2
 RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
-SLOT=5.8.12_p1
-SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.8.tar.xz https://github.com/damentz/liquorix-package/archive/5.8-10.tar.gz
+SLOT=5.8.16_p1
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.8.tar.xz https://github.com/damentz/liquorix-package/archive/5.8-15.tar.gz
 _eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	kernel-2	b018f94025c867de0d2a56af55679a7a	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=9a634b89d0222b5d6ff5162b55d040f9
+_md5_=dd1cb56c08179d0f2955319fb85afd7c
