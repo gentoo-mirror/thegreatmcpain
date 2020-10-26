@@ -59,5 +59,6 @@ x11-drivers/nvidia-drivers 455.22.04 455.26.01 455.26.02: NVIDIA Accelerated Gra
 x11-misc/i3lock-color 2.12.4 2.12.5: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
 x11-misc/polybar 9999: A fast and easy-to-use status bar
+x11-misc/sxhkd 0.6.2: Simple X hotkey daemon
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
 x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
