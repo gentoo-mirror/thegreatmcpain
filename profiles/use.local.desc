@@ -31,6 +31,8 @@ app-emulation/wine-staging:themes - Support GTK+:3 window theming through Wine S
 app-emulation/wine-staging:udev - Use virtual/libudev to provide plug and play support.
 app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide DirectX D3D12 support
 app-emulation/wine-staging:vulkan - Enable Vulkan layer graphics support using media-libs/vulkan-loader.
+app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
+app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
 app-vim/youcompleteme:clang - Enable c-family semantic completion via libclang.
 app-vim/youcompleteme:go - Enable Go semantic completion via dev-go/gopls.
 app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Language Server.
@@ -125,6 +127,13 @@ media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
 net-libs/libnm-glib:minimal - Only install library files
 net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
+sys-kernel/buildkernel:plymouth - Enables support for sys-boot/plymouth in the initramfs (but does not mandate its use).
+sys-kernel/genkernel-next:cryptsetup - Enable support for Luks disk enrcyption using sys-fs/cryptsetup
+sys-kernel/genkernel-next:dmraid - Enable support for DMRAID (include dmraid dependency)
+sys-kernel/genkernel-next:gpg - Enable support for GPG (include gnupg dependency)
+sys-kernel/genkernel-next:iscsi - Enable support for open-iscsi (include open-iscsi dependency)
+sys-kernel/genkernel-next:mdadm - Enable support for mdadm (include mdadm dependency)
+sys-kernel/genkernel-next:plymouth - Enable support for Plymouth (include Plymouth dependency)
 virtual/linux-sources:firmware - Install linux kernel firmware
 x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
 x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
