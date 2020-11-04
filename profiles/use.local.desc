@@ -130,6 +130,7 @@ media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono f
 net-libs/libnm-glib:minimal - Only install library files
 net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
 sys-kernel/buildkernel:plymouth - Enables support for sys-boot/plymouth in the initramfs (but does not mandate its use).
+sys-kernel/buildkernel-dracut:plymouth - Enables support for sys-boot/plymouth in the initramfs (but does not mandate its use).
 sys-kernel/genkernel-next:cryptsetup - Enable support for Luks disk enrcyption using sys-fs/cryptsetup
 sys-kernel/genkernel-next:dmraid - Enable support for DMRAID (include dmraid dependency)
 sys-kernel/genkernel-next:gpg - Enable support for GPG (include gnupg dependency)
