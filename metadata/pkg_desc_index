@@ -1,6 +1,6 @@
 acct-group/gamemode 0: System group: gamemode
 app-admin/gwe 0.15.1 0.15.2 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
-app-admin/liquidctl 1.4.1 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
+app-admin/liquidctl 1.4.1 1.4.2 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk 1.7 1.7.1 1.7.2 9999: A Vulkan-based translation layer for Direct3D 9/10/11
@@ -13,10 +13,10 @@ app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kerne
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.401: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.401: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 3.1.401 3.1.403: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.401 3.1.403: Common files shared between multiple slots of .NET Core
 dev-dotnet/omnisharp-roslyn-http-bin 1.35.4 1.37.1: OmniSharp server (HTTP) based on Roslyn workspaces
-dev-games/godot 3.2.2 9999: Multi-platform 2D and 3D game engine
+dev-games/godot 3.2.2 3.2.3 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.5.0: 'gopls' is the official language server for the Go language.
 dev-libs/inih 51 9999: Simple .INI file parser for C/C++
 dev-node/js-beautify 1.13.0: Beautifier for javascript https://beautifier.io
