@@ -45,6 +45,7 @@ media-libs/raspberrypi-userland 0_pre20160704 9999: Raspberry Pi userspace tools
 media-sound/cava 9999: Console-based Audio Visualizer for ALSA (=CAVA)
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
+media-sound/mpdscribble 0.23 9999: An MPD client that submits information to Audioscrobbler
 media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
