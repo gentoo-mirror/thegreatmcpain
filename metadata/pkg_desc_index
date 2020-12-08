@@ -18,6 +18,7 @@ dev-dotnet/omnisharp-roslyn-http-bin 1.35.4 1.37.1: OmniSharp server (HTTP) base
 dev-games/godot 3.2.2 3.2.3 9999: Multi-platform 2D and 3D game engine
 dev-go/gopls 0.5.0: 'gopls' is the official language server for the Go language.
 dev-libs/inih 51 9999: Simple .INI file parser for C/C++
+dev-libs/qt5pas 2.6: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-node/js-beautify 1.13.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 4.0.2: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.1: Reactive Extensions for Python
@@ -35,7 +36,7 @@ dev-vcs/git-extras 5.1.0 6.0.0 9999: GIT utilities -- repo summary, repl, change
 games-action/minecraft-launcher 2.1.15852 2.1.17314: Official launcher for Minecraft
 games-arcade/osu-lazer 2020.825.0 9999: rhythm is just a *click* away!
 games-util/gamemode 9999-r1: Optimise Linux system performance on demand
-games-util/goverlay 0.3.5 0.3.7 9999: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
+games-util/goverlay 0.4.2 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.5.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/vkbasalt 0.3.2.3 9999-r1: A vulkan post processing layer
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
