@@ -1,5 +1,5 @@
 acct-group/gamemode 0: System group: gamemode
-app-admin/gwe 0.15.1 0.15.2 9999-r1: System utility designed to provide information, control the fans and overclock your NVIDIA card
+app-admin/gwe 0.15.2-r1 9999-r2: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/liquidctl 1.4.1 1.4.2 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
@@ -24,7 +24,7 @@ dev-node/typescript 4.0.2: TypeScript is a language for application scale JavaSc
 dev-python/Rx 3.1.1: Reactive Extensions for Python
 dev-python/hidapi 0.9.0.3: Reactive Extensions for Python
 dev-python/injector 0.18.3 0.18.4: Python dependency injection framework, inspired by Guice
-dev-python/plexapi 4.1.0 9999: Python bindings for the Plex API.
+dev-python/plexapi 4.2.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP Requests for Humans using Futures
@@ -47,7 +47,7 @@ media-sound/cava 9999: Console-based Audio Visualizer for ALSA (=CAVA)
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-sound/mpdscribble 0.23 9999: An MPD client that submits information to Audioscrobbler
-media-tv/discord-rich-presence-plex 9999: A Python script that displays your Plex status on Discord using Rich Presence.
+media-tv/discord-rich-presence-plex 9999-r1: A Python script that displays your Plex status on Discord using Rich Presence.
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
