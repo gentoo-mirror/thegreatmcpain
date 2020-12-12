@@ -162,3 +162,5 @@ x11-themes/arc-gruvbox-theme:plank - Install plank themes.
 x11-themes/arc-gruvbox-theme:transparency - Include transparency support.
 x11-themes/arc-gruvbox-theme:unity - Configure for Unity support.
 x11-themes/arc-gruvbox-theme:xfce - Configure for XFWM support.
+x11-themes/gruvbox-material-gtk-theme:gtk2 - Install x11-themes/gtk-engines-murrine for GTK2 support
+x11-themes/gruvbox-material-gtk-theme:icons - Install icon theme

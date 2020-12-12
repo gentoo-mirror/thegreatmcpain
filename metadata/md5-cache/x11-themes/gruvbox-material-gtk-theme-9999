@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postinst postrm unpack
+DEPEND=x11-libs/gtk+:3 gtk2? ( x11-themes/gtk-engines-murrine ) icons? ( dev-util/gtk-update-icon-cache )
+DESCRIPTION=Gruvbox Material theme for GTK
+EAPI=7
+HOMEPAGE=https://github.com/sainnhe/gruvbox-material-gtk
+IUSE=+gtk2 +icons
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:3 gtk2? ( x11-themes/gtk-engines-murrine ) icons? ( dev-util/gtk-update-icon-cache )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=0e28a17758df42e687da0d3c5e95b53f
