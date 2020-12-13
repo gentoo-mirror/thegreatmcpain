@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postinst postrm unpack
+DEPEND=dev-util/gtk-update-icon-cache
+DESCRIPTION=Icons for x11-themes/gruvbox-dark-gtk
+EAPI=7
+HOMEPAGE=https://github.com/jmattheis/gruvbox-dark-gtk
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-util/gtk-update-icon-cache
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=a57bf93d4d197e5949b9443e0eb43444

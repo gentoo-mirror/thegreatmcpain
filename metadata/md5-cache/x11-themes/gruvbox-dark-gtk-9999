@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install unpack
+DEPEND=x11-libs/gtk+:3 gtk2? ( x11-themes/gtk-engines-murrine ) icons? ( x11-themes/gruvbox-dark-icons-gtk )
+DESCRIPTION=Gruvbox Dark theme for GTK made in oomox
+EAPI=7
+HOMEPAGE=https://github.com/jmattheis/gruvbox-dark-gtk
+IUSE=+gtk2 +icons
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:3 gtk2? ( x11-themes/gtk-engines-murrine ) icons? ( x11-themes/gruvbox-dark-icons-gtk )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=27a715a2b6ca236a0a4338146197a3bf
