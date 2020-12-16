@@ -8,5 +8,5 @@ RDEPEND=gnome-base/gconf sys-apps/dbus x11-apps/xrandr x11-libs/libXcomposite x1
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://launcher.mojang.com/download/linux/x86_64/minecraft-launcher_2.1.15852.tar.gz https://minecraft.net/android-icon-192x192.png -> minecraft-launcher.png
-_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=desktop	8f9bfcc33705104f56748d9dedb3177a	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=21d03f6d99fe53c095d12624faf1234d
