@@ -39,6 +39,7 @@ games-util/gamemode 9999-r1: Optimise Linux system performance on demand
 games-util/goverlay 0.4.2 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.5.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/vkbasalt 0.3.2.3 9999-r1: A vulkan post processing layer
+media-fonts/liberation-fonts 2.1.0-r1: A Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-gfx/ueberzug 9999: ueberzug is an alternative for w3mimgdisplay
@@ -54,7 +55,7 @@ media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sview 9999: Stereoscopic media player
 media-video/tsmuxer 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
-net-libs/libnm-glib 1.18.8: NetworkManager client library (legacy)
+net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
 sys-apps/nvimpager 0.7 9999: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
 sys-auth/pam-gnupg 0.1 9999: Unlock GnuPG keys on login
