@@ -12,7 +12,7 @@ AMD64_NV_PACKAGE="NVIDIA-Linux-x86_64-${PV}"
 
 NV_URI="https://us.download.nvidia.com/XFree86/"
 NV_DEV_URI="https://developer.nvidia.com/"
-NV_SETTINGS_PV="$(ver_cut '1').23.04"
+NV_SETTINGS_PV="$(ver_cut '1').38"
 NV_VULKAN_BETA_PV="$(ver_rs 1- '')"
 
 SRC_URI="
@@ -46,7 +46,7 @@ COMMON="
 			x11-libs/gtk+:3
 		)
 		x11-libs/cairo
-		x11-libs/gdk-pixbuf[X]
+		x11-libs/gdk-pixbuf
 		x11-libs/gtk+:2
 		x11-libs/libX11
 		x11-libs/libXext
@@ -165,6 +165,8 @@ src_prepare() {
 	for man_file in "${NV_MAN}"/*1.gz; do
 		gunzip $man_file || die
 	done
+
+	eapply "${FILESDIR}/kmalloc-limit.patch"
 
 	if use tools; then
 		cp "${FILESDIR}"/nvidia-settings-linker.patch "${WORKDIR}" || die
