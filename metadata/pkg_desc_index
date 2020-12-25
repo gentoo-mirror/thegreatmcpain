@@ -65,7 +65,7 @@ virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 x11-drivers/nvidia-drivers 455.46.02-r1 455.46.04: NVIDIA Accelerated Graphics Driver
 x11-misc/i3lock-color 2.12.4 2.12.5: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
-x11-misc/polybar 9999: A fast and easy-to-use status bar
+x11-misc/polybar 9999-r1: A fast and easy-to-use status bar
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
 x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
 x11-themes/gruvbox-dark-gtk 9999: Gruvbox Dark theme for GTK made in oomox
