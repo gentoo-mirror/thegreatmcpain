@@ -51,7 +51,7 @@ media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sview 9999: Stereoscopic media player
-media-video/tsmuxer 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
+media-video/tsmuxer 2.6.11-r2 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
