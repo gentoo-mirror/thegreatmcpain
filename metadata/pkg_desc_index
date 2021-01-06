@@ -14,9 +14,9 @@ app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
 dev-dotnet/dotnetcore-sdk-bin 3.1.401 3.1.403 3.1.404: .NET Core SDK - binary precompiled for glibc
 dev-dotnet/dotnetcore-sdk-bin-common 3.1.401 3.1.403 3.1.404: Common files shared between multiple slots of .NET Core
-dev-dotnet/omnisharp-roslyn-http-bin 1.35.4 1.37.1: OmniSharp server (HTTP) based on Roslyn workspaces
+dev-dotnet/omnisharp-roslyn-http-bin 1.35.4 1.37.1 1.37.5: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.2 3.2.3 9999: Multi-platform 2D and 3D game engine
-dev-go/gopls 0.5.0: 'gopls' is the official language server for the Go language.
+dev-go/gopls 0.5.0 0.6.1: 'gopls' is the official language server for the Go language.
 dev-libs/qt5pas 2.6: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-node/js-beautify 1.13.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 4.0.2: TypeScript is a language for application scale JavaScript development
