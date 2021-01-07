@@ -1,12 +1,12 @@
-BDEPEND=app-text/pandoc
+BDEPEND=app-text/pandoc >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DEPEND=app-shells/bash:* >=app-editors/neovim-0.4.0[-nvimpager]
 DESCRIPTION=Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
 EAPI=7
 HOMEPAGE=https://github.com/lucc/nvimpager
-KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
+PROPERTIES=live
 RDEPEND=app-shells/bash:* >=app-editors/neovim-0.4.0[-nvimpager]
 SLOT=0
-SRC_URI=https://github.com/lucc/nvimpager/archive/v0.7.tar.gz -> nvimpager-0.7.tar.gz https://www.drchip.org/astronaut/vim/vbafiles/AnsiEsc.vba.gz
-_md5_=6453b82e16071018882c654601470165
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=fbb6fe635df33be307c5deeca29f18bf

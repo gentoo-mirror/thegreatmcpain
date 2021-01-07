@@ -1,25 +1,25 @@
 app-admin/gwe 0.15.2-r1 9999-r2: System utility designed to provide information, control the fans and overclock your NVIDIA card
-app-admin/liquidctl 1.4.1 1.4.2 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
+app-admin/liquidctl 1.4.2 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-arch/msitools 9999: Set of programs to inspect and build Windows Installer (.MSI) files
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk 1.7 1.7.1 1.7.2 1.7.3 9999: A Vulkan-based translation layer for Direct3D 9/10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 1.7.2 1.7.3 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
-app-emulation/wine-staging 5.7 5.7_p1 5.13 5.14 5.21: Free implementation of Windows(tm) on Unix, with Wine Staging patchset
+app-emulation/wine-staging 5.7 5.7_p1 5.13 5.21: Free implementation of Windows(tm) on Unix, with Wine Staging patchset
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.401 3.1.403 3.1.404: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.401 3.1.403 3.1.404: Common files shared between multiple slots of .NET Core
-dev-dotnet/omnisharp-roslyn-http-bin 1.35.4 1.37.1 1.37.5: OmniSharp server (HTTP) based on Roslyn workspaces
+dev-dotnet/dotnetcore-sdk-bin 3.1.404: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.404: Common files shared between multiple slots of .NET Core
+dev-dotnet/omnisharp-roslyn-http-bin 1.37.5: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-games/godot 3.2.2 3.2.3 9999: Multi-platform 2D and 3D game engine
-dev-go/gopls 0.5.0 0.6.1: 'gopls' is the official language server for the Go language.
+dev-go/gopls 0.6.1: 'gopls' is the official language server for the Go language.
 dev-libs/qt5pas 2.6: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-node/js-beautify 1.13.0: Beautifier for javascript https://beautifier.io
-dev-node/typescript 4.0.2 4.1.3: TypeScript is a language for application scale JavaScript development
+dev-node/typescript 4.1.3: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.1: Reactive Extensions for Python
 dev-python/hidapi 0.9.0.3: Reactive Extensions for Python
 dev-python/injector 0.18.3 0.18.4: Python dependency injection framework, inspired by Guice
@@ -27,15 +27,15 @@ dev-python/plexapi 4.2.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP Requests for Humans using Futures
-dev-util/renderdoc 1.9 1.10 9999: A tool for tracing, analyzing, and debugging graphics APIs
-dev-util/reshade-shaders 20200521 20201203: Post-processing shaders written in the ReShade FX shader language
-dev-util/rust-analyzer 20201214 99999999: An experimental Rust compiler front-end for IDEs
+dev-util/renderdoc 1.11 9999-r1: A tool for tracing, analyzing, and debugging graphics APIs
+dev-util/reshade-shaders 20201203: Post-processing shaders written in the ReShade FX shader language
+dev-util/rust-analyzer 20210104 99999999: An experimental Rust compiler front-end for IDEs
 dev-vcs/git-credential-netrc 2.26.2 2.28.0 2.30.0 9999: git credential helper that reads netrc files.
-dev-vcs/git-extras 5.1.0 6.0.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
-games-action/minecraft-launcher 2.1.15852 2.1.17314: Official launcher for Minecraft
-games-arcade/osu-lazer 2020.1212.0 2020.1216.0 2020.1218.0 9999: rhythm is just a *click* away!
-games-util/goverlay 0.4.2 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
-games-util/mangohud 0.5.1 0.6.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+dev-vcs/git-extras 6.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
+games-action/minecraft-launcher 2.2.909: Official launcher for Minecraft
+games-arcade/osu-lazer 2020.1229.0 9999: rhythm is just a *click* away!
+games-util/goverlay 0.4.3 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
+games-util/mangohud 0.6.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/vkbasalt 0.3.2.3 9999-r1: A vulkan post processing layer
 media-fonts/liberation-fonts 2.1.0-r1: A Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
@@ -55,19 +55,17 @@ media-video/tsmuxer 2.6.11-r2 9999: tsMuxer is a transport stream muxer for remu
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
-sys-apps/nvimpager 0.7 9999: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
-sys-auth/pam-gnupg 0.1 9999: Unlock GnuPG keys on login
+sys-apps/nvimpager 0.9 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
+sys-auth/pam-gnupg 0.1 0.2 9999: Unlock GnuPG keys on login
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 5.10.3_p1 5.10.4_p2 5.10.4_p3: The Liquorix Kernel Sources v5.x
+sys-kernel/liquorix-sources 5.10.3_p1 5.10.4_p2 5.10.4_p3 5.10.5_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 x11-drivers/nvidia-drivers 455.46.04-r1: NVIDIA Accelerated Graphics Driver
-x11-misc/i3lock-color 2.12.4 2.12.5: Simple screen locker
+x11-misc/i3lock-color 2.13.1: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
 x11-misc/polybar 9999-r1: A fast and easy-to-use status bar
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
 x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
-x11-themes/gruvbox-dark-gtk 9999: Gruvbox Dark theme for GTK made in oomox
-x11-themes/gruvbox-dark-icons-gtk 9999: Icons for x11-themes/gruvbox-dark-gtk
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
