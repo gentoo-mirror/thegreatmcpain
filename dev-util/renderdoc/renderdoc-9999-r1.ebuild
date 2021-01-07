@@ -1,11 +1,11 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 2020-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
 
 PYTHON_COMPAT=( python3_{6,7,8} )
 
-inherit qmake-utils cmake eutils python-single-r1 git-r3 xdg-utils
+inherit qmake-utils cmake-multilib eutils python-single-r1 git-r3 xdg-utils
 
 SWIG_VERSION="7"
 SWIG_ZIP_FILENAME="${PN}_swig_modified-${SWIG_VERSION}.zip"
@@ -23,7 +23,7 @@ export QT_SELECT="qt5"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="+qt5 +python"
 
 RDEPEND="${PYTHON_DEPS}
@@ -49,26 +49,35 @@ DEPEND="${RDEPEND}
 	sys-devel/bison
 "
 
-PATCHES="
-	"${FILESDIR}"/renderdoc-dont-install-docs.patch
-"
+PATCHES=("${FILESDIR}"/renderdoc-dont-install-docs.patch)
+
+if [[ "${PV}" == "1.11" || "${PV}" == "9999" ]]; then
+	PATCHES+=("${FILESDIR}"/renderdoc-1.11-fix-half-library.patch)
+fi
 
 src_prepare() {
-	cmake_src_prepare
+	cmake-utils_src_prepare
 	# Force vulkan layer to be multilib.
 	sed "${S}"/renderdoc/driver/vulkan/renderdoc.json \
 		-e 's|@VULKAN_LAYER_MODULE_PATH@|librenderdoc.so|g' \
 		-i || die
 }
 
-src_configure() {
-	local mycmakeargs=(
-		-DRENDERDOC_SWIG_PACKAGE="${DISTDIR}/${SWIG_ZIP_FILENAME}"
-	)
-	cmake_src_configure
+multilib_src_configure() {
+	if ! multilib_is_native_abi; then
+		local mycmakeargs=(
+			-DENABLE_QRENDERDOC=OFF
+			-DENABLE_PYRENDERDOC=OFF
+		)
+	else
+		local mycmakeargs=(
+			-DRENDERDOC_SWIG_PACKAGE="${DISTDIR}/${SWIG_ZIP_FILENAME}"
+		)
+	fi
+	cmake-utils_src_configure
 }
 
-src_install() {
+multilib_src_install_all() {
 	cp "${S}"/util/LINUX_DIST_README "${S}"/README || die
 	dodoc README
 	dodoc LICENSE.md

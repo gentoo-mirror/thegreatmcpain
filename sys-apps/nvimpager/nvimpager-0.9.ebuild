@@ -1,12 +1,10 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 2020-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 DESCRIPTION="Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting."
 HOMEPAGE="https://github.com/lucc/nvimpager"
-
-ANSIESC_VBA="https://www.drchip.org/astronaut/vim/vbafiles/AnsiEsc.vba.gz"
 
 if [[ "${PV}" == "9999" ]]; then
 	inherit git-r3
@@ -41,10 +39,6 @@ src_unpack() {
 	if [[ "${PV}" == "9999" ]]; then
 		git-r3_src_unpack
 	fi
-
-	unpack AnsiEsc.vba.gz
-
-	mv AnsiEsc.vba "${S}/"
 }
 
 # Skip compile phase, because there is none.

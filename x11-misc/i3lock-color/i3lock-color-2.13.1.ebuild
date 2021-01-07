@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -8,7 +8,7 @@ MY_PV=$(ver_cut 1-2).c.$(ver_cut 3)
 
 DESCRIPTION="Simple screen locker"
 HOMEPAGE="https://i3wm.org/i3lock/"
-SRC_URI="https://github.com/Raymo111/i3lock-color/archive/${MY_PV}.tar.gz"
+SRC_URI="https://github.com/Raymo111/i3lock-color/archive/${MY_PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
