@@ -128,6 +128,7 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
+media-video/aegisub:uchardet - Enable charset discovery via app-i18n/uchardet
 net-libs/libnm-glib:minimal - Only install library files
 net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
 sys-kernel/buildkernel:plymouth - Enables support for sys-boot/plymouth in the initramfs (but does not mandate its use).
