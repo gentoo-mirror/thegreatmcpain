@@ -45,6 +45,10 @@ dev-games/godot:clang - Build with sys-devel/clang.
 dev-games/godot:lto - Enable LTO
 dev-util/renderdoc:python - Build with python support.
 dev-util/renderdoc:qt5 - Build Qt5 based GUI.
+games-fps/gzdoom:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
+games-fps/gzdoom:gtk2 - Enable support for GTK+2 instead of GTK+3
+games-fps/gzdoom:mpg123 - Enable support for MPEG audio playback via media-sound/mpg123
+games-fps/gzdoom:non-free - Enable non-free components
 games-util/goverlay:opengl - Use x11-apps/mesa-progs for opengl preview.
 games-util/goverlay:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices."
