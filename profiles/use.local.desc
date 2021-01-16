@@ -132,6 +132,7 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
+media-tv/droidcam:gtk - Build the dev-cpp/gtkmm:3.0 client.
 media-video/aegisub:uchardet - Enable charset discovery via app-i18n/uchardet
 net-libs/libnm-glib:minimal - Only install library files
 net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
