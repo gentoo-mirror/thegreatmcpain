@@ -143,6 +143,22 @@ sys-kernel/genkernel-next:iscsi - Enable support for open-iscsi (include open-is
 sys-kernel/genkernel-next:mdadm - Enable support for mdadm (include mdadm dependency)
 sys-kernel/genkernel-next:plymouth - Enable support for Plymouth (include Plymouth dependency)
 virtual/linux-sources:firmware - Install linux kernel firmware
+www-client/librewolf:clang - Use Clang compiler instead of GCC
+www-client/librewolf:eme-free - Disable EME (DRM plugin) cabability at build time
+www-client/librewolf:geckodriver - Enable WebDriver support
+www-client/librewolf:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/librewolf:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+www-client/librewolf:lto - Enable Link Time Optimization (LTO). Requires Gold linker when using GCC or LDD linker when using Clang
+www-client/librewolf:openh264 - Use media-libs/openh264 for H.264 support instead of downloading binary blob from Mozilla at runtime
+www-client/librewolf:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+www-client/librewolf:screencast - Enable support for remote desktop and screen cast using media-video/pipewire
+www-client/librewolf:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
+www-client/librewolf:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
+www-client/librewolf:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+www-client/librewolf:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+www-client/librewolf:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
+www-client/librewolf:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
+www-client/librewolf:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
 x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
 x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
 x11-drivers/nvidia-drivers:driver - Install the kernel driver module
