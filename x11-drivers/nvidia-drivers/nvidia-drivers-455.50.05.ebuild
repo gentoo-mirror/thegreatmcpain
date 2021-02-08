@@ -28,7 +28,7 @@ KEYWORDS="-* ~amd64"
 RESTRICT="bindist mirror"
 EMULTILIB_PKG="true"
 
-IUSE="compat +driver gtk3 kernel_FreeBSD kernel_linux +kms multilib static-libs +tools uvm wayland +X"
+IUSE="compat +driver gtk3 kernel_FreeBSD kernel_linux +kms libglvnd multilib static-libs +tools uvm wayland +X"
 REQUIRED_USE="
 	tools? ( X )
 	static-libs? ( tools )
@@ -161,8 +161,6 @@ src_prepare() {
 	for man_file in "${NV_MAN}"/*1.gz; do
 		gunzip $man_file || die
 	done
-
-	eapply "${FILESDIR}/kmalloc-limit.patch"
 
 	if use tools; then
 		cp "${FILESDIR}"/nvidia-settings-linker.patch "${WORKDIR}" || die
