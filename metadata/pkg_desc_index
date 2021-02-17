@@ -1,3 +1,5 @@
+acct-group/masari 0: System group: masari
+acct-user/masari 0: System user: masari
 app-admin/gwe 0.15.2-r1 9999-r2: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/liquidctl 1.4.2 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
@@ -60,6 +62,7 @@ net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally ru
 net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-misc/xmrig 6.8.2: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.5.0 9999: CUDA Plugin for xmrig
+net-p2p/masari 0.3.1.2: The secure, private, untraceable cryptocurrency
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
 sys-apps/nvimpager 0.9 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
 sys-auth/pam-gnupg 0.1 0.2 9999: Unlock GnuPG keys on login
