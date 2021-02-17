@@ -139,7 +139,7 @@ net-misc/xmrig:daemon - Enable openrc daemon.
 net-misc/xmrig:donate - Set the default donation level to 1% instead of 0
 net-misc/xmrig:nvml - Enable (NVIDIA Management Library) support (Requires CUDA)
 net-misc/xmrig:opencl - Enable OpenCL backend
-net-p2p/masari:daemon - Build the Monero daemon used to connect to the P2P network.
+net-p2p/masari:daemon - Build the Masari daemon used to connect to the P2P network.
 net-p2p/masari:hw-wallet - Enable if you want to use a hardware wallet like a Trezor or Ledger.
 net-p2p/masari:tools - Build tools used to manipulate the blockchain as it is stored on disk.
 net-p2p/masari:wallet-cli - Build the command line wallet, monero-wallet-cli.
