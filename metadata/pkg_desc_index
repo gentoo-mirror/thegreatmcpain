@@ -73,7 +73,7 @@ sys-auth/pam-gnupg 0.1 0.2 9999: Unlock GnuPG keys on login
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 5.10.17_p1 5.11.2_p2: The Liquorix Kernel Sources v5.x
+sys-kernel/liquorix-sources 5.10.17_p1 5.11.2_p2 5.11.3_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/vimb 3.6.0 9999: a fast, lightweight, vim-like browser based on webkit
 x11-drivers/nvidia-drivers 455.50.05: NVIDIA Accelerated Graphics Driver
