@@ -73,6 +73,14 @@ src_compile() {
 src_install() {
 	insinto "/usr/lib/${PN}"
 
+	einfo
+	einfo "If the merge failed and you were getting any certificate related errors"
+	einfo "please update net-misc/ca-certificates"
+	einfo
+	einfo "For more info related to this issue see:"
+	einfo "https://github.com/NuGet/Announcements/issues/49"
+	einfo
+
 	doins -r $output/*
 
 	dobin "${FILESDIR}"/osu-lazer
