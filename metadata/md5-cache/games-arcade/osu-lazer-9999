@@ -10,4 +10,4 @@ RDEPEND=media-video/ffmpeg virtual/opengl media-libs/libsdl2 x11-misc/shared-mim
 RESTRICT=test
 SLOT=0
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=de128d6705630f4dded77051ca893cfa
+_md5_=b549d78401fc845267ee5327b0ffe3c9
