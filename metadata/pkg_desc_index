@@ -63,7 +63,7 @@ media-video/tsmuxer 2.6.11-r2 9999: tsMuxer is a transport stream muxer for remu
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-misc/violetminer 0.2.2 9999: An argon2id miner. Supports TurtleCoin and WrkzCoin, among others.
-net-misc/xmrig 6.8.2: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
+net-misc/xmrig 6.8.2 6.10.0: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.5.0 9999: CUDA Plugin for xmrig
 net-p2p/masari 0.3.1.2: Masari: simple, scalable, and private cryptocurrency
 net-p2p/turtlecoin 1.0.0 9999: Decentralized Peer-2-Peer open source electronic currency.
