@@ -83,6 +83,7 @@ QA_PREBUILT="opt/* usr/lib*"
 S=${WORKDIR}/
 PATCHES=(
 	"${FILESDIR}"/${PN}-440.26-locale.patch
+	"${FILESDIR}/kernel-5.11.patch"
 )
 NV_KV_MAX_PLUS="5.9"
 CONFIG_CHECK="
