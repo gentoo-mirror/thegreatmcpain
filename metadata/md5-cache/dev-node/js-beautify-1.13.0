@@ -3,6 +3,7 @@ DEPEND=net-libs/nodejs[npm(+)]
 DESCRIPTION=Beautifier for javascript https://beautifier.io
 EAPI=6
 HOMEPAGE=https://github.com/beautify-web/js-beautify
+INHERIT=npmv1
 KEYWORDS=~amd64 ~arm
 LICENSE=MIT
 RDEPEND=
