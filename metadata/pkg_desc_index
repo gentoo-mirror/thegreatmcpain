@@ -38,7 +38,7 @@ dev-vcs/git-credential-netrc 2.26.2 2.26.3 2.28.1 2.30.2 9999: git credential he
 dev-vcs/git-extras 6.1.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/minecraft-launcher 2.2.909: Official launcher for Minecraft
 games-action/multimc5 0.6.11 9999: An advanced Qt5-based open-source launcher for Minecraft
-games-arcade/osu-lazer 2021.312.0 9999: rhythm is just a *click* away!
+games-arcade/osu-lazer 2021.312.0 2021.331.0 9999: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay 0.4.3 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.6.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
