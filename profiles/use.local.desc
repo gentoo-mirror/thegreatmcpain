@@ -49,7 +49,6 @@ games-util/goverlay:opengl - Use x11-apps/mesa-progs for opengl preview.
 games-util/goverlay:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices."
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
-media-fonts/liberation-fonts:fontforge - Use media-gfx/fontforge to build fonts from source
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
 media-fonts/nerd-fonts:anonymouspro - Install Nerd-fonts-patched Anonymous Pro fonts

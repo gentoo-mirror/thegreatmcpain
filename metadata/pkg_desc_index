@@ -41,8 +41,7 @@ games-arcade/osu-lazer 2021.312.0 2021.331.0 9999: rhythm is just a *click* away
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay 0.4.3 0.5 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.6.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
-games-util/vkbasalt 0.3.2.3 9999-r1: A vulkan post processing layer
-media-fonts/liberation-fonts 2.1.0-r1: A Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
+games-util/vkbasalt 0.3.2.3 0.3.2.4 9999-r1: A vulkan post processing layer
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-gfx/ueberzug 9999: ueberzug is an alternative for w3mimgdisplay
@@ -52,7 +51,7 @@ media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using disco
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-sound/mpdscribble 0.23 9999: An MPD client that submits information to Audioscrobbler
 media-tv/discord-rich-presence-plex 9999-r1: A Python script that displays your Plex status on Discord using Rich Presence.
-media-tv/droidcam 1.7.1: Use android phone as webcam, using a v4l device driver and app
+media-tv/droidcam 1.7.1 1.7.2: Use android phone as webcam, using a v4l device driver and app
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/aegisub 9999: Advanced subtitle editor (wangqr fork)
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
