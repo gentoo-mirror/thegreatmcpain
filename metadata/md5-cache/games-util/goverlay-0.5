@@ -1,14 +1,15 @@
-BDEPEND=>=dev-lang/lazarus-2.0.6 dev-libs/qt5pas >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install postinst postrm prepare unpack
+BDEPEND=>=dev-lang/lazarus-2.0.6 dev-libs/qt5pas
+DEFINED_PHASES=compile install postinst postrm prepare
 DEPEND=opengl? ( x11-apps/mesa-progs ) vulkan? ( dev-util/vulkan-tools )
 DESCRIPTION=GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 EAPI=7
 HOMEPAGE=https://github.com/benjamimgois/goverlay
-INHERIT=desktop xdg-utils git-r3
+INHERIT=desktop xdg-utils
 IUSE=opengl vulkan
+KEYWORDS=~amd64
 LICENSE=GPL-3
-PROPERTIES=live
 RDEPEND=opengl? ( x11-apps/mesa-progs ) vulkan? ( dev-util/vulkan-tools )
 SLOT=0
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+SRC_URI=https://github.com/benjamimgois/goverlay/archive/0.5.tar.gz -> goverlay-0.5.tar.gz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=5a8cd8bb4c067031570ada3275ce9583

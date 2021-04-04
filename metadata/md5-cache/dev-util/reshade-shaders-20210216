@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Post-processing shaders written in the ReShade FX shader language
+EAPI=7
+HOMEPAGE=https://github.com/crosire/reshade-shaders
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/crosire/reshade-shaders/archive/a2314cbf9a6c96de4d434b2f9ab8fa9265b8e575.zip -> reshade-shaders-20210216.zip
+_md5_=844fb268d2fed0a652a53f3ade00402e

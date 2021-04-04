@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-vcs/git
 SLOT=0
-SRC_URI=https://github.com/tj/git-extras/archive/6.1.0.tar.gz -> git-extras-6.1.0.tar.gz
+SRC_URI=https://github.com/tj/git-extras/archive/6.2.0.tar.gz -> git-extras-6.2.0.tar.gz
 _md5_=759554438e235d508d4be41335002017
