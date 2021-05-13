@@ -27,7 +27,7 @@ dev-libs/qt5pas 2.6: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-node/js-beautify 1.13.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 4.1.3 4.2.3: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.1.1: Reactive Extensions for Python
-dev-python/hidapi 0.9.0.3: Reactive Extensions for Python
+dev-python/hidapi 0.10.1: Python wrapper for the HIDAPI
 dev-python/injector 0.18.3 0.18.4: Python dependency injection framework, inspired by Guice
 dev-python/plexapi 4.2.0 4.5.1 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
