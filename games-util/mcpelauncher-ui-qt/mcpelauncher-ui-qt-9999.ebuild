@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit git-r3 cmake
+inherit git-r3 cmake flag-o-matic
 
 DESCRIPTION="mcpelauncher-linux UI"
 HOMEPAGE="https://github.com/minecraft-linux/mcpelauncher-ui-manifest"
@@ -24,3 +24,14 @@ DEPEND="
 	dev-libs/protobuf"
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+src_configure() {
+	# Doesn't like LTO
+	filter-flags -flto*
+
+	local mycmakeargs=(
+		-DBUILD_SHARED_LIBS=OFF
+	)
+
+	cmake_src_configure
+}
