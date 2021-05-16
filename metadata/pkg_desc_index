@@ -18,8 +18,8 @@ app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kerne
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.404 5.0.101 5.0.200 5.0.201 5.0.202: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.404 5.0.101 5.0.200 5.0.201 5.0.202: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 5.0.202: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 5.0.202: Common files shared between multiple slots of .NET Core
 dev-dotnet/omnisharp-roslyn-http-bin 1.37.5 1.37.8: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-go/gopls 0.6.1 0.6.9: 'gopls' is the official language server for the Go language.
 dev-lang/gnucobol 3.1.2: an open-source COBOL compiler, formerly known as OpenCOBOL
@@ -79,7 +79,7 @@ sys-auth/pam-gnupg 0.1 0.2 9999: Unlock GnuPG keys on login
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 5.11.18_p1 5.11.19_p1: The Liquorix Kernel Sources v5.x
+sys-kernel/liquorix-sources 5.11.18_p1 5.11.19_p1 5.11.21_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/vimb 3.6.0 9999: a fast, lightweight, vim-like browser based on webkit
 x11-drivers/nvidia-drivers 455.50.10 455.50.14: NVIDIA Accelerated Graphics Driver
