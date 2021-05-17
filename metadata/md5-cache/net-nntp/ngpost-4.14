@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst
+DEPEND=dev-qt/qtchooser dev-qt/qtcore dev-libs/openssl rar? ( app-arch/rar ) par2? ( app-arch/par2cmdline ) 7z? ( app-arch/p7zip )
+DESCRIPTION=Usenet poster developed in C++/QT
+EAPI=7
+HOMEPAGE=https://github.com/mbruel/ngPost
+INHERIT=qmake-utils desktop
+IUSE=rar par2 +7z
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtchooser dev-qt/qtcore dev-libs/openssl rar? ( app-arch/rar ) par2? ( app-arch/par2cmdline ) 7z? ( app-arch/p7zip )
+SLOT=0
+SRC_URI=https://github.com/mbruel/ngPost/archive/v4.14.tar.gz -> ngpost-4.14.tar.gz
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_md5_=508962ba970212ca5d4cf558b313739c
