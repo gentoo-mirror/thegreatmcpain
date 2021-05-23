@@ -71,7 +71,7 @@ net-misc/violetminer 0.2.2 9999: An argon2id miner. Supports TurtleCoin and Wrkz
 net-misc/xmrig 6.10.0 6.12.1: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.5.0 6.12.0 9999: CUDA Plugin for xmrig
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
-net-p2p/haven 1.3.0d: The secure, private, untraceable cryptocurrency
+net-p2p/haven 1.3.0e: The secure, private, untraceable cryptocurrency
 net-p2p/masari 0.3.1.2: Masari: simple, scalable, and private cryptocurrency
 net-p2p/turtlecoin 1.0.0 9999: Decentralized Peer-2-Peer open source electronic currency.
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
