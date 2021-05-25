@@ -18,8 +18,8 @@ app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kerne
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 5.0.202: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 5.0.202: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 3.1.409 5.0.202: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.409 5.0.202: Common files shared between multiple slots of .NET Core
 dev-dotnet/omnisharp-roslyn-http-bin 1.37.5 1.37.8: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-go/gopls 0.6.1 0.6.9: 'gopls' is the official language server for the Go language.
 dev-lang/gnucobol 3.1.2: an open-source COBOL compiler, formerly known as OpenCOBOL
@@ -41,7 +41,7 @@ dev-vcs/git-extras 6.1.0 6.2.0 9999: GIT utilities -- repo summary, repl, change
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
 games-action/minecraft-launcher 2.2.909: Official launcher for Minecraft
 games-action/multimc5 0.6.11 9999: An advanced Qt5-based open-source launcher for Minecraft
-games-arcade/osu-lazer 2021.312.0 2021.331.0 2021.424.0 9999: rhythm is just a *click* away!
+games-arcade/osu-lazer 2021.524.0 9999: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay 0.4.3 0.5 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/mangohud 0.6.1 9999-r2: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
