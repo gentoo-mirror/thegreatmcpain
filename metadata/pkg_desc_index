@@ -87,7 +87,7 @@ sys-kernel/liquorix-sources 5.11.18_p1 5.11.19_p1 5.11.21_p1 5.11.21_p2 5.12.5_p
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/vimb 3.6.0 9999: a fast, lightweight, vim-like browser based on webkit
 x11-drivers/nvidia-drivers 455.50.10 455.50.14: NVIDIA Accelerated Graphics Driver
-x11-misc/i3lock-color 2.13.1: Simple screen locker
+x11-misc/i3lock-color 2.13.1 2.13.2: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
 x11-misc/polybar 9999-r1: A fast and easy-to-use status bar
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
