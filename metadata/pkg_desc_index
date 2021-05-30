@@ -63,6 +63,7 @@ media-sound/mpdscribble 0.23 9999: An MPD client that submits information to Aud
 media-tv/discord-rich-presence-plex 9999-r1: A Python script that displays your Plex status on Discord using Rich Presence.
 media-tv/droidcam 1.7.1 1.7.2: Use android phone as webcam, using a v4l device driver and app
 media-tv/jellyfin 10.7.5: The Free Software Media System
+media-tv/jellyfin-media-player 1.6.0: Jellyfin Desktop Client (Based on plex-media-player)
 media-tv/jellyfin-web 10.7.5: Web interface for Jellyfin
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/aegisub 9999: Advanced subtitle editor (wangqr fork)
