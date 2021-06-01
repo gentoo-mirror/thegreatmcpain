@@ -41,6 +41,8 @@ app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Lan
 app-vim/youcompleteme:mono - Enable C# semantic completion via dev-dotnet/omnisharp-roslyn-http-bin.
 app-vim/youcompleteme:rust - Enable rust semantic completion via rls.
 app-vim/youcompleteme:typescript - Enable TypeScript semantic completion via dev-node/typescript. (Also works with JavaScript.)
+dev-python/chiavdf:bench - Build vdf_bench
+dev-python/chiavdf:client - Build vdf_client
 dev-util/renderdoc:python - Build with python support.
 dev-util/renderdoc:qt5 - Build Qt5 based GUI.
 games-action/mcpelauncher-linux:msa - Install games-util/mcpelauncher-msa-client
