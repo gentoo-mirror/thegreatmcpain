@@ -98,8 +98,8 @@ net-misc/xmrig 6.10.0 6.12.1: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2
 net-misc/xmrig-cuda 6.5.0 6.12.0 9999: CUDA Plugin for xmrig
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/chia-blockchain 1.1.6: Chia blockchain python implementation
-net-p2p/haven 1.3.0e: The secure, private, untraceable cryptocurrency
-net-p2p/masari 0.3.1.2-r1: Masari: simple, scalable, and private cryptocurrency
+net-p2p/haven 1.3.0e-r1 1.3.1: The secure, private, untraceable cryptocurrency
+net-p2p/masari 0.3.1.2-r2: Masari: simple, scalable, and private cryptocurrency
 net-p2p/monero 0.17.2.0-r1: The secure, private, untraceable cryptocurrency
 net-p2p/turtlecoin 1.0.0 9999: Decentralized Peer-2-Peer open source electronic currency.
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
