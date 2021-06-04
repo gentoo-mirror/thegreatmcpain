@@ -41,7 +41,7 @@ dev-python/clvm-rs 0.1.7: Rust implementation of clvm
 dev-python/clvm-tools 0.4.3: Tools for clvm development
 dev-python/concurrent-log-handler 0.9.19: fork of ConcurrentLogHandler
 dev-python/hidapi 0.10.1: Python wrapper for the HIDAPI
-dev-python/injector 0.18.3 0.18.4: Python dependency injection framework, inspired by Guice
+dev-python/injector 0.18.4: Python dependency injection framework, inspired by Guice
 dev-python/jellyfin-apiclient-python 1.7.2: Python API client for Jellyfin
 dev-python/keyrings-cryptfile 1.3.4: Encrypted plain file keyring backend for the python keyring package
 dev-python/maturin 0.10.6: Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages
