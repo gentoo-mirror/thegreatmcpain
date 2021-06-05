@@ -41,8 +41,6 @@ app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Lan
 app-vim/youcompleteme:mono - Enable C# semantic completion via dev-dotnet/omnisharp-roslyn-http-bin.
 app-vim/youcompleteme:rust - Enable rust semantic completion via rls.
 app-vim/youcompleteme:typescript - Enable TypeScript semantic completion via dev-node/typescript. (Also works with JavaScript.)
-dev-python/chiavdf:bench - Build vdf_bench
-dev-python/chiavdf:client - Build vdf_client
 dev-util/renderdoc:python - Build with python support.
 dev-util/renderdoc:qt5 - Build Qt5 based GUI.
 games-action/mcpelauncher-linux:msa - Install games-util/mcpelauncher-msa-client
@@ -146,30 +144,9 @@ net-misc/megasync:dolphin - Install the kde-apps/dolphin extension
 net-misc/megasync:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/megasync:nautilus - Install the gnome-base/nautilus extension
 net-misc/megasync:thunar - Install the xfce-base/thunar extension
-net-misc/violetminer:cuda - Enable CUDA support
-net-misc/xmrig:cuda - Enable CUDA backend
-net-misc/xmrig:daemon - Enable openrc daemon.
-net-misc/xmrig:donate - Set the default donation level to 1% instead of 0
-net-misc/xmrig:nvml - Enable (NVIDIA Management Library) support (Requires CUDA)
-net-misc/xmrig:opencl - Enable OpenCL backend
 net-nntp/ngpost:7z - Install app-arch/p7zip
 net-nntp/ngpost:par2 - Install app-arch/par2cmdline
 net-nntp/ngpost:rar - Install app-arch/rar
-net-p2p/haven:daemon - Build the Monero daemon used to connect to the P2P network.
-net-p2p/haven:hw-wallet - Enable if you want to use a hardware wallet like a Trezor or Ledger.
-net-p2p/haven:tools - Build tools used to manipulate the blockchain as it is stored on disk.
-net-p2p/haven:wallet-cli - Build the command line wallet, monero-wallet-cli.
-net-p2p/haven:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
-net-p2p/masari:daemon - Build the Masari daemon used to connect to the P2P network.
-net-p2p/masari:hw-wallet - Enable if you want to use a hardware wallet like a Trezor or Ledger.
-net-p2p/masari:tools - Build tools used to manipulate the blockchain as it is stored on disk.
-net-p2p/masari:wallet-cli - Build the command line wallet, monero-wallet-cli.
-net-p2p/masari:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
-net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
-net-p2p/monero:hw-wallet - Enable if you want to use a hardware wallet like a Trezor or Ledger.
-net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
-net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
-net-p2p/monero:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
 sys-kernel/buildkernel:plymouth - Enables support for sys-boot/plymouth in the initramfs (but does not mandate its use).
 sys-kernel/buildkernel-dracut:plymouth - Enables support for sys-boot/plymouth in the initramfs (but does not mandate its use).
 sys-kernel/genkernel-next:cryptsetup - Enable support for Luks disk enrcyption using sys-fs/cryptsetup
