@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=media-video/ffmpeg virtual/opengl media-libs/libsdl2 x11-misc/shared-mime-info >=dev-dotnet/dotnetcore-sdk-bin-5.0.101
 RESTRICT=test
 SLOT=0
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=b549d78401fc845267ee5327b0ffe3c9

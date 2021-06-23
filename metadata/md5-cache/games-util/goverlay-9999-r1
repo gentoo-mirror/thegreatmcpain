@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=opengl? ( x11-apps/mesa-progs ) vulkan? ( dev-util/vulkan-tools )
 SLOT=0
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=5a8cd8bb4c067031570ada3275ce9583
