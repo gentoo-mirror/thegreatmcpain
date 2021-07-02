@@ -19,7 +19,6 @@ dev-dotnet/dotnetcore-sdk-bin-common 3.1.409 5.0.202: Common files shared betwee
 dev-dotnet/omnisharp-roslyn-http-bin 1.37.5 1.37.8: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-go/gopls 0.6.1 0.6.9: 'gopls' is the official language server for the Go language.
 dev-lang/gnucobol 3.1.2: an open-source COBOL compiler, formerly known as OpenCOBOL
-dev-lang/zig 0.8.0: A robust, optimal, and maintainable programming language
 dev-libs/qt5pas 2.6: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-node/js-beautify 1.13.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 4.1.3 4.2.3: TypeScript is a language for application scale JavaScript development
