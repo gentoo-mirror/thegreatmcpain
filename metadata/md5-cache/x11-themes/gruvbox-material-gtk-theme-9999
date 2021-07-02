@@ -11,5 +11,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=x11-libs/gtk+:3 gtk2? ( x11-themes/gtk-engines-murrine ) icons? ( dev-util/gtk-update-icon-cache )
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	xdg-utils	27f9a2f19502b925ac117bd657aa2979
 _md5_=0e28a17758df42e687da0d3c5e95b53f
