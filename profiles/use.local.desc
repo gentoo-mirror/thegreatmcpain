@@ -41,6 +41,7 @@ app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Lan
 app-vim/youcompleteme:mono - Enable C# semantic completion via dev-dotnet/omnisharp-roslyn-http-bin.
 app-vim/youcompleteme:rust - Enable rust semantic completion via rls.
 app-vim/youcompleteme:typescript - Enable TypeScript semantic completion via dev-node/typescript. (Also works with JavaScript.)
+dev-lang/zig:experimental - Enable builds that do not support all of LLVM's target architectures
 dev-util/renderdoc:python - Build with python support.
 dev-util/renderdoc:qt5 - Build Qt5 based GUI.
 games-action/mcpelauncher-linux:msa - Install games-util/mcpelauncher-msa-client
@@ -52,6 +53,8 @@ games-util/goverlay:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices."
 games-util/mcpelauncher-msa-client:qt5 - "Enable QT GUI"
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
+gui-libs/wlroots:X - Enable support for X11 applications (XWayland)
+gui-libs/wlroots:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
 media-fonts/nerd-fonts:anonymouspro - Install Nerd-fonts-patched Anonymous Pro fonts
