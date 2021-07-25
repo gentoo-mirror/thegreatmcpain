@@ -1,5 +1,5 @@
 BDEPEND=>=dev-lang/zig-0.7.1 dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install test unpack
+DEFINED_PHASES=compile configure install postinst test unpack
 DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland gui-libs/wlroots[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=Dynamic tiling wayland compositor
 EAPI=7
@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland gui-libs/wlroots[X]
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=97ab8aab31e378cc893115293d555287
+_md5_=cdcbb0ffe1aa3075b02ef366fb364963
