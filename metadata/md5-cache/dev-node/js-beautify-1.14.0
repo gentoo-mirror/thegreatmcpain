@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=net-libs/nodejs[npm(+)]
+DESCRIPTION=Beautifier for javascript https://beautifier.io
+EAPI=6
+HOMEPAGE=https://github.com/beautify-web/js-beautify
+INHERIT=npmv1
+KEYWORDS=~amd64 ~arm
+LICENSE=MIT
+RDEPEND=
+RESTRICT=network-sandbox
+SLOT=0
+SRC_URI=http://registry.npmjs.org/js-beautify/-/js-beautify-1.14.0.tgz
+_eclasses_=npmv1	849e8b1b28f1b3d0e3076870b44de36d
+_md5_=69702d91439a27e7f637a0462dd6a616
