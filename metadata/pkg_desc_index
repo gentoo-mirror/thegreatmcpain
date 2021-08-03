@@ -36,7 +36,7 @@ dev-python/pywebview 3.4 3.5: A lightweight cross-platform wrapper around a webv
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP Requests for Humans using Futures
 dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
-dev-util/renderdoc 1.11 1.13 9999-r1: A tool for tracing, analyzing, and debugging graphics APIs
+dev-util/renderdoc 1.11 1.13 1.14 9999-r1: A tool for tracing, analyzing, and debugging graphics APIs
 dev-util/reshade-shaders 20201203 20210216: Post-processing shaders written in the ReShade FX shader language
 dev-util/rust-analyzer 20210104 99999999: An experimental Rust compiler front-end for IDEs
 dev-vcs/git-credential-netrc 2.26.3 2.28.1 2.30.2 2.31.1 9999: git credential helper that reads netrc files.
