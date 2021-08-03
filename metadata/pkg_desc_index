@@ -14,8 +14,8 @@ app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kerne
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
-dev-dotnet/dotnetcore-sdk-bin 3.1.409 5.0.202: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 3.1.409 5.0.202: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 3.1.409 5.0.202 5.0.302: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 3.1.409 5.0.202 5.0.302: Common files shared between multiple slots of .NET Core
 dev-dotnet/omnisharp-roslyn-http-bin 1.37.5 1.37.8: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-go/gopls 0.6.1 0.6.9: 'gopls' is the official language server for the Go language.
 dev-lang/gnucobol 3.1.2: an open-source COBOL compiler, formerly known as OpenCOBOL
