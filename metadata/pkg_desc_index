@@ -8,7 +8,6 @@ app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pine
 app-emulation/dxvk 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1 1.9 1.9.1 9999: A Vulkan-based translation layer for Direct3D 9/10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
-app-emulation/wine-staging 5.7 5.7_p1 5.13 5.21 6.3-r3: Free implementation of Windows(tm) on Unix, with Wine Staging patchset
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
@@ -68,7 +67,6 @@ media-tv/jellyfin-media-player 1.6.0 1.6.1: Jellyfin Desktop Client (Based on pl
 media-tv/jellyfin-mpv-shim 2.0.1: Cast media from Jellyfin to MPV
 media-tv/jellyfin-web 10.7.5 10.7.6: Web interface for Jellyfin
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
-media-video/aegisub 9999: Advanced subtitle editor (wangqr fork)
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sview 9999: Stereoscopic media player
