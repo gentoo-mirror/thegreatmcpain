@@ -77,6 +77,7 @@ net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally ru
 net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-misc/megasync 4.4.0: A Qt program for syncing your MEGA account in your PC. This is the official app.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
+net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
 sys-apps/nvimpager 0.9 0.10.2 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
 sys-auth/pam-gnupg 0.1 0.2 0.3 9999: Unlock GnuPG keys on login
