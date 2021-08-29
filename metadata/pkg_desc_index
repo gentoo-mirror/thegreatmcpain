@@ -30,6 +30,7 @@ dev-python/jellyfin-apiclient-python 1.7.2: Python API client for Jellyfin
 dev-python/plexapi 4.2.0 4.5.1 4.7.0 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.6: Python 3 bindings for the NVIDIA Management Library
 dev-python/pypresence 4.2.0: A complete Discord IPC and Rich Presence wapper library in Python!
+dev-python/pyright 1.1.164: Static type checker for Python
 dev-python/pystray 0.17.3 0.17.4: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.1.13: Python API to MPV using JSON IPC
 dev-python/pywebview 3.4 3.5: A lightweight cross-platform wrapper around a webview component
