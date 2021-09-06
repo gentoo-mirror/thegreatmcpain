@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtprintsupport:5 dev-qt/qtx11extras:5
+DESCRIPTION=Free Pascal Qt5 bindings library updated by lazarus IDE.
+EAPI=7
+HOMEPAGE=https://svn.freepascal.org/svn/lazarus/trunk/lcl/interfaces/qt5/cbindings
+INHERIT=qmake-utils
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtprintsupport:5 dev-qt/qtx11extras:5
+SLOT=0
+SRC_URI=https://gitlab.com/freepascal.org/lazarus/lazarus/-/archive/1159b4327b97e0283fed38d091b057172123a291/lazarus-main.tar.gz?path=lcl/interfaces/qt5/cbindings -> qt5pas-2.6.tar.gz
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1
+_md5_=a1badd59adb723ff69f50cab4660ff6a
