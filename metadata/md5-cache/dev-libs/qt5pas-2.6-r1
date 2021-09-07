@@ -10,4 +10,4 @@ RDEPEND=dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtprintsupport:5 dev-qt/qtx11ex
 SLOT=0
 SRC_URI=https://gitlab.com/freepascal.org/lazarus/lazarus/-/archive/1159b4327b97e0283fed38d091b057172123a291/lazarus-main.tar.gz?path=lcl/interfaces/qt5/cbindings -> qt5pas-2.6.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1
-_md5_=a1badd59adb723ff69f50cab4660ff6a
+_md5_=84b12d6ba0a5729167a9037a7d2494c9
