@@ -76,7 +76,7 @@ media-video/sview 9999: Stereoscopic media player
 media-video/tsmuxer 2.6.11-r2 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
-net-misc/megasync 4.4.0: A Qt program for syncing your MEGA account in your PC. This is the official app.
+net-misc/megasync 4.4.0 4.5.3: A Qt program for syncing your MEGA account in your PC. This is the official app.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
