@@ -160,14 +160,6 @@ sys-kernel/genkernel-next:iscsi - Enable support for open-iscsi (include open-is
 sys-kernel/genkernel-next:mdadm - Enable support for mdadm (include mdadm dependency)
 sys-kernel/genkernel-next:plymouth - Enable support for Plymouth (include Plymouth dependency)
 virtual/linux-sources:firmware - Install linux kernel firmware
-x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
-x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
-x11-drivers/nvidia-drivers:driver - Install the kernel driver module
-x11-drivers/nvidia-drivers:gtk3 - Install nvidia-settings with support for GTK+ 3
-x11-drivers/nvidia-drivers:kms - Enable support for kernel mode setting (KMS)
-x11-drivers/nvidia-drivers:libglvnd - Use media-libs/libglvnd for dispatch
-x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
-x11-drivers/nvidia-drivers:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
 x11-misc/polybar:i3wm - Add support for i3 window manager
 x11-misc/polybar:ipc - Add support for Inter-Process Messaging
 x11-misc/polybar:mpd - Add support for Music Player Daemon
