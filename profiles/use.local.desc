@@ -140,7 +140,6 @@ media-tv/jellyfin-mpv-shim:discord - Enable discord rich presence
 media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
 media-tv/jellyfin-mpv-shim:shaders - Install MPV shader pack
 media-tv/jellyfin-mpv-shim:systray - Install dev-python/pystray
-media-video/aegisub:uchardet - Enable charset discovery via app-i18n/uchardet
 net-libs/libnm-glib:minimal - Only install library files
 net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
 net-misc/megasync:cryptopp - Enable support for dev-libs/crypto++
