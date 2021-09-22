@@ -17,12 +17,12 @@ if [[ ${PV} == *9999 ]]; then
 	# 9999-r0: maint
 	# 9999-r1: master
 	# 9999-r2: next
-	# 9999-r3: pu
+	# 9999-r3: seen
 	case "${PVR}" in
 		9999) EGIT_BRANCH=maint ;;
 		9999-r1) EGIT_BRANCH=master ;;
 		9999-r2) EGIT_BRANCH=next;;
-		9999-r3) EGIT_BRANCH=pu ;;
+		9999-r3) EGIT_BRANCH=seen ;;
 	esac
 fi
 
@@ -37,7 +37,7 @@ if [[ ${PV} != *9999 ]]; then
 	[[ "${PV/rc}" != "${PV}" ]] && SRC_URI_KORG+='/testing'
 	SRC_URI="${SRC_URI_KORG}/${MY_P}.tar.${SRC_URI_SUFFIX}"
 	[[ "${PV}" == *_rc* ]] || \
-	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+	KEYWORDS="~alpha amd64 arm arm64 ~hppa ~ia64 ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
 fi
 
 LICENSE="GPL-2"
