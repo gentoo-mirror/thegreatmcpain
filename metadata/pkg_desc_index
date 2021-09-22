@@ -41,7 +41,7 @@ dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and co
 dev-util/renderdoc 1.11 1.13 1.14 9999-r1: A tool for tracing, analyzing, and debugging graphics APIs
 dev-util/reshade-shaders 20201203 20210216: Post-processing shaders written in the ReShade FX shader language
 dev-util/rust-analyzer 20210104 99999999: An experimental Rust compiler front-end for IDEs
-dev-vcs/git-credential-netrc 2.26.3 2.28.1 2.30.2 2.31.1 9999: git credential helper that reads netrc files.
+dev-vcs/git-credential-netrc 2.32.0 9999: git credential helper that reads netrc files.
 dev-vcs/git-extras 6.1.0 6.2.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
 games-action/minecraft-launcher 2.2.909: Official launcher for Minecraft
