@@ -8,31 +8,6 @@ app-emulation/dxvk:dxvk-config - Install Valve Proton's 'dxvk_config.dll' which 
 app-emulation/dxvk-winelib:async-patch - Applies async patch from https://github.com/Sporif/dxvk-async
 app-emulation/dxvk-winelib:custom-cflags - Patches meson crossfiles to accept custom CFLAGS/CXXFLAGS.
 app-emulation/dxvk-winelib:dxvk-config - Install Valve Proton's 'dxvk_config.dll' which is used to load 'dxvk.conf' options 'dxgi.customVendorId', 'dxgi.customDeviceId', and 'dxgi.nvapiHack' into wine without the need for DXVK's 'dxgi.dll'. This is for custom Proton installations but if you want to use it outside of Proton your wine build would need to be patched with this commit from Valve's wine repository.: https://github.com/ValveSoftware/wine/commit/84d73a7fa55c13ed797b2b2f6cfb9071dceac800#diff-fcca5e3c4012a42cc338e49e90a5bd29
-app-emulation/wine-staging:capi - Enable ISDN support via net-libs/libcapi.
-app-emulation/wine-staging:custom-cflags - Bypass strip-flags; use at your own peril.
-app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications.
-app-emulation/wine-staging:faudio - Enable support using FAudio, in place of the Wine XAudio 2 layer (unofficial). Injects the app-emulation/faudio package, into the current Wine variant. See: https://github.com/FNA-XNA/FAudio
-app-emulation/wine-staging:ffmpeg - Use ffmpeg to convert WMA formats, requires: media-video/ffmpeg (this feature is not supported by media-video/libav).
-app-emulation/wine-staging:gcrypt - Add support for the Diffie-Hellman key exchanges using dev-libs/libgcrypt.
-app-emulation/wine-staging:gecko - Add support for the Gecko engine when using iexplore
-app-emulation/wine-staging:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality.
-app-emulation/wine-staging:mingw - Allow wine to compile select DLLs as native windows PEs using Mingw.
-app-emulation/wine-staging:mono - Add support for .NET using Wine's Mono add-on.
-app-emulation/wine-staging:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll.
-app-emulation/wine-staging:opencl - Enable OpenCL support.
-app-emulation/wine-staging:osmesa - Add support for OpenGL in bitmaps using libOSMesa.
-app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark).
-app-emulation/wine-staging:perl - Install helpers written in perl (winedump/winemaker).
-app-emulation/wine-staging:pipelight - Apply Wine Staging patches for Pipelight/Silverlight support.
-app-emulation/wine-staging:prelink - Run prelink on DLLs during build.
-app-emulation/wine-staging:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support.
-app-emulation/wine-staging:run-exes - Use Wine to open and run .EXE and .MSI files.
-app-emulation/wine-staging:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
-app-emulation/wine-staging:sdl2 - Enable controller and joystick support using media-libs/libsdl2.
-app-emulation/wine-staging:themes - Support GTK+:3 window theming through Wine Staging.
-app-emulation/wine-staging:udev - Use virtual/libudev to provide plug and play support.
-app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide DirectX D3D12 support
-app-emulation/wine-staging:vulkan - Enable Vulkan layer graphics support using media-libs/vulkan-loader.
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
 app-vim/youcompleteme:clang - Enable c-family semantic completion via libclang.
