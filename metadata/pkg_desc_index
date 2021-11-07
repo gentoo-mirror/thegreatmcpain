@@ -3,7 +3,6 @@ acct-user/jellyfin 0: Jellyfin user
 app-admin/gwe 0.15.3 9999-r2: System utility designed to provide information, control the fans and overclock your NVIDIA card
 app-admin/liquidctl 1.6.1 1.7.1 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
-app-arch/msitools 9999: Set of programs to inspect and build Windows Installer (.MSI) files
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1 1.9 1.9.1 9999: A Vulkan-based translation layer for Direct3D 9/10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1: A Vulkan-based translation layer for Direct3D 10/11
@@ -18,7 +17,6 @@ dev-dotnet/dotnetcore-sdk-bin 3.1.409 5.0.202 5.0.302: .NET Core SDK - binary pr
 dev-dotnet/dotnetcore-sdk-bin-common 3.1.409 5.0.202 5.0.302: Common files shared between multiple slots of .NET Core
 dev-dotnet/omnisharp-roslyn-http-bin 1.37.5 1.37.8 1.37.14: OmniSharp server (HTTP) based on Roslyn workspaces
 dev-go/gopls 0.6.1 0.6.9 0.7.0: 'gopls' is the official language server for the Go language.
-dev-lang/gnucobol 3.1.2: an open-source COBOL compiler, formerly known as OpenCOBOL
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-node/js-beautify 1.13.0 1.14.0: Beautifier for javascript https://beautifier.io
 dev-node/typescript 4.1.3 4.2.3 4.3.5: TypeScript is a language for application scale JavaScript development
@@ -71,10 +69,7 @@ media-tv/jellyfin-web 10.7.5 10.7.6 10.7.7: Web interface for Jellyfin
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
-media-video/sview 9999: Stereoscopic media player
-media-video/tsmuxer 2.6.11-r2 9999: tsMuxer is a transport stream muxer for remuxing/muxing elementary streams
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
-net-libs/libnm-glib 1.18.8-r1: NetworkManager client library (legacy)
 net-misc/megasync 4.4.0 4.5.3: A Qt program for syncing your MEGA account in your PC. This is the official app.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
@@ -89,7 +84,6 @@ virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/vimb 3.6.0 9999: a fast, lightweight, vim-like browser based on webkit
 x11-misc/i3lock-color 2.13.1 2.13.2 2.13.4: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
-x11-misc/polybar 9999-r1: A fast and easy-to-use status bar
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
 x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK

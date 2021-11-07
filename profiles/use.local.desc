@@ -115,8 +115,6 @@ media-tv/jellyfin-mpv-shim:discord - Enable discord rich presence
 media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
 media-tv/jellyfin-mpv-shim:shaders - Install MPV shader pack
 media-tv/jellyfin-mpv-shim:systray - Install dev-python/pystray
-net-libs/libnm-glib:minimal - Only install library files
-net-libs/libnm-glib:nss - Use dev-libs/nss for cryptography
 net-misc/megasync:cryptopp - Enable support for dev-libs/crypto++
 net-misc/megasync:dolphin - Install the kde-apps/dolphin extension
 net-misc/megasync:freeimage - Enable support for image I/O via media-libs/freeimage
@@ -134,10 +132,6 @@ sys-kernel/genkernel-next:iscsi - Enable support for open-iscsi (include open-is
 sys-kernel/genkernel-next:mdadm - Enable support for mdadm (include mdadm dependency)
 sys-kernel/genkernel-next:plymouth - Enable support for Plymouth (include Plymouth dependency)
 virtual/linux-sources:firmware - Install linux kernel firmware
-x11-misc/polybar:i3wm - Add support for i3 window manager
-x11-misc/polybar:ipc - Add support for Inter-Process Messaging
-x11-misc/polybar:mpd - Add support for Music Player Daemon
-x11-misc/polybar:network - Enable network support
 x11-themes/arc-gruvbox-theme:cinnamon - Configure for Cinnamon support.
 x11-themes/arc-gruvbox-theme:dark - Install the Arc-Dark theme.
 x11-themes/arc-gruvbox-theme:darker - Install the Arc-Darker theme.
