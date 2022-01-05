@@ -4,7 +4,7 @@ app-admin/gwe 0.15.3 9999-r2: System utility designed to provide information, co
 app-admin/liquidctl 1.6.1 1.7.1 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
-app-emulation/dxvk 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1 1.9 1.9.1 9999: A Vulkan-based translation layer for Direct3D 9/10/11
+app-emulation/dxvk 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1 1.9 1.9.1 1.9.2 9999: A Vulkan-based translation layer for Direct3D 9/10/11
 app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds that don't like 'dash'.
