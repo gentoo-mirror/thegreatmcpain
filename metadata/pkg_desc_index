@@ -8,6 +8,7 @@ app-emulation/dxvk 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1 1.9 1.9.1 1.9.2 1.9.3 1.9.4 9
 app-emulation/dxvk-nvapi 0.5.2 9999: Alternative NVAPI implementation on top of DXVK
 app-emulation/dxvk-winelib 1.6.1 1.7 1.7.1 1.7.2 1.7.3 1.8 1.8.1: A Vulkan-based translation layer for Direct3D 10/11
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
+app-emulation/vkd3d-proton 9999: Fork of VKD3D. Development branches for Proton's Direct3D 12 implementation.
 app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds that don't like 'dash'.
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kernel
