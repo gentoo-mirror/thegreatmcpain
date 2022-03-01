@@ -70,6 +70,8 @@ media-tv/jellyfin-mpv-shim 2.0.1: Cast media from Jellyfin to MPV
 media-tv/jellyfin-web 10.7.5 10.7.6 10.7.7: Web interface for Jellyfin
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
+media-video/dovi_tool 1.4.6: CLI tool combining multiple utilities for working with Dolby Vision
+media-video/hdr10plus_tool 1.2.2: CLI utility to work with HDR10+ in HEVC files.
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-misc/megasync 4.4.0 4.5.3: A Qt program for syncing your MEGA account in your PC. This is the official app.
