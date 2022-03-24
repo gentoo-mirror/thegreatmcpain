@@ -10,5 +10,5 @@ RDEPEND=media-video/ffmpeg virtual/opengl media-libs/libsdl2 x11-misc/shared-mim
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/ppy/osu/archive/2022.306.0.tar.gz -> osu-lazer-2022.306.0.tar.gz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
 _md5_=9d753e82d02eece2c9bab4cbc8a91325
