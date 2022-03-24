@@ -9,7 +9,7 @@ inherit eapi7-ver
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="5.16-18"
+GIT_COMMIT="5.16-24"
 
 CKV="$(ver_cut 1-2)"
 ETYPE="sources"
