@@ -86,7 +86,6 @@ sys-boot/uefitool 0.28.0: UEFI firmware image viewer and editor
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r1 9999: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 5.16.16_p2 5.16.17_p1 5.16.17_p2 5.16.18_p2 5.17.2_p3 5.17.3_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/vimb 3.6.0 9999: a fast, lightweight, vim-like browser based on webkit
 x11-misc/i3lock-color 2.13.1 2.13.2 2.13.4: Simple screen locker
