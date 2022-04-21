@@ -75,6 +75,7 @@ media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. 
 media-video/dovi_tool 1.4.6: CLI tool combining multiple utilities for working with Dolby Vision
 media-video/hdr10plus_tool 1.2.2: CLI utility to work with HDR10+ in HEVC files.
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
+media-video/sup2srt 1.0.3: Convert SUP graphic subtitles to text-based SRT format
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-misc/megasync 4.4.0 4.5.3: A Qt program for syncing your MEGA account in your PC. This is the official app.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
