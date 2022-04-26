@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install unpack
+DEPEND=>=x11-drivers/nvidia-drivers-435.21 <media-video/ffmpeg-5:0= >=dev-util/nvidia-cuda-toolkit-10
+DESCRIPTION=HEVC/H264 video encoder using NVEnc
+EAPI=8
+HOMEPAGE=https://github.com/rigaya/NVEnc
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=x11-drivers/nvidia-drivers-435.21 <media-video/ffmpeg-5:0= >=dev-util/nvidia-cuda-toolkit-10
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=e6459230d4d123435ec56be32593837f

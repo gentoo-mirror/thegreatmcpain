@@ -74,6 +74,7 @@ media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/dovi_tool 1.4.6: CLI tool combining multiple utilities for working with Dolby Vision
 media-video/hdr10plus_tool 1.2.2: CLI utility to work with HDR10+ in HEVC files.
+media-video/nvencc 9999: HEVC/H264 video encoder using NVEnc
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.3: Convert SUP graphic subtitles to text-based SRT format
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
