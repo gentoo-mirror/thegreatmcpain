@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -20,7 +20,10 @@ if [[ ${PV} == "9999" ]]; then
 else
 	SRC_URI="https://github.com/jonasmalacofilho/liquidctl/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
+	export SETUPTOOLS_SCM_PRETEND_VERSION=${PV}
 fi
+
+DISTUTILS_USE_SETUPTOOLS=pyproject.toml
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -35,6 +38,7 @@ RDEPEND="
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	sys-apps/i2c-tools[python,${PYTHON_USEDEP}]
+	virtual/libusb:1
 "
 
 DEPEND="${RDEPEND}"
