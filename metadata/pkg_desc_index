@@ -21,6 +21,7 @@ dev-dotnet/omnisharp-roslyn-http-bin 1.37.5 1.37.8 1.37.14: OmniSharp server (HT
 dev-go/gopls 0.6.1 0.6.9 0.7.0: 'gopls' is the official language server for the Go language.
 dev-haskell/git-lfs 1.2.0: git-lfs protocol
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
+dev-libs/spdlog 1.10.0: Very fast, header only, C++ logging library
 dev-node/js-beautify 1.14.3: Beautifier for javascript https://beautifier.io
 dev-node/typescript 4.7.3: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.2.0: Reactive Extensions for Python
@@ -49,13 +50,13 @@ games-arcade/osu-lazer 2022.612.0 9999: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay 0.4.3 0.5 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/goverlay-bin 0.6 0.8.1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
-games-util/mangohud 0.6.1-r1 0.6.3 0.6.5 9999-r3: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+games-util/mangohud 0.6.7 9999-r4: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
-games-util/vkbasalt 0.3.2.3 0.3.2.4 9999-r1: A vulkan post processing layer
+games-util/vkbasalt 0.3.2.5 9999-r1: A vulkan post processing layer
 gui-libs/wlroots 9999 9999-r1: wlroots (EGLStreams fork)
 gui-wm/river 9999: Dynamic tiling wayland compositor
-mail-mta/hydroxide 0.2.20 0.2.21: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
+mail-mta/hydroxide 0.2.20 0.2.21 0.2.23: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-gfx/ueberzug 9999-r2: ueberzug is an alternative for w3mimgdisplay
