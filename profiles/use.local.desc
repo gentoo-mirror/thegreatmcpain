@@ -120,7 +120,6 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
-media-tv/droidcam:gtk - Build the dev-cpp/gtkmm:3.0 client.
 media-tv/jellyfin-media-player:cec - Enable support for HDMI-CEC devices via dev-libs/libcec
 media-tv/jellyfin-mpv-shim:discord - Enable discord rich presence
 media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
