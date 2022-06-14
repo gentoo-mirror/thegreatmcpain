@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-python/websocket-client[python_targets_python3_10(-)?] dev-python/plexapi[python_targets_python3_10(-)?]
+DESCRIPTION=A Python script that displays your Plex status on Discord using Rich Presence.
+EAPI=7
+HOMEPAGE=https://github.com/Phineas05/discord-rich-presence-plex
+INHERIT=multilib python-r1 git-r3
+IUSE=python_targets_python3_10
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-python/websocket-client[python_targets_python3_10(-)?] dev-python/plexapi[python_targets_python3_10(-)?]
+SLOT=0
+_eclasses_=multilib	4fbbbc98f236f1b43acd99476bc3cd85	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	648fe6a039e87233d7f48da72cadb76f	python-r1	e2883e4f04f0503cdf7f2954e2bf5e15	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=7b131e95769dc85c60a2193af6cad79b
