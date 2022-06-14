@@ -72,9 +72,9 @@ media-tv/jellyfin-mpv-shim 2.1.0: Cast media from Jellyfin to MPV
 media-tv/jellyfin-web 10.7.5 10.7.6 10.7.7 10.8.0: Web interface for Jellyfin
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
-media-video/dovi_tool 1.4.6: CLI tool combining multiple utilities for working with Dolby Vision
+media-video/dovi_tool 1.5.4: CLI tool combining multiple utilities for working with Dolby Vision
 media-video/hdr10plus_editor 9999: A simple editor for editing scenes in a HDR10+ JSON
-media-video/hdr10plus_tool 1.2.2: CLI utility to work with HDR10+ in HEVC files.
+media-video/hdr10plus_tool 1.2.2 1.3.0: CLI utility to work with HDR10+ in HEVC files.
 media-video/nvencc 9999: HEVC/H264 video encoder using NVEnc
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.3: Convert SUP graphic subtitles to text-based SRT format
