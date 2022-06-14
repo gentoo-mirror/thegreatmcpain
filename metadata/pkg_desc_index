@@ -35,12 +35,11 @@ dev-python/pypresence 4.2.1: A complete Discord IPC and Rich Presence wapper lib
 dev-python/pyright 1.1.254: Static type checker for Python
 dev-python/pystray 0.19.3: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.1.13: Python API to MPV using JSON IPC
-dev-python/pywebview 3.4 3.5: A lightweight cross-platform wrapper around a webview component
+dev-python/pywebview 3.6.3: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP Requests for Humans using Futures
 dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
-dev-util/renderdoc 1.11 1.13 1.14 9999-r1: A tool for tracing, analyzing, and debugging graphics APIs
-dev-util/reshade-shaders 20201203 20210216: Post-processing shaders written in the ReShade FX shader language
+dev-util/reshade-shaders 20201203 20210216 20220602: Post-processing shaders written in the ReShade FX shader language
 dev-util/rust-analyzer 20210104 99999999: An experimental Rust compiler front-end for IDEs
 dev-vcs/git-annex 10.20220322: manage files with git, without checking their contents into git
 dev-vcs/git-credential-netrc 2.32.0 2.34.1 2.35.1 9999: git credential helper that reads netrc files.
