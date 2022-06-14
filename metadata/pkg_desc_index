@@ -94,7 +94,7 @@ sys-kernel/liquorix-sources 5.17.11_p1 5.17.12_p1 5.17.13_p1 5.17.14_p1: The Liq
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/vimb 3.6.0 9999: a fast, lightweight, vim-like browser based on webkit
 x11-libs/libva-nvidia-driver 0.0.6: A VA-API implemention using NVIDIA's NVDEC
-x11-misc/i3lock-color 2.13.1 2.13.2 2.13.4: Simple screen locker
+x11-misc/i3lock-color 2.13.4: Simple screen locker
 x11-misc/multilockscreen 9999: i3lock wrapper with multi-monitor support
 x11-misc/tabbed 9999: Simple generic tabbed fronted to xembed aware applications
 x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
