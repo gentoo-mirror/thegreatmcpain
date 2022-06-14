@@ -43,13 +43,12 @@ dev-util/reshade-shaders 20201203 20210216 20220602: Post-processing shaders wri
 dev-util/rust-analyzer 20210104 99999999: An experimental Rust compiler front-end for IDEs
 dev-vcs/git-annex 10.20220322: manage files with git, without checking their contents into git
 dev-vcs/git-credential-netrc 2.32.0 2.34.1 2.35.1 9999: git credential helper that reads netrc files.
-dev-vcs/git-extras 6.1.0 6.2.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
+dev-vcs/git-extras 6.4.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
-games-action/minecraft-launcher 2.2.909: Official launcher for Minecraft
-games-arcade/osu-lazer 2022.306.0 9999: rhythm is just a *click* away!
+games-arcade/osu-lazer 2022.612.0 9999: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay 0.4.3 0.5 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
-games-util/goverlay-bin 0.6: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
+games-util/goverlay-bin 0.6 0.8.1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
 games-util/mangohud 0.6.1-r1 0.6.3 0.6.5 9999-r3: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI

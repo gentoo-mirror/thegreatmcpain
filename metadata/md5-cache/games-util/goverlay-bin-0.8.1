@@ -1,0 +1,15 @@
+BDEPEND=dev-libs/qt5pas
+DEFINED_PHASES=install postinst postrm
+DEPEND=!games-util/goverlay opengl? ( x11-apps/mesa-progs ) vulkan? ( dev-util/vulkan-tools )
+DESCRIPTION=GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
+EAPI=7
+HOMEPAGE=https://github.com/benjamimgois/goverlay
+INHERIT=desktop xdg-utils
+IUSE=opengl vulkan
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=!games-util/goverlay opengl? ( x11-apps/mesa-progs ) vulkan? ( dev-util/vulkan-tools )
+SLOT=0
+SRC_URI=https://github.com/benjamimgois-zz/goverlay/releases/download/0.8.1/goverlay_0_8_1.tar.xz -> goverlay-bin-0.8.1.tar.xz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=42a51dddd4c7aa094dd482667297f6b9
