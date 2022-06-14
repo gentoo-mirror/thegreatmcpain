@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=net-libs/nodejs
+DESCRIPTION=Web interface for Jellyfin
+EAPI=7
+HOMEPAGE=https://github.com/jellyfin/jellyfin-web
+KEYWORDS=~amd64 ~arm
+LICENSE=GPL-2
+RDEPEND=net-libs/nodejs
+RESTRICT=network-sandbox
+SLOT=0
+SRC_URI=https://github.com/jellyfin/jellyfin-web/archive/v10.8.0.tar.gz -> jellyfin-web-10.8.0.tar.gz
+_md5_=6ce7e09d624e13ae09cb3968e818316b
