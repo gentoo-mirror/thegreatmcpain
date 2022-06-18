@@ -7,7 +7,7 @@ ETYPE="sources"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="5.17-17"
+GIT_COMMIT="5.18-1"
 
 CKV="$(ver_cut 1-2)"
 ETYPE="sources"
