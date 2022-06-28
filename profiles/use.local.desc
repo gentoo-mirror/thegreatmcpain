@@ -5,9 +5,6 @@
 app-emulation/dxvk:async-patch - Applies async patch from https://github.com/Sporif/dxvk-async
 app-emulation/dxvk:custom-cflags - Patches meson crossfiles to accept custom CFLAGS/CXXFLAGS.
 app-emulation/dxvk-nvapi:custom-cflags - Patches meson crossfiles to accept custom CFLAGS/CXXFLAGS.
-app-emulation/dxvk-winelib:async-patch - Applies async patch from https://github.com/Sporif/dxvk-async
-app-emulation/dxvk-winelib:custom-cflags - Patches meson crossfiles to accept custom CFLAGS/CXXFLAGS.
-app-emulation/dxvk-winelib:dxvk-config - Install Valve Proton's 'dxvk_config.dll' which is used to load 'dxvk.conf' options 'dxgi.customVendorId', 'dxgi.customDeviceId', and 'dxgi.nvapiHack' into wine without the need for DXVK's 'dxgi.dll'. This is for custom Proton installations but if you want to use it outside of Proton your wine build would need to be patched with this commit from Valve's wine repository.: https://github.com/ValveSoftware/wine/commit/84d73a7fa55c13ed797b2b2f6cfb9071dceac800#diff-fcca5e3c4012a42cc338e49e90a5bd29
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
 app-vim/youcompleteme:clang - Enable c-family semantic completion via libclang.
