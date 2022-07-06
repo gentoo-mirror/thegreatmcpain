@@ -3,7 +3,7 @@ DEFINED_PHASES=compile configure install prepare test
 DEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.13:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.4:3.10 ) dev-python/pyusb[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/hidapi[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/docopt[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/colorlog[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] sys-apps/i2c-tools[python,python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] virtual/libusb:1
 DESCRIPTION=Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 EAPI=7
-HOMEPAGE=https://gitlab.com/leinardi/gwe
+HOMEPAGE=https://github.com/jonasmalacofilho/liquidctl
 INHERIT=distutils-r1
 IUSE=python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64
@@ -13,4 +13,4 @@ REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targe
 SLOT=0
 SRC_URI=https://github.com/jonasmalacofilho/liquidctl/archive/v1.9.1.tar.gz -> liquidctl-1.9.1.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	python-r1	e2883e4f04f0503cdf7f2954e2bf5e15	distutils-r1	64c5b9cc381383c9c1ef74fb199293ea
-_md5_=7a4b0425aeb3ca596ea4d68195f258a9
+_md5_=7de392494dc172e0124cce4013053b8a
