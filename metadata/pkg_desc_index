@@ -62,7 +62,7 @@ media-gfx/ueberzug 9999-r2: ueberzug is an alternative for w3mimgdisplay
 media-libs/raspberrypi-userland 0_pre20160704 9999: Raspberry Pi userspace tools and libraries
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
-media-tv/discord-rich-presence-plex 9999-r2: A Python script that displays your Plex status on Discord using Rich Presence.
+media-tv/discord-rich-presence-plex 9999-r3: A Python script that displays your Plex status on Discord using Rich Presence.
 media-tv/jellyfin 10.7.7-r1 10.8.0 10.8.1: The Free Software Media System
 media-tv/jellyfin-media-player 1.6.0 1.6.1 1.7.0: Jellyfin Desktop Client (Based on plex-media-player)
 media-tv/jellyfin-mpv-shim 2.1.0: Cast media from Jellyfin to MPV
