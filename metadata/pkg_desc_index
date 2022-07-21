@@ -9,6 +9,7 @@ app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (St
 app-emulation/vkd3d-proton 9999: Fork of VKD3D. Development branches for Proton's Direct3D 12 implementation.
 app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds that don't like 'dash'.
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
+app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
 app-text/urlview 0.9_p21: A curses URL parser for text files
 app-vim/youcompleteme 99999999-r4: vim plugin: a code-completion engine for Vim
 dev-dotnet/dotnetcore-sdk-bin 3.1.409 5.0.202 5.0.302 5.0.405 6.0.102: .NET Core SDK - binary precompiled for glibc
