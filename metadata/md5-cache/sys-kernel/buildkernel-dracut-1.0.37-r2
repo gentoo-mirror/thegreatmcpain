@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/TheGreatMcPain/buildkernel-dracut/archive/1.0.37-dracut-electric-boogaloo.tar.gz -> buildkernel-dracut-1.0.37-1.0.37-r2.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	6f9a4727973fc1e368f52777d871e769
-_md5_=130b8fbae324cbaf0d5dae65b99e6f99
+_md5_=c13e34cf020acfe9c188a35ae45e4bba
