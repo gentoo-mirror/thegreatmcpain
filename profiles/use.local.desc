@@ -12,12 +12,6 @@ app-emulation/dxvk:dxgi - Enable support for the DirectX Graphics Infrastructure
 app-emulation/dxvk-nvapi:custom-cflags - Patches meson crossfiles to accept custom CFLAGS/CXXFLAGS.
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
-app-vim/youcompleteme:clang - Enable c-family semantic completion via libclang.
-app-vim/youcompleteme:go - Enable Go semantic completion via dev-go/gopls.
-app-vim/youcompleteme:java - Enable Java semantic completion via Eclipse JDT Language Server.
-app-vim/youcompleteme:mono - Enable C# semantic completion via dev-dotnet/omnisharp-roslyn-http-bin.
-app-vim/youcompleteme:rust - Enable rust semantic completion via rls.
-app-vim/youcompleteme:typescript - Enable TypeScript semantic completion via dev-node/typescript. (Also works with JavaScript.)
 dev-util/electron:clang - Use Clang compiler instead of GCC
 dev-util/electron:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 dev-util/electron:headless - Build Ozone only with headless backend, NOT RECOMMENDED for general use.
