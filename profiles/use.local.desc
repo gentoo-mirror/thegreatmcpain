@@ -46,8 +46,6 @@ games-util/goverlay-bin:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices."
 games-util/mcpelauncher-msa-client:qt5 - "Enable QT GUI"
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
-gui-libs/wlroots:X - Enable support for X11 applications (XWayland)
-gui-libs/wlroots:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
 media-fonts/nerd-fonts:anonymouspro - Install Nerd-fonts-patched Anonymous Pro fonts
@@ -98,44 +96,11 @@ media-fonts/nerd-fonts:tinos - Install Nerd-fonts-patched Tinos fonts
 media-fonts/nerd-fonts:ubuntu - Install Nerd-fonts-patched Ubuntu fonts
 media-fonts/nerd-fonts:ubuntumono - Install Nerd-fonts-patched Ubuntu Mono fonts
 media-fonts/nerd-fonts:victormono - Install Nerd-fonts-patched Victor Mono fonts
-media-fonts/powerline-fonts:3270 - Install Powerline-patched 3270 fonts
-media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
-media-fonts/powerline-fonts:arimo - Install Powerline-patched Arimo fonts
-media-fonts/powerline-fonts:cousine - Install Powerline-patched Cousine fonts
-media-fonts/powerline-fonts:dejavusansmono - Install Powerline-patched DejaVu Sans Mono fonts
-media-fonts/powerline-fonts:droidsansmono - Install Powerline-patched Droid Sans Mono fonts
-media-fonts/powerline-fonts:droidsansmonodotted - Install Powerline-patched Droid Sans Mono Dotted fonts
-media-fonts/powerline-fonts:droidsansmonoslashed - Install Powerline-patched Droid Sans Mono Slashed fonts
-media-fonts/powerline-fonts:firamono - Install Powerline-patched Fira Mono fonts
-media-fonts/powerline-fonts:gomono - Install Powerline-patched Go Mono fonts
-media-fonts/powerline-fonts:hack - Install Powerline-patched Hack fonts
-media-fonts/powerline-fonts:inconsolata - Install Powerline-patched Inconsolata fonts
-media-fonts/powerline-fonts:inconsolata-g - Install Powerline-patched Inconsolata-g fonts
-media-fonts/powerline-fonts:inconsolatadz - Install Powerline-patched Inconsolata-dz fonts
-media-fonts/powerline-fonts:liberationmono - Install Powerline-patched Liberation Mono fonts
-media-fonts/powerline-fonts:meslodotted - Install Powerline-patched Meslo Dotted fonts
-media-fonts/powerline-fonts:mesloslashed - Install Powerline-patched Meslo Slashed fonts
-media-fonts/powerline-fonts:monofur - Install Powerline-patched Monofur fonts
-media-fonts/powerline-fonts:notomono - Install Powerline-patched Noto Mono fonts
-media-fonts/powerline-fonts:novamono - Install Powerline-patched Nova Mono fonts
-media-fonts/powerline-fonts:profont - Install Powerline-patched Profont fonts
-media-fonts/powerline-fonts:robotomono - Install Powerline-patched Roboto Mono fonts
-media-fonts/powerline-fonts:sourcecodepro - Install Powerline-patched Source Code Pro fonts
-media-fonts/powerline-fonts:spacemono - Install Powerline-patched Space Mono fonts
-media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fonts
-media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
-media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
-media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
 media-tv/jellyfin-media-player:cec - Enable support for HDMI-CEC devices via dev-libs/libcec
 media-tv/jellyfin-mpv-shim:discord - Enable discord rich presence
 media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
 media-tv/jellyfin-mpv-shim:shaders - Install MPV shader pack
 media-tv/jellyfin-mpv-shim:systray - Install dev-python/pystray
-net-misc/megasync:cryptopp - Enable support for dev-libs/crypto++
-net-misc/megasync:dolphin - Install the kde-apps/dolphin extension
-net-misc/megasync:freeimage - Enable support for image I/O via media-libs/freeimage
-net-misc/megasync:nautilus - Install the gnome-base/nautilus extension
-net-misc/megasync:thunar - Install the xfce-base/thunar extension
 net-nntp/ngpost:7z - Install app-arch/p7zip
 net-nntp/ngpost:par2 - Install app-arch/par2cmdline
 net-nntp/ngpost:rar - Install app-arch/rar

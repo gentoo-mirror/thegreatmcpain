@@ -15,12 +15,9 @@ app-portage/showem 1.0.3: View output of a parallel emerge from a separate termi
 app-text/urlview 0.9_p22: A curses URL parser for text files
 dev-dotnet/dotnetcore-sdk-bin 3.1.409 5.0.202 5.0.302 5.0.405 6.0.102: .NET Core SDK - binary precompiled for glibc
 dev-dotnet/dotnetcore-sdk-bin-common 3.1.409 5.0.202 5.0.302 5.0.405 6.0.102: Common files shared between multiple slots of .NET Core
-dev-go/gopls 0.6.1 0.6.9 0.7.0: 'gopls' is the official language server for the Go language.
 dev-haskell/git-lfs 1.2.0: git-lfs protocol
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/spdlog 1.10.0: Very fast, header only, C++ logging library
-dev-node/js-beautify 1.14.3: Beautifier for javascript https://beautifier.io
-dev-node/typescript 4.7.3: TypeScript is a language for application scale JavaScript development
 dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/hidapi 0.12.0: Python wrapper for the HIDAPI
 dev-python/injector 0.19.0: Python dependency injection framework, inspired by Guice
@@ -30,16 +27,13 @@ dev-python/py3nvml 0.2.7: Python 3 bindings for the NVIDIA Management Library
 dev-python/pyio 0.1.1: Some useful Python IO and Process additions.
 dev-python/pyjson 1.3.0: Compare the similarities between two JSONs.
 dev-python/pypresence 4.2.1: A complete Discord IPC and Rich Presence wapper library in Python!
-dev-python/pyright 1.1.254: Static type checker for Python
 dev-python/pystray 0.19.3: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.1.13: Python API to MPV using JSON IPC
 dev-python/pywebview 3.6.3: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
-dev-python/requests-futures 1.0.0-r1: Asynchronous Python HTTP Requests for Humans using Futures
 dev-util/electron 13.6.9: Cross platform application development framework based on web technologies
 dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20201203 20210216 20220602: Post-processing shaders written in the ReShade FX shader language
-dev-util/rust-analyzer 20210104 99999999: An experimental Rust compiler front-end for IDEs
 dev-vcs/git-annex 10.20220322: manage files with git, without checking their contents into git
 dev-vcs/git-credential-netrc 2.32.0 2.34.1 2.35.1 9999: git credential helper that reads netrc files.
 dev-vcs/git-extras 6.4.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
@@ -52,13 +46,8 @@ games-util/mangohud 0.6.7-r1 9999-r4: A Vulkan and OpenGL overlay for monitoring
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/vkbasalt 0.3.2.5 9999-r1: A vulkan post processing layer
-gui-libs/wlroots 9999 9999-r1: wlroots (EGLStreams fork)
-gui-wm/river 9999: Dynamic tiling wayland compositor
 mail-mta/hydroxide 0.2.20 0.2.21 0.2.23: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
-media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
-media-gfx/ueberzug 9999-r2: ueberzug is an alternative for w3mimgdisplay
-media-libs/raspberrypi-userland 0_pre20160704 9999: Raspberry Pi userspace tools and libraries
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/discord-rich-presence-plex 9999-r3: A Python script that displays your Plex status on Discord using Rich Presence.
@@ -76,7 +65,6 @@ media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.3: Convert SUP graphic subtitles to text-based SRT format
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-im/discord-wayland 0.0.18: All-in-one voice and text chat for gamers (system electron and wayland)
-net-misc/megasync 4.4.0 4.5.3: A Qt program for syncing your MEGA account in your PC. This is the official app.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
