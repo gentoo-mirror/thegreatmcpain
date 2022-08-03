@@ -22,19 +22,6 @@ dev-util/electron:proprietary-codecs - Enable proprietary codecs like H.264, MP3
 dev-util/electron:screencast - Enable support for remote desktop and screen cast using media-video/pipewire
 dev-util/electron:system-ffmpeg - Use system ffmpeg instead of the bundled one
 dev-util/electron:system-icu - Use system icu instead of the bundled one
-dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
-dev-vcs/git-annex:benchmark - Enable benchmarking
-dev-vcs/git-annex:dbus - Enable dbus support
-dev-vcs/git-annex:debuglocks - Debug location of MVar/STM deadlocks
-dev-vcs/git-annex:gitlfs - Build with git-lfs library (rather than vendored copy)
-dev-vcs/git-annex:httpclientrestricted - Build with http-client-restricted library (rather than vendored copy)
-dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
-dev-vcs/git-annex:networkbsd - Build with network-3.0 which split out network-bsd
-dev-vcs/git-annex:pairing - Enable pairing
-dev-vcs/git-annex:s3 - Enable S3 support
-dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
-dev-vcs/git-annex:webapp - Enable git-annex webapp
-dev-vcs/git-annex:webdav - Enable WebDAV support
 games-action/mcpelauncher-linux:msa - Install games-util/mcpelauncher-msa-client
 games-action/mcpelauncher-linux:ui - Install games-util/mcpelauncher-ui-qt
 games-fps/gzdoom:gtk2 - Enable support for GTK+2 instead of GTK+3
