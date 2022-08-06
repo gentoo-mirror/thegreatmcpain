@@ -10,7 +10,7 @@ inherit kernel-2 unpacker
 
 BOARD="rockchip64"
 BRANCH="current"
-ARMBIAN_VER="22.05.1"
+ARMBIAN_VER="22.05.4"
 EXTRAVERSION="-armbian-${BOARD}"
 
 BASE_URL="https://armbian.systemonachip.net/apt/pool/main/l"
