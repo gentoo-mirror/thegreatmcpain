@@ -45,7 +45,7 @@ games-util/mangohud 0.6.7-r1 9999-r4: A Vulkan and OpenGL overlay for monitoring
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/vkbasalt 0.3.2.5 9999-r1: A vulkan post processing layer
-gui-wm/hyprland 0.9.0_beta 0.9.1_beta 0.10.0_beta: A dymanic tiling Wayland compositor that doesn't sacrifice on its looks.
+gui-wm/hyprland 0.9.0_beta 0.9.1_beta 0.10.0_beta 0.10.1_beta: A dymanic tiling Wayland compositor that doesn't sacrifice on its looks.
 mail-mta/hydroxide 0.2.20 0.2.21 0.2.23: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
@@ -73,7 +73,7 @@ sys-kernel/armbian-rockchip64-sources 5.15.52: Armbian kernel sources (rockchip6
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 5.18.10_p1 5.18.11_p1 5.18.12_p1 5.18.14_p2 5.18.15_p2 5.18.16_p1 5.18.16_p2: The Liquorix Kernel Sources v5.x
+sys-kernel/liquorix-sources 5.18.10_p1 5.18.11_p1 5.18.12_p1 5.18.14_p2 5.18.15_p2 5.18.16_p1 5.18.16_p2 5.18.17_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 x11-libs/libva-nvidia-driver 0.0.6: A VA-API implemention using NVIDIA's NVDEC
 x11-misc/i3lock-color 2.13.4: Simple screen locker
