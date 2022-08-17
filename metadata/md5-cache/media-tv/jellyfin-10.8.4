@@ -1,15 +1,15 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=compile install prepare
-DEPEND=dev-dotnet/dotnetcore-sdk-bin:5.0
+DEPEND=virtual/dotnet-sdk:6.0
 DESCRIPTION=The Free Software Media System
 EAPI=7
 HOMEPAGE=https://jellyfin.org
 INHERIT=systemd wrapper
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=dev-dotnet/dotnetcore-sdk-bin:5.0 >=media-video/ffmpeg-4.2.2 media-tv/jellyfin-web acct-group/jellyfin acct-user/jellyfin app-crypt/mit-krb5 dev-db/sqlite dev-util/lttng-ust media-libs/fontconfig media-libs/freetype
+RDEPEND=virtual/dotnet-sdk:6.0 >=media-video/ffmpeg-4.2.2 media-tv/jellyfin-web acct-group/jellyfin acct-user/jellyfin app-crypt/mit-krb5 dev-db/sqlite dev-util/lttng-ust media-libs/fontconfig media-libs/freetype
 RESTRICT=network-sandbox
 SLOT=0
-SRC_URI=https://github.com/jellyfin/jellyfin/archive/v10.7.7.tar.gz -> jellyfin-10.7.7.tar.gz
+SRC_URI=https://github.com/jellyfin/jellyfin/archive/v10.8.4.tar.gz -> jellyfin-10.8.4.tar.gz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=3755925c57a9a0dcef7d984168dabb59
+_md5_=a2cf95829f55a3ce92e8f145a9f34275

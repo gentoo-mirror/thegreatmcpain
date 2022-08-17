@@ -52,10 +52,10 @@ media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a 
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/discord-rich-presence-plex 9999-r3: A Python script that displays your Plex status on Discord using Rich Presence.
-media-tv/jellyfin 10.7.7-r1 10.8.0 10.8.1: The Free Software Media System
-media-tv/jellyfin-media-player 1.6.0 1.6.1 1.7.0 1.7.1: Jellyfin Desktop Client (Based on plex-media-player)
+media-tv/jellyfin 10.8.4: The Free Software Media System
+media-tv/jellyfin-media-player 1.7.1: Jellyfin Desktop Client (Based on plex-media-player)
 media-tv/jellyfin-mpv-shim 2.1.0: Cast media from Jellyfin to MPV
-media-tv/jellyfin-web 10.7.5 10.7.6 10.7.7 10.8.0 10.8.1: Web interface for Jellyfin
+media-tv/jellyfin-web 10.8.4: Web interface for Jellyfin
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
 media-video/dovi_tool 1.5.4: CLI tool combining multiple utilities for working with Dolby Vision
