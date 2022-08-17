@@ -5,6 +5,7 @@ EAPI=8
 HOMEPAGE=https://github.com/jp7677/dxvk-nvapi
 INHERIT=flag-o-matic meson-multilib git-r3
 IUSE=+abi_x86_32 crossdev-mingw debug abi_x86_32 abi_x86_64
+KEYWORDS=-* ~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
 REQUIRED_USE=|| ( abi_x86_32 abi_x86_64 )
