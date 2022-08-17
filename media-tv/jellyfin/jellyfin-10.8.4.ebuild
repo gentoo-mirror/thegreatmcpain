@@ -16,7 +16,7 @@ KEYWORDS="~amd64"
 # dotnet restore needs internet
 RESTRICT="network-sandbox"
 
-DEPEND="dev-dotnet/dotnetcore-sdk-bin:6.0"
+DEPEND="virtual/dotnet-sdk:6.0"
 RDEPEND="
 	${DEPEND}
 	>=media-video/ffmpeg-4.2.2
@@ -48,7 +48,8 @@ src_compile() {
 		--runtime linux-x64 \
 		--output "./jellyfin" \
 		--no-self-contained \
-		"-p:DebugSymbols=false;DebugType=none"
+		"-p:DebugSymbols=false" \
+		"-p:DebugType=none"
 }
 
 src_install() {
