@@ -51,7 +51,6 @@ games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices
 games-util/mcpelauncher-msa-client:qt5 - "Enable QT GUI"
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
 gui-wm/hyprland:X - Enable support for X11 applications (XWayland)
-gui-wm/hyprland:eglstreams - Use experimental fork of wlroots with EGLStreams support
 gui-wm/hyprland:vulkan - Enable support for the vulkan backend renderer
 gui-wm/hyprland:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
