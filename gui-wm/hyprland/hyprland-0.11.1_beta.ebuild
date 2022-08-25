@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit git-r3 meson cmake toolchain-funcs
+inherit meson cmake toolchain-funcs
 
 DESCRIPTION="A dymanic tiling Wayland compositor that doesn't sacrifice on its looks."
 HOMEPAGE="https://github.com/hyprwm/Hyprland"
@@ -15,7 +15,7 @@ SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="eglstreams vulkan x11-backend X"
+IUSE="vulkan x11-backend X"
 
 # Copied from gui-libs/wlroots-9999
 DEPEND="
@@ -90,12 +90,6 @@ src_unpack() {
 	pushd "${S}"
 	unpack ${A}
 	popd
-
-	if use eglstreams; then
-		rm -r "${S}/subprojects/wlroots"
-		git-r3_fetch "https://github.com/danvd/wlroots-eglstreams"
-		git-r3_checkout "https://github.com/danvd/wlroots-eglstreams" "${S}/subprojects/wlroots"
-	fi
 }
 
 # For some reason hyprland uses a combination of Makefiles and CMake
@@ -151,14 +145,4 @@ src_install() {
 pkg_postinst() {
 	elog "You must be in the input group to allow Hyprland"
 	elog "to access input devices via libinput."
-
-	if use eglstreams; then
-		elog "You have enabled 'eglstreams'."
-		elog "This uses the latest git master of the fork of wlroots from"
-		elog
-		elog "https://github.com/danvd/wlroots-eglstreams"
-		elog
-		elog "This is more or less an experiment to see if using this fork would"
-		elog "improve things for Nvidia users."
-	fi
 }
