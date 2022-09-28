@@ -3,19 +3,17 @@
 
 EAPI=8
 
-inherit meson cmake toolchain-funcs
+inherit meson cmake toolchain-funcs git-r3
 
 DESCRIPTION="A dymanic tiling Wayland compositor that doesn't sacrifice on its looks."
 HOMEPAGE="https://github.com/hyprwm/Hyprland"
 
-MY_PV="${PV/_/}"
-
-SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v${MY_PV}.tar.gz -> ${P}.tar.gz"
+EGIT_REPO_URI="https://github.com/hyprwm/Hyprland.git"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64"
-IUSE="vulkan x11-backend X"
+KEYWORDS=""
+IUSE="vulkan x11-backend X video_cards_nvidia"
 
 # Copied from gui-libs/wlroots-9999
 DEPEND="
@@ -47,6 +45,7 @@ RDEPEND="
 BDEPEND="
 	>=dev-libs/wayland-protocols-1.24
 	>=dev-util/meson-0.60.0
+	dev-util/wayland-scanner
 	virtual/pkgconfig
 "
 
@@ -84,12 +83,14 @@ compile_wlroots() {
 	meson_src_compile
 }
 
-src_unpack() {
-	mkdir -pv "${S}"
+src_prepare() {
+	default
 
-	pushd "${S}"
-	unpack ${A}
-	popd
+	# Nvidia patch
+	if use video_cards_nvidia; then
+		sed -i "s|glFlush();|glFinish();|" \
+			"${S}/subprojects/wlroots/render/gles2/renderer.c" || die "Nvidia patch failed"
+	fi
 }
 
 # For some reason hyprland uses a combination of Makefiles and CMake

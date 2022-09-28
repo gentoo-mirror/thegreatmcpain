@@ -15,7 +15,7 @@ SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="vulkan x11-backend X"
+IUSE="vulkan x11-backend X video_cards_nvidia"
 
 # Copied from gui-libs/wlroots-9999
 DEPEND="
@@ -30,7 +30,7 @@ DEPEND="
 		dev-util/vulkan-headers:0=
 		media-libs/vulkan-loader:0=
 	)
-	>=x11-libs/libdrm-2.4.109:0=
+	>=x11-libs/libdrm-2.4.113:0=
 	x11-libs/libxkbcommon
 	x11-libs/pixman
 	x11-backend? ( x11-libs/libxcb:0= )
@@ -47,6 +47,7 @@ RDEPEND="
 BDEPEND="
 	>=dev-libs/wayland-protocols-1.24
 	>=dev-util/meson-0.60.0
+	dev-util/wayland-scanner
 	virtual/pkgconfig
 "
 
@@ -90,6 +91,16 @@ src_unpack() {
 	pushd "${S}"
 	unpack ${A}
 	popd
+}
+
+src_prepare() {
+	default
+
+	# Nvidia patch
+	if use video_cards_nvidia; then
+		sed -i "s|glFlush();|glFinish();|" \
+			"${S}/subprojects/wlroots/render/gles2/renderer.c" || die "Nvidia patch failed"
+	fi
 }
 
 # For some reason hyprland uses a combination of Makefiles and CMake
