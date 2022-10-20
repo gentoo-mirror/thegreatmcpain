@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/qt5pas
 SLOT=0
 SRC_URI=https://github.com/benjamimgois/goverlay/releases/download/0.8.1-2/goverlay_0_8_1.tar.xz -> goverlay-bin-0.8.1.tar.xz
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	xdg-utils	ac0e315a3688929e34ac75b139e7349a
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	xdg-utils	ac0e315a3688929e34ac75b139e7349a
 _md5_=6f394d6ccadc23d7aba8d2892ab91cac

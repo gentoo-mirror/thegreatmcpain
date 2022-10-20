@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-qt/qtchooser dev-qt/qtcore dev-libs/openssl rar? ( app-arch/rar ) par2? ( app-arch/par2cmdline ) 7z? ( app-arch/p7zip )
 SLOT=0
-_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	desktop	22952d8f27cac191d75529d4c38e6bfa	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	desktop	7eb20ad915a0a318176d51bc2508ff5c	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=508962ba970212ca5d4cf558b313739c
