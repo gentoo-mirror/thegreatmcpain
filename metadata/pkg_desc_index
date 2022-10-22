@@ -63,7 +63,7 @@ media-video/nvencc 9999: HEVC/H264 video encoder using NVEnc
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.3: Convert SUP graphic subtitles to text-based SRT format
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
-net-im/discord-wayland 0.0.20: All-in-one voice and text chat for gamers (system electron and wayland)
+net-im/discord-wayland 0.0.21: All-in-one voice and text chat for gamers (system electron and wayland)
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
