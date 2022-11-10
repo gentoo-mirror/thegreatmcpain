@@ -11,5 +11,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=media-video/ffmpeg-4.3[encode,vulkan?,x264?,x265?] vaapi? ( media-video/ffmpeg[libdrm,vaapi] ) sys-libs/libunwind || ( www-client/chromium www-client/chromium-bin )
 SLOT=0
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	52a92ed3815080c5f2caac1905687b1c	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	73ed573e1525a108d236a0dffb3a68fb	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=3f28e3c8f0170cf0698c33fa61d8fc19
