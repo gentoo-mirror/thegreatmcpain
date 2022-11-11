@@ -32,7 +32,7 @@ dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numb
 dev-util/electron 19.0.16-r2: Cross platform application development framework based on web technologies
 dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20201203 20210216 20220602: Post-processing shaders written in the ReShade FX shader language
-dev-vcs/git-credential-netrc 2.32.0 2.34.1 2.35.1 9999: git credential helper that reads netrc files.
+dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
 dev-vcs/git-extras 6.4.0 9999: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
 games-arcade/osu-lazer 2022.816.0 9999-r1: rhythm is just a *click* away!
