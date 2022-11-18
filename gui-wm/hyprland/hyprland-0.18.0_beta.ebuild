@@ -15,7 +15,7 @@ SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="vulkan x11-backend X video_cards_nvidia"
+IUSE="greetd-fix vulkan x11-backend X video_cards_nvidia"
 
 # Copied from gui-libs/wlroots-9999
 DEPEND="
@@ -32,7 +32,7 @@ DEPEND="
 	)
 	>=x11-libs/libdrm-2.4.113:0=
 	x11-libs/libxkbcommon
-	x11-libs/pixman
+	>=x11-libs/pixman-0.42.0
 	x11-backend? ( x11-libs/libxcb:0= )
 	X? (
 		x11-base/xwayland
@@ -96,6 +96,11 @@ src_unpack() {
 src_prepare() {
 	default
 
+	# Apply greetd fix (Makes /tmp/hypr modifiable by everyone.)
+	if use greetd-fix; then
+		eapply "${FILESDIR}/0001-Make-tmp-hypr-readable-writable-by-everyone.patch"
+	fi
+
 	# Nvidia patch
 	if use video_cards_nvidia; then
 		sed -i "s|glFlush();|glFinish();|" \
@@ -156,6 +161,13 @@ src_install() {
 }
 
 pkg_postinst() {
+	if use greetd-fix; then
+		ewarn "You've enabled the 'greetd-fix' USE."
+		ewarn "This makes '/tmp/hypr' modifiable by everyone (mode 777),"
+		ewarn "which allows 'hyprctl' to work if '/tmp/hypr' was created by"
+		ewarn "the 'greetd' user."
+		ewarn
+	fi
 	elog "You must be in the input group to allow Hyprland"
 	elog "to access input devices via libinput."
 }
