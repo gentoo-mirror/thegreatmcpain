@@ -41,6 +41,7 @@ games-util/goverlay:opengl - Use x11-apps/mesa-progs for opengl preview.
 games-util/goverlay:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/goverlay-bin:opengl - Use x11-apps/mesa-progs for opengl preview.
 games-util/goverlay-bin:vulkan - Use dev-util/vulkan-tools for vulkan preview.
+games-util/mangohud:tools - "Installs the 'mangoapp' and 'mangohudctl' binaries."
 games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices."
 games-util/mcpelauncher-msa-client:qt5 - "Enable QT GUI"
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.

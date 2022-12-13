@@ -39,7 +39,7 @@ games-arcade/osu-lazer 2022.816.0 9999-r1: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay 0.4.3 0.5 9999-r1: GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
 games-util/goverlay-bin 0.8.1-r1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
-games-util/mangohud 0.6.7-r1 9999-r4: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+games-util/mangohud 0.6.8 9999-r5: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/sidequest-bin 0.10.33: An open app store for VR devices such as the Oculus Quest 2
