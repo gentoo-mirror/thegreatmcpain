@@ -16,7 +16,6 @@ app-portage/showem 1.0.3: View output of a parallel emerge from a separate termi
 app-text/urlview 0.9_p22: A curses URL parser for text files
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/spdlog 1.10.0: Very fast, header only, C++ logging library
-dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/hidapi 0.12.0: Python wrapper for the HIDAPI
 dev-python/injector 0.19.0: Python dependency injection framework, inspired by Guice
 dev-python/jellyfin-apiclient-python 1.8.1: Python API client for Jellyfin
