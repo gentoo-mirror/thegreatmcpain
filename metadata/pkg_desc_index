@@ -8,7 +8,7 @@ app-emulation/dxvk 1.10.3 2.0 9999: Vulkan-based implementation of D3D9, D3D10 a
 app-emulation/dxvk-nvapi 0.6 9999: Alternative NVAPI implementation on top of DXVK
 app-emulation/protontricks 9999: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/vkd3d-proton 9999: Fork of VKD3D. Development branches for Proton's Direct3D 12 implementation.
-app-eselect/eselect-electron 2.1-r1: Utility to select the default Electron slot
+app-eselect/eselect-electron 0.2: Utility to select the default Electron slot
 app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds that don't like 'dash'.
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28: Update Portage tree, all installed packages, and kernel
@@ -28,7 +28,8 @@ dev-python/pystray 0.19.4: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.1.13: Python API to MPV using JSON IPC
 dev-python/pywebview 3.6.3: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
-dev-util/electron 19.0.16-r2: Cross platform application development framework based on web technologies
+dev-util/electron 20.3.7 20.3.8: Cross platform application development framework based on web technologies
+dev-util/esbuild 0.16.11: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20201203 20210216 20220602: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
@@ -65,6 +66,7 @@ media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.3: Convert SUP graphic subtitles to text-based SRT format
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-im/discord-wayland 0.0.22: All-in-one voice and text chat for gamers (system electron and wayland)
+net-im/webcord 4.0.0: A Discord and Fosscord client made with the Electron API.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux

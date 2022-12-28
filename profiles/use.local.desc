@@ -12,18 +12,34 @@ app-emulation/dxvk-nvapi:crossdev-mingw - Use sys-devel/crossdev for the toolcha
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
 dev-util/electron:clang - Use Clang compiler instead of GCC
-dev-util/electron:component-build - Split build into more shared libraries to speed up linking. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+dev-util/electron:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+dev-util/electron:dev-dependencies - Keep Electron's devDependencies. This makes them available in node_modules. For example "asar" utility is one of them.
 dev-util/electron:gtk4 - Build with GTK4 headers.
-dev-util/electron:headless - Build Ozone only with headless backend, NOT RECOMMENDED for general use.
+dev-util/electron:hangouts - Enable support for Google Hangouts features such as screen sharing
+dev-util/electron:hevc - Enable HEVC decoding support. Should work with system-ffmpeg, but might require additional patching for the built-in one.
 dev-util/electron:js-type-check - Enable JavaScript type-checking for Chrome's web technology-based UI. Requires Java.
-dev-util/electron:lto - Build with link time optimization enabled
+dev-util/electron:optimize-thinlto - Whether to enable ThinLTO optimizations. Turning ThinLTO optimizations on can substantially increase link time and binary size, but they generally also make binaries a fair bit faster.
+dev-util/electron:optimize-webui - Optimize parts of Chromium's UI written with web technologies (HTML/CSS/JS) for runtime performance purposes. This does more work at compile time for speed benefits at runtime.
+dev-util/electron:pgo - Enable PGO. Requires clang and bundled binary profile data in sources tree.
 dev-util/electron:pic - Disable optimized assembly code that is not PIC friendly
 dev-util/electron:proprietary-codecs - Enable proprietary codecs like H.264, MP3
 dev-util/electron:screencast - Enable support for remote desktop and screen cast using media-video/pipewire
-dev-util/electron:system-ffmpeg - Use system ffmpeg instead of the bundled one
-dev-util/electron:system-harfbuzz - Use system harfbuzz instead of the bundled one.
-dev-util/electron:system-icu - Use system icu instead of the bundled one
-dev-util/electron:system-png - Use system libpng instead of the bundled one.
+dev-util/electron:suid - Build the SUID sandbox, which is only needed on CONFIG_USER_NS=n kernels
+dev-util/electron:system-av1 - Use the system media-libs/libaom and media-libs/dav1d instead of the bundled ones
+dev-util/electron:system-ffmpeg - Use the system media-video/ffmpeg instead of the bundled one
+dev-util/electron:system-harfbuzz - Use the system media-libs/harfbuzz instead of the bundled one
+dev-util/electron:system-icu - Use the system dev-libs/icu instead of the bundled one
+dev-util/electron:system-jsoncpp - Use the system dev-libs/jsoncpp instead of the bundled one
+dev-util/electron:system-libevent - Use the system dev-libs/libevent instead of the bundled one
+dev-util/electron:system-libusb - Use the system dev-libs/libusb instead of the bundled one
+dev-util/electron:system-libvpx - Use the system media-libs/libvpx instead of the bundled one
+dev-util/electron:system-openh264 - Use the system media-libs/openh264 instead of the bundled one. If disabled, it will restrict USE=bindist.
+dev-util/electron:system-openjpeg - Use the system-wide media-libs/openjpeg instead of the bundled one. OpenJPEG use are exclusively for Chromium's PDF viewer.
+dev-util/electron:system-png - Use system libpng instead of the bundled one
+dev-util/electron:system-re2 - Use the system-wide dev-libs/re2 instead of the bundled one
+dev-util/electron:system-snappy - Use the system-wide app-arch/snappy instead of the bundled one
+dev-util/electron:thinlto - Build with ThinLTO support. LTO (Link Time Optimization) achieves better runtime performance through whole-program analysis and cross-module optimization (highly recommended).
+dev-util/electron:ungoogled - Apply ungoogled-chromium modifications to chromium sources (electron sources are untouched be it better or worse). Not yet thoroughly tested! Might break electron apps or electron itself!
 dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
 dev-vcs/git-annex:benchmark - Enable benchmarking
 dev-vcs/git-annex:dbus - Enable dbus support
