@@ -21,7 +21,7 @@ IUSE="greetd-fix vulkan +x11-backend X video_cards_nvidia"
 DEPEND="
 	>=dev-libs/libinput-1.14.0:0=
 	>=dev-libs/wayland-1.21.0
-	>=dev-libs/wayland-protocols-1.24
+	>=dev-libs/wayland-protocols-1.28
 	media-libs/mesa[egl(+),gles2,gbm(+)]
 	sys-auth/seatd:=
 	virtual/libudev
@@ -86,11 +86,9 @@ compile_wlroots() {
 }
 
 src_unpack() {
-	mkdir -pv "${S}"
-
-	pushd "${S}"
 	unpack ${A}
-	popd
+
+	mv "${PN}-source" "${S}"
 }
 
 src_prepare() {
@@ -116,14 +114,14 @@ src_configure() {
 	emake protocols
 	emake fixwlr
 
-	elog "Compiling 'wlroots'"
+	einfo "Compiling 'wlroots'"
 	compile_wlroots
 
 	# Use latest gcc
 	latest_gcc=$(ls /usr/bin/gcc-* | grep -vE 'ar|nm|ranlib|config' | sort -r | head -n1)
 	latest_gxx=$(ls /usr/bin/g++-* | grep -vE 'ar|nm|ranlib|config' | sort -r | head -n1)
 
-	elog "Will compile 'Hyprland' with '${latest_gxx}'"
+	einfo "Will compile 'Hyprland' with '${latest_gxx}'"
 
 	CC=${latest_gcc}
 	CXX=${latest_gxx}
