@@ -10,5 +10,5 @@ RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-d
 RESTRICT=binchecks strip
 SLOT=5.15.69
 SRC_URI=https://armbian.systemonachip.net/apt/pool/main/l/linux-source-5.15.69-current-rockchip64/linux-source-current-rockchip64_22.08.2_all.deb -> armbian-rockchip64-sources-5.15.69.deb
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	kernel-2	12a98c718ba8260077000c13b965ba1b	unpacker	f03f9c0c03643e8057ad762b297ce01e
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	kernel-2	12a98c718ba8260077000c13b965ba1b	unpacker	8bbea377a8dd2b5d5c8bc0d834ae6157
 _md5_=936981aa9303f12ffb016bfe9ea8bcf2
