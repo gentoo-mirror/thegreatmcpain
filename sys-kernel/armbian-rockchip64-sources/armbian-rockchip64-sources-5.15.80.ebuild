@@ -10,10 +10,10 @@ inherit kernel-2 unpacker
 
 BOARD="rockchip64"
 BRANCH="current"
-ARMBIAN_VER="22.08.2"
+ARMBIAN_VER="22.11.1"
 EXTRAVERSION="-armbian-${BOARD}"
 
-BASE_URL="https://armbian.systemonachip.net/apt/pool/main/l"
+BASE_URL="mirror://armbian-packages/pool/main/l"
 
 DESCRIPTION="Armbian kernel sources (${BOARD},${BRANCH})"
 HOMEPAGE="https://github.com/armbian/build"
