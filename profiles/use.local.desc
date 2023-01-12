@@ -2,6 +2,12 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-backup/urbackup-client:X - Enables building the wxWidgets GUI
+app-backup/urbackup-server:crypt - Enables encrypted transfers and thus internet backups
+app-backup/urbackup-server:fuse - Enables mounting VHD containers via FUSE
+app-backup/urbackup-server:hardened - Enables GCC runtime fortification
+app-backup/urbackup-server:mail - Enables email notifications
+app-backup/urbackup-server:zlib - Enables compression
 app-emulation/dxvk:async-patch - Applies async patch from https://github.com/Sporif/dxvk-async
 app-emulation/dxvk:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up)
 app-emulation/dxvk:d3d10 - Enable support for DirectX 10 (d3d10.dll)

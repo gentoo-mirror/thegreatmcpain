@@ -1,8 +1,12 @@
 acct-group/jellyfin 0: Jellyfin program group
+acct-group/urbackup 0: Urbackup program group
 acct-user/jellyfin 0: Jellyfin user
+acct-user/urbackup 0: Urbackup program user
 app-admin/gwe 0.15.5 9999-r3: Utility which provides info, control the fans, and overclock your NVIDIA card
 app-admin/liquidctl 1.9.1 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
+app-backup/urbackup-client 2.5.22: Client for UrBackup server
+app-backup/urbackup-server 2.5.27: Fast and easily configured backup server
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk 1.10.3 2.0 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dxvk-nvapi 0.6 9999: Alternative NVAPI implementation on top of DXVK
