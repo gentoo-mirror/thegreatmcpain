@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=configure install
+DEPEND=acct-user/urbackup acct-group/urbackup app-backup/urbackup-certificate crypt? ( >=dev-libs/crypto++-5.1 ) dev-db/sqlite app-arch/zstd fuse? ( sys-fs/fuse:* ) mail? ( >=net-misc/curl-7.2 ) zlib? ( sys-libs/zlib )
+DESCRIPTION=Fast and easily configured backup server
+EAPI=7
+HOMEPAGE=https://www.urbackup.org
+INHERIT=systemd
+IUSE=crypt hardened fuse mail zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=acct-user/urbackup acct-group/urbackup app-backup/urbackup-certificate crypt? ( >=dev-libs/crypto++-5.1 ) dev-db/sqlite app-arch/zstd fuse? ( sys-fs/fuse:* ) mail? ( >=net-misc/curl-7.2 ) zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=https://hndl.urbackup.org/Server/2.5.27/urbackup-server-2.5.27.tar.gz
+_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=582a7283f66e91f50f7ae644eaa3b1af

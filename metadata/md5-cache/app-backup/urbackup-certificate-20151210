@@ -1,0 +1,8 @@
+DEFINED_PHASES=install
+DESCRIPTION=Urbackup client/server ECDSA signing key
+EAPI=8
+HOMEPAGE=https://github.com/uroni/urbackup_backend
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+SLOT=0
+_md5_=33a86c54312f0285228a2a9a604afe9a
