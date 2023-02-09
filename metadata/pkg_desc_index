@@ -55,6 +55,7 @@ gui-wm/hyprland 0.19.2_beta 0.20.1_beta 9999-r2: A dymanic tiling Wayland compos
 mail-mta/hydroxide 0.2.20 0.2.21 0.2.23: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-libs/alvr 18.2.3-r3 19.0.0 9999: ALVR is an open source remote VR display for the Oculus Go/Quest
+media-sound/mpd-discord-rpc 1.5.4: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/discord-rich-presence-plex 9999-r3: A Python script that displays your Plex status on Discord using Rich Presence.
