@@ -23,6 +23,7 @@ app-text/urlview 0.9_p22: A curses URL parser for text files
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/spdlog 1.10.0 1.11.0: Fast C++ logging library
 dev-perl/Mojo-Discord 8: Perl Modules that implement parts of the Discord API.
+dev-perl/Mojo-WebService-LastFM 0.02: Non-blocking recent tracks information from Last.FM
 dev-perl/Role-EventEmitter 0.003: Role::EventEmitter - Event emitter role
 dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/hidapi 0.12.0: Python wrapper for the HIDAPI
