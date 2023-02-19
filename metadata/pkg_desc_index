@@ -22,9 +22,11 @@ app-portage/showem 1.0.3: View output of a parallel emerge from a separate termi
 app-text/urlview 0.9_p22: A curses URL parser for text files
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/spdlog 1.10.0 1.11.0: Fast C++ logging library
+dev-perl/FindBin 1.53: FindBin - Locate directory of original perl script
 dev-perl/Mojo-Discord 8: Perl Modules that implement parts of the Discord API.
 dev-perl/Mojo-UserAgent-Role-Queued 1.15: Non-blocking recent tracks information from Last.FM
 dev-perl/Mojo-WebService-LastFM 0.02: Non-blocking recent tracks information from Last.FM
+dev-perl/PathTools 3.75: PathTools - Tools for working with directory and file names
 dev-perl/Role-EventEmitter 0.003: Role::EventEmitter - Event emitter role
 dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/hidapi 0.12.0: Python wrapper for the HIDAPI
@@ -59,6 +61,7 @@ gui-wm/hyprland 0.19.2_beta 0.20.1_beta 9999-r2: A dymanic tiling Wayland compos
 mail-mta/hydroxide 0.2.20 0.2.21 0.2.23: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 media-fonts/nerd-fonts 2.1.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-libs/alvr 18.2.3-r3 19.0.0 9999: ALVR is an open source remote VR display for the Oculus Go/Quest
+media-sound/Discord-NP 1.6: Last.FM Now Playing info in your Discord status message
 media-sound/mpd-discord-rpc 1.5.4: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
