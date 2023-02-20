@@ -3,7 +3,6 @@ acct-group/urbackup 0: Urbackup program group
 acct-user/jellyfin 0: Jellyfin user
 acct-user/urbackup 0: Urbackup program user
 app-admin/gwe 0.15.5 9999-r3: Utility which provides info, control the fans, and overclock your NVIDIA card
-app-admin/liquidctl 1.9.1 9999: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-backup/urbackup-certificate 20151210: Urbackup client/server ECDSA signing key
 app-backup/urbackup-client 2.5.22-r1: Client for UrBackup server
@@ -29,7 +28,6 @@ dev-perl/Mojo-WebService-LastFM 0.02: Non-blocking recent tracks information fro
 dev-perl/PathTools 3.75: PathTools - Tools for working with directory and file names
 dev-perl/Role-EventEmitter 0.003: Role::EventEmitter - Event emitter role
 dev-python/Rx 3.2.0: Reactive Extensions for Python
-dev-python/hidapi 0.12.0: Python wrapper for the HIDAPI
 dev-python/injector 0.19.0: Python dependency injection framework, inspired by Guice
 dev-python/jellyfin-apiclient-python 1.8.1: Python API client for Jellyfin
 dev-python/plexapi 4.11.2 9999: Python bindings for the Plex API.
