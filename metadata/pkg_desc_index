@@ -18,7 +18,6 @@ app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.3: View output of a parallel emerge from a separate terminal
-app-text/urlview 0.9_p22: A curses URL parser for text files
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/spdlog 1.10.0 1.11.0: Fast C++ logging library
 dev-perl/FindBin 1.53: FindBin - Locate directory of original perl script
