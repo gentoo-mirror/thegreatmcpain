@@ -15,24 +15,25 @@ SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="greetd-fix vulkan +x11-backend X video_cards_nvidia"
+IUSE="+hwdata +seatd +udev vulkan +x11-backend X video_cards_nvidia"
 
 # Copied from gui-libs/wlroots-9999
 DEPEND="
 	>=dev-libs/libinput-1.14.0:0=
 	>=dev-libs/wayland-1.21.0
 	>=dev-libs/wayland-protocols-1.28
-	media-libs/mesa[egl(+),gles2,gbm(+)]
-	sys-auth/seatd:=
-	virtual/libudev
+	media-libs/mesa[egl(+),gles2]
+	hwdata? ( sys-apps/hwdata:= )
+	seatd? ( sys-auth/seatd:= )
+	udev? ( virtual/libudev )
 	vulkan? (
 		dev-util/glslang:0=
 		dev-util/vulkan-headers:0=
 		media-libs/vulkan-loader:0=
 	)
-	>=x11-libs/libdrm-2.4.113:0=
+	>=x11-libs/libdrm-2.4.114:0=
 	x11-libs/libxkbcommon
-	>=x11-libs/pixman-0.42.0
+	>=x11-libs/pixman-0.42.0:0=
 	x11-backend? ( x11-libs/libxcb:0= )
 	X? (
 		x11-base/xwayland
@@ -45,7 +46,7 @@ RDEPEND="
 	${DEPEND}
 "
 BDEPEND="
-	>=dev-libs/wayland-protocols-1.27
+	>=dev-libs/wayland-protocols-1.31
 	>=dev-util/meson-0.60.0
 	dev-util/wayland-scanner
 	virtual/pkgconfig
@@ -93,11 +94,6 @@ src_unpack() {
 
 src_prepare() {
 	default
-
-	# Apply greetd fix (Makes /tmp/hypr modifiable by everyone.)
-	if use greetd-fix; then
-		eapply "${FILESDIR}/0001-Make-tmp-hypr-readable-writable-by-everyone.patch"
-	fi
 
 	# Nvidia patch
 	if use video_cards_nvidia; then
