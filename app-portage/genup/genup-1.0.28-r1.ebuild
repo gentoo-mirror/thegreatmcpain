@@ -3,8 +3,6 @@
 
 EAPI=7
 
-inherit eutils
-
 DESCRIPTION="Update Portage tree, all installed packages, and kernel"
 BASE_SERVER_URI="https://github.com/TheGreatMcPain"
 HOMEPAGE="${BASE_SERVER_URI}/${PN}"
@@ -55,7 +53,7 @@ src_prepare() {
 		sed -i -e 's@USE_EMTEE=false@USE_EMTEE=true@g' "${S}/${PN}" || \
 			die "Failed to patch script to reflect emtee USE flag."
 	fi
-	eapply_user
+	default
 }
 src_install() {
 	dosbin "${PN}"
