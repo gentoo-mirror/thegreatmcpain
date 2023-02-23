@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-qt/qtchooser dev-qt/qtcore dev-libs/openssl rar? ( app-arch/rar ) par2? ( app-arch/par2cmdline ) 7z? ( app-arch/p7zip )
 SLOT=0
 SRC_URI=https://github.com/mbruel/ngPost/archive/v4.14.tar.gz -> ngpost-4.14.tar.gz
-_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	desktop	7eb20ad915a0a318176d51bc2508ff5c
+_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=508962ba970212ca5d4cf558b313739c
