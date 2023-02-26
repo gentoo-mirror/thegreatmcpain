@@ -8,7 +8,7 @@ KEYWORDS=-* ~amd64 ~ppc ~ppc64 ~x86
 LICENSE=GPL-2
 RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
-SLOT=6.1.9_p1
-SRC_URI=https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.1.tar.xz https://github.com/damentz/liquorix-package/archive/6.1-21.tar.gz -> liquorix-sources-6.1.9_p1.tar.gz
+SLOT=6.1.13_p2
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.1.tar.xz https://github.com/damentz/liquorix-package/archive/6.1-29.tar.gz -> liquorix-sources-6.1.13_p2.tar.gz
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	kernel-2	1e55bee3f3081b16ebc1ca0cf1264f6c
-_md5_=b4ac8839e32acab63bb5327699c877a9
+_md5_=1ad4400d68ea13fd46b85e38058a6478
