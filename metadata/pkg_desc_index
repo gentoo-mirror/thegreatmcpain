@@ -38,7 +38,7 @@ dev-python/pystray 0.19.4: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.1.13: Python API to MPV using JSON IPC
 dev-python/pywebview 3.6.3: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
-dev-util/electron 20.3.7 20.3.8: Cross platform application development framework based on web technologies
+dev-util/electron 20.3.7 20.3.8 20.3.12: Cross platform application development framework based on web technologies
 dev-util/esbuild 0.16.11: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 1.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20201203 20210216 20220602: Post-processing shaders written in the ReShade FX shader language
