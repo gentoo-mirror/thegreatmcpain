@@ -69,6 +69,7 @@ gui-wm/hyprland:X - Enable support for X11 applications (XWayland)
 gui-wm/hyprland:greetd-fix - Fix 'hyprctl' issues when using 'greetd' by making '/tmp/hypr' modifiable by everyone. (Definitely not secure!)
 gui-wm/hyprland:hwdata - Use system hwdata
 gui-wm/hyprland:seatd - Enable libseatd session support
+gui-wm/hyprland:source - Installs source files and headers for compiling Hyprland plugins.
 gui-wm/hyprland:vulkan - Enable support for the vulkan backend renderer
 gui-wm/hyprland:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts

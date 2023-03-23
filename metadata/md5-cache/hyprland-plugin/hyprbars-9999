@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=gui-wm/hyprland[source] gui-libs/wlroots
+DESCRIPTION=Adds title bars to Hyprland windows
+EAPI=8
+HOMEPAGE=https://github.com/hyprwm/hyprland-plugins
+INHERIT=git-r3
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=gui-wm/hyprland[source] gui-libs/wlroots
+SLOT=0
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_md5_=2fb0b6b87878f4b20aa0d0d3d517a3da
