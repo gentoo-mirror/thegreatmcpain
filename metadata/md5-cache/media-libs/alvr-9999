@@ -1,5 +1,5 @@
 BDEPEND=>=media-video/ffmpeg-4.3[encode,vulkan?,x264?,x265?] vaapi? ( media-video/ffmpeg[libdrm,vaapi] ) sys-libs/libunwind || ( www-client/chromium www-client/chromium-bin ) virtual/pkgconfig client? ( media-gfx/imagemagick ) >=virtual/rust-1.53 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install postinst postrm preinst test unpack
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
 DEPEND=>=media-video/ffmpeg-4.3[encode,vulkan?,x264?,x265?] vaapi? ( media-video/ffmpeg[libdrm,vaapi] ) sys-libs/libunwind || ( www-client/chromium www-client/chromium-bin ) vulkan? ( dev-util/vulkan-headers )
 DESCRIPTION=ALVR is an open source remote VR display for the Oculus Go/Quest
 EAPI=8
@@ -10,6 +10,7 @@ IUSE=+client +server vaapi vulkan x264 x265 debug
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=media-video/ffmpeg-4.3[encode,vulkan?,x264?,x265?] vaapi? ( media-video/ffmpeg[libdrm,vaapi] ) sys-libs/libunwind || ( www-client/chromium www-client/chromium-bin )
+RESTRICT=network-sandbox
 SLOT=0
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	2076d5b84dfa54f78d70aea5e10dde87	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	4a14c5c24f121e7da66e5aab4a168c6e	git-r3	c57c50c922e121043788de0b40ada60a
-_md5_=eaaabaeec9a38ff0fa4a26180bfdab37
+_md5_=e00da012ad5a8439c546aa779a1f1e81
