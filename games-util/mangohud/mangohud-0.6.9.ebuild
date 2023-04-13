@@ -13,6 +13,8 @@ HOMEPAGE="https://github.com/flightlessmango/MangoHud"
 if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/flightlessmango/MangoHud.git"
+	RESTRICT="network-sandbox" # for imgui subproject
+	KEYWORDS=""
 else
 	SRC_URI="
 		https://github.com/flightlessmango/MangoHud/releases/download/v${PV}/MangoHud-v${PV}-Source.tar.xz -> ${P}.tar.xz
@@ -62,7 +64,6 @@ src_unpack() {
 multilib_src_configure() {
 	local emesonargs=(
 		-Dappend_libdir_mangohud=false
-		-Duse_system_vulkan=enabled
 		-Duse_system_spdlog=enabled
 		-Dinclude_doc=false
 		-Dwith_nvml=$(usex video_cards_nvidia enabled disabled)
@@ -71,6 +72,11 @@ multilib_src_configure() {
 		-Dwith_wayland=$(usex wayland enabled disabled)
 		-Dwith_dbus=$(usex dbus enabled disabled)
 	)
+	if [[ ${PV} == "9999" ]]; then
+		emesonargs+=(
+			--wrap-mode default
+		)
+	fi
 	if multilib_is_native_abi; then
 		emesonargs+=(
 			-Dmangoapp=$(usex tools true false)
