@@ -122,11 +122,6 @@ media-fonts/nerd-fonts:tinos - Install Nerd-fonts-patched Tinos fonts
 media-fonts/nerd-fonts:ubuntu - Install Nerd-fonts-patched Ubuntu fonts
 media-fonts/nerd-fonts:ubuntumono - Install Nerd-fonts-patched Ubuntu Mono fonts
 media-fonts/nerd-fonts:victormono - Install Nerd-fonts-patched Victor Mono fonts
-media-libs/alvr:client - Build ALVR client and launcher
-media-libs/alvr:server - Build ALVR server
-media-libs/alvr:vulkan - Build ALVR vulkan layer
-media-libs/alvr:x264 - Use x264 for h264 software encoding
-media-libs/alvr:x265 - Use x265 for h265 software encoding
 media-tv/jellyfin-media-player:cec - Enable support for HDMI-CEC devices via dev-libs/libcec
 media-tv/jellyfin-mpv-shim:discord - Enable discord rich presence
 media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
