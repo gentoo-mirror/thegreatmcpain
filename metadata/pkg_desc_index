@@ -26,8 +26,8 @@ dev-perl/PathTools 3.75: PathTools - Tools for working with directory and file n
 dev-perl/Role-EventEmitter 0.003: Role::EventEmitter - Event emitter role
 dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/injector 0.19.0: Python dependency injection framework, inspired by Guice
-dev-python/jellyfin-apiclient-python 1.8.1: Python API client for Jellyfin
-dev-python/plexapi 4.11.2 9999: Python bindings for the Plex API.
+dev-python/jellyfin-apiclient-python 1.9.2: Python API client for Jellyfin
+dev-python/plexapi 4.13.4 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.7: Python 3 bindings for the NVIDIA Management Library
 dev-python/pyio 0.1.1: Some useful Python IO and Process additions.
 dev-python/pyjson 1.3.0: Compare the similarities between two JSONs.
