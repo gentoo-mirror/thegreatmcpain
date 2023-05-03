@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/iwalton3/default-shader-pack
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT LGPL-2 LGPL-3 Unlicense
 SLOT=0
-SRC_URI=https://github.com/iwalton3/default-shader-pack/archive/v1.1.0.tar.gz -> mpv-shim-default-shaders-1.1.0.tar.gz
+SRC_URI=https://github.com/iwalton3/default-shader-pack/archive/v2.1.0.tar.gz -> mpv-shim-default-shaders-2.1.0.tar.gz
 _md5_=6227f640b8fd04f47be3fcd21c560e2f

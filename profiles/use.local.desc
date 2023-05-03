@@ -130,6 +130,7 @@ media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
 media-tv/jellyfin-mpv-shim:shaders - Install MPV shader pack
 media-tv/jellyfin-mpv-shim:systray - Install dev-python/pystray
 media-video/makemkv:java - Handle additional Blu-ray protection mechanisms involving Java
+net-im/webcord:systray - Install dev-libs/libappindicator to enable systray
 net-nntp/ngpost:7z - Install app-arch/p7zip
 net-nntp/ngpost:par2 - Install app-arch/par2cmdline
 net-nntp/ngpost:rar - Install app-arch/rar

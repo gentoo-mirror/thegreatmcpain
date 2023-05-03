@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/crosire/reshade-shaders/archive/08f5feb98dee8cc352cf404938edb73094ffdc36.zip -> reshade-shaders-20220602.zip
-_md5_=07a477be24fa9c6d48b61593ff873201
+SRC_URI=https://github.com/crosire/reshade-shaders/archive/2459c73dd1f2b32bbd988c6e41b89017eba5508e.zip -> reshade-shaders-20230302.zip
+_md5_=f057e9e7afc0fbcb25a6bb10ac9b2c4a
