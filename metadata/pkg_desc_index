@@ -11,7 +11,7 @@ app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pine
 app-emulation/dxvk 1.10.3 2.0 2.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dxvk-nvapi 0.6 0.6.2 9999: Alternative NVAPI implementation on top of DXVK
 app-emulation/looking-glass 1_beta6-r1: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
-app-eselect/eselect-electron 0.2: Utility to select the default Electron slot
+app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
 app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds that don't like 'dash'.
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
@@ -35,7 +35,7 @@ dev-python/pystray 0.19.4: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.2.0: Python API to MPV using JSON IPC
 dev-python/pywebview 4.1: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
-dev-util/electron 20.3.7 20.3.8 20.3.12: Cross platform application development framework based on web technologies
+dev-util/electron 20.3.12 24.1.3: Cross platform application development framework based on web technologies
 dev-util/esbuild 0.16.11 0.17.18: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
