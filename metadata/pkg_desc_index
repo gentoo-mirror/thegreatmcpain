@@ -10,7 +10,7 @@ app-backup/urbackup-server 2.5.27-r1: Fast and easily configured backup server
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk 1.10.3 2.0 2.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dxvk-nvapi 0.6 0.6.2 9999: Alternative NVAPI implementation on top of DXVK
-app-emulation/looking-glass 1_beta6-r1: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
+app-emulation/looking-glass 1_beta6-r1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
 app-portage/dash-switcher 9999: Automatically switch /bin/sh for certain ebuilds that don't like 'dash'.
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
