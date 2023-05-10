@@ -11,5 +11,5 @@ LICENSE=AGPL-3
 RDEPEND=acct-user/urbackup acct-group/urbackup app-backup/urbackup-certificate crypt? ( >=dev-libs/crypto++-5.1 ) dev-db/sqlite app-arch/zstd fuse? ( sys-fs/fuse:* ) mail? ( >=net-misc/curl-7.2 ) zlib? ( sys-libs/zlib )
 SLOT=0
 SRC_URI=https://hndl.urbackup.org/Server/2.5.27/urbackup-server-2.5.27.tar.gz
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=582a7283f66e91f50f7ae644eaa3b1af
