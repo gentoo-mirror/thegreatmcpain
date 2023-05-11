@@ -3,14 +3,12 @@
 
 EAPI=8
 
-inherit meson cmake toolchain-funcs
+inherit meson cmake
 
 DESCRIPTION="A dymanic tiling Wayland compositor that doesn't sacrifice on its looks."
 HOMEPAGE="https://github.com/hyprwm/Hyprland"
 
-MY_PV="${PV/_/}"
-
-SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v${MY_PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${PV}/source-v${PV}-2.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
@@ -20,7 +18,7 @@ IUSE="+hwdata source +seatd +udev vulkan +x11-backend X video_cards_nvidia"
 # Copied from gui-libs/wlroots-9999
 DEPEND="
 	>=dev-libs/libinput-1.14.0:0=
-	>=dev-libs/wayland-1.21.0
+	>=dev-libs/wayland-1.22.0
 	>=dev-libs/wayland-protocols-1.28
 	media-libs/mesa[egl(+),gles2]
 	>=media-libs/libdisplay-info-0.1.1:=
@@ -127,16 +125,6 @@ src_configure() {
 
 	einfo "Compiling 'udis86'"
 	compile_udis86
-
-	# Use latest gcc
-	latest_gcc=$(ls /usr/bin/gcc-* | grep -vE 'ar|nm|ranlib|config' | sort -r | head -n1)
-	latest_gxx=$(ls /usr/bin/g++-* | grep -vE 'ar|nm|ranlib|config' | sort -r | head -n1)
-
-	einfo "Will compile 'Hyprland' with '${latest_gxx}'"
-
-	CC=${latest_gcc}
-	CXX=${latest_gxx}
-	tc-export CC CXX
 
 	local mycmakeargs=(
 		-DCMAKE_SKIP_RPATH=ON
