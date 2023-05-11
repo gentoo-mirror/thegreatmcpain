@@ -68,7 +68,6 @@ games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
 gui-wm/gamescope:pipewire - Enable screen capture via PipeWire
 gui-wm/gamescope:wsi-layer - Enable the WSI layer (required for HDR)
 gui-wm/hyprland:X - Enable support for X11 applications (XWayland)
-gui-wm/hyprland:greetd-fix - Fix 'hyprctl' issues when using 'greetd' by making '/tmp/hypr' modifiable by everyone. (Definitely not secure!)
 gui-wm/hyprland:hwdata - Use system hwdata
 gui-wm/hyprland:seatd - Enable libseatd session support
 gui-wm/hyprland:source - Installs source files and headers for compiling Hyprland plugins.
