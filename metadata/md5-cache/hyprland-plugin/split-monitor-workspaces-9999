@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=gui-wm/hyprland[source] gui-libs/wlroots
+DEPEND=>=gui-wm/hyprland-0.25.0
 DESCRIPTION=A Hyprland plugin to provide awesome-like workspace behavior
 EAPI=8
 HOMEPAGE=https://github.com/Duckonaut/split-monitor-workspaces
 INHERIT=git-r3
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=gui-wm/hyprland[source] gui-libs/wlroots
+RDEPEND=>=gui-wm/hyprland-0.25.0
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
-_md5_=5658a4d8f51a8b6f06b7e74a0d8a1112
+_md5_=393b53a13be353bd46db5808ad15988a
