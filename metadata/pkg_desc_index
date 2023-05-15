@@ -70,7 +70,6 @@ media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. 
 media-video/dovi_tool 1.5.4: CLI tool combining multiple utilities for working with Dolby Vision
 media-video/hdr10plus_editor 9999: A simple editor for editing scenes in a HDR10+ JSON
 media-video/hdr10plus_tool 1.2.2 1.3.0: CLI utility to work with HDR10+ in HEVC files.
-media-video/makemkv 1.17.1-r1: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
 media-video/mpv 05122022: Media player for the command line (HDR DRM patches)
 media-video/nvencc 9999: HEVC/H264 video encoder using NVEnc
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
