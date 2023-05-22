@@ -57,8 +57,10 @@ dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent f
 dev-vcs/git-annex:webapp - Enable git-annex webapp
 games-action/mcpelauncher-linux:msa - Install games-util/mcpelauncher-msa-client
 games-action/mcpelauncher-linux:ui - Install games-util/mcpelauncher-ui-qt
-games-fps/gzdoom:gtk2 - Enable support for GTK+2 instead of GTK+3
+games-fps/gzdoom:gles2 - Enable GLES2 backend
 games-fps/gzdoom:non-free - Enable non-free components
+games-fps/gzdoom:swr - Enable software renderer
+games-fps/gzdoom:vulkan - Enable Vulkan support
 games-util/goverlay-bin:opengl - Use x11-apps/mesa-progs for opengl preview.
 games-util/goverlay-bin:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/mangohud:tools - "Installs the 'mangoapp' and 'mangohudctl' binaries."
