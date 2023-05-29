@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/evanw/esbuild/archive/v0.17.18.tar.gz -> esbuild-0.17.18.tar.gz https://gitlab.com/api/v4/projects/42159594/packages/generic/esbuild/0.17.18%2B2023-05-02/esbuild-0.17.18-deps.tar.xz -> esbuild-deps-0.17.18+2023-05-02.tar.xz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	go-module	9c75e51a48520b2f01471c1f91762882
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	9c75e51a48520b2f01471c1f91762882
 _md5_=f0e09a991c7fd3f34ad246a55020972d
