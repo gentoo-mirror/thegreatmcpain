@@ -8,7 +8,7 @@ inherit meson cmake
 DESCRIPTION="A dymanic tiling Wayland compositor that doesn't sacrifice on its looks."
 HOMEPAGE="https://github.com/hyprwm/Hyprland"
 
-SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${PV}/source-v${PV}-2.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${PV}/source-v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
