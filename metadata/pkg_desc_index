@@ -47,7 +47,7 @@ games-util/goverlay-bin 0.9.1: GOverlay is a Graphical UI to help manage Linux o
 games-util/mangohud 0.6.9 9999-r6: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
-games-util/sidequest-bin 0.10.33: An open app store for VR devices such as the Oculus Quest 2
+games-util/sidequest-bin 0.10.36: An open app store for VR devices such as the Oculus Quest 2
 games-util/vkbasalt 0.3.2.9-r1 9999-r1: A vulkan post processing layer
 gui-apps/hyprpaper 0.2.0 9999: blazing fast wayland wallpaper utility with IPC controls.
 gui-wm/gamescope 3.12.0_beta3: Efficient micro-compositor for running games
