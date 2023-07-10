@@ -17,7 +17,6 @@ app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-goin
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.6: View output of a parallel emerge from a separate terminal
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
-dev-libs/spdlog 1.10.0 1.11.0: Fast C++ logging library
 dev-perl/FindBin 1.53: FindBin - Locate directory of original perl script
 dev-perl/Mojo-Discord 8: Perl Modules that implement parts of the Discord API.
 dev-perl/Mojo-UserAgent-Role-Queued 1.15: Non-blocking recent tracks information from Last.FM
@@ -44,7 +43,7 @@ games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unof
 games-arcade/osu-lazer 2023.621.0 9999-r1: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay-bin 0.9.1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
-games-util/mangohud 0.6.9 9999-r6: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+games-util/mangohud 0.6.9-r1 9999-r6: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/sidequest-bin 0.10.36: An open app store for VR devices such as the Oculus Quest 2
