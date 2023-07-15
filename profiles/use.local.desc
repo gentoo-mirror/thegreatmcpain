@@ -69,12 +69,6 @@ games-util/mcpelauncher-msa-client:qt5 - "Enable QT GUI"
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
 gui-wm/gamescope:pipewire - Enable screen capture via PipeWire
 gui-wm/gamescope:wsi-layer - Enable the WSI layer (required for HDR)
-gui-wm/hyprland:X - Enable support for X11 applications (XWayland)
-gui-wm/hyprland:hwdata - Use system hwdata
-gui-wm/hyprland:seatd - Enable libseatd session support
-gui-wm/hyprland:source - Installs source files and headers for compiling Hyprland plugins.
-gui-wm/hyprland:vulkan - Enable support for the vulkan backend renderer
-gui-wm/hyprland:x11-backend - Enable support for handling input/output devices through x11-libs/libxcb
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
 media-fonts/nerd-fonts:anonymouspro - Install Nerd-fonts-patched Anonymous Pro fonts
