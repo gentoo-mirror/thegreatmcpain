@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=x11-drivers/nvidia-drivers-435.21 <media-video/ffmpeg-5:0= >=dev-util/nvidia-cuda-toolkit-10
 SLOT=0
-_eclasses_=git-r3	97f7f638070d17e4c2b6542589bb4575
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=e6459230d4d123435ec56be32593837f
