@@ -7,6 +7,7 @@ app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pi
 app-backup/urbackup-certificate 20151210: Urbackup client/server ECDSA signing key
 app-backup/urbackup-client 2.5.22-r1: Client for UrBackup server
 app-backup/urbackup-server 2.5.27-r1: Fast and easily configured backup server
+app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk 1.10.3 2.0 2.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dxvk-nvapi 0.6 0.6.2 9999: Alternative NVAPI implementation on top of DXVK
 app-emulation/looking-glass 1_beta6-r1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
@@ -53,6 +54,7 @@ media-libs/alvr 20.1.0 20.2.0: ALVR is an open source remote VR display for the 
 media-sound/Discord-NP 1.6: Last.FM Now Playing info in your Discord status message
 media-sound/mpd-discord-rpc 1.5.4: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
+media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/discord-rich-presence-plex 9999-r3: A Python script that displays your Plex status on Discord using Rich Presence.
 media-tv/jellyfin-mpv-shim 2.6.0: Cast media from Jellyfin to MPV
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
@@ -72,6 +74,8 @@ net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
 sys-apps/nvimpager 0.9 0.10.2 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
 sys-kernel/armbian-rockchip64-sources 5.15.93: Armbian kernel sources (rockchip64,current)
+sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
+sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
 sys-kernel/liquorix-sources 5.19.17_p2 6.2.15_p1 6.3.11_p2 6.4.3_p1 6.4.4_p1 6.4.7_p1 6.4.11_p2 6.4.12_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst preinst prepare unpack
+DEPEND=!sys-kernel/buildkernel >=sys-apps/gptfdisk-0.8.8 >=sys-fs/cryptsetup-1.6.2 >=app-shells/bash-4.2:* >=virtual/linux-sources-3
+DESCRIPTION=Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
+EAPI=8
+HOMEPAGE=https://github.com/TheGreatMcPain/buildkernel-dracut
+IUSE=+plymouth
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=sys-libs/ncurses-5.9-r2 >=app-crypt/sbsigntools-0.6-r1 plymouth? ( >=sys-boot/plymouth-22.02.122-r1[gdm(+),pango] ) >=sys-kernel/dracut-050-r2 >=sys-boot/efibootmgr-0.5.4-r1 >=sys-apps/debianutils-4.9.1[installkernel(+)]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/TheGreatMcPain/buildkernel-dracut/archive/1.0.37-dracut-electric-boogaloo.tar.gz -> buildkernel-dracut-1.0.37-1.0.37-r2.tar.gz
+_md5_=5fc16731b645bdf82694468edf594e5b
