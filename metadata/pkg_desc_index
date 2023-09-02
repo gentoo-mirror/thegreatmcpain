@@ -40,7 +40,7 @@ dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and co
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
-games-arcade/osu-lazer 2023.621.0 9999-r1: rhythm is just a *click* away!
+games-arcade/osu-lazer 2023.621.0 2023.815.0 9999-r1: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay-bin 0.9.1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
 games-util/mangohud 0.6.9-r1 9999-r6: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
@@ -77,7 +77,7 @@ sys-kernel/armbian-rockchip64-sources 5.15.93: Armbian kernel sources (rockchip6
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 5.19.17_p2 6.2.15_p1 6.3.11_p2 6.4.3_p1 6.4.4_p1 6.4.7_p1 6.4.11_p2 6.4.12_p1: The Liquorix Kernel Sources v5.x
+sys-kernel/liquorix-sources 5.19.17_p2 6.4.12_p1: The Liquorix Kernel Sources v5.x
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 x11-misc/i3lock-color 2.13.4: Simple screen locker
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
