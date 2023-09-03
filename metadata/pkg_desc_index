@@ -35,7 +35,7 @@ dev-python/python-mpv-jsonipc 1.2.0: Python API to MPV using JSON IPC
 dev-python/pywebview 4.1: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-util/electron 24.8.2 25.8.0: Cross platform application development framework based on web technologies
-dev-util/esbuild 0.16.11 0.17.18 0.19.2: An extremely fast JavaScript and CSS bundler and minifier
+dev-util/esbuild 0.19.2: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
@@ -52,6 +52,7 @@ gui-wm/gamescope 3.12.0_beta3: Efficient micro-compositor for running games
 media-fonts/nerd-fonts 3.0.2: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-libs/alvr 20.1.0 20.2.0: ALVR is an open source remote VR display for the Oculus Go/Quest
 media-sound/Discord-NP 1.6: Last.FM Now Playing info in your Discord status message
+media-sound/gomp 1.0.1: MPD client with builtin cover-art view and LastFM integration.
 media-sound/mpd-discord-rpc 1.5.4: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
 media-sound/mpd-rich-presence-discord 9999: Broadcast your MPD state using discord rich presence!
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
