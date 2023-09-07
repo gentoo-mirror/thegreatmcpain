@@ -8,12 +8,6 @@ app-backup/urbackup-server:fuse - Enables mounting VHD containers via FUSE
 app-backup/urbackup-server:hardened - Enables GCC runtime fortification
 app-backup/urbackup-server:mail - Enables email notifications
 app-backup/urbackup-server:zlib - Enables compression
-app-emulation/dxvk:async-patch - Applies async patch from https://github.com/Sporif/dxvk-async
-app-emulation/dxvk:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up)
-app-emulation/dxvk:d3d10 - Enable support for DirectX 10 (d3d10.dll)
-app-emulation/dxvk:d3d11 - Enable support for DirectX 11 (d3d11.dll)
-app-emulation/dxvk:d3d9 - Enable support for DirectX 9 (d3d9.dll)
-app-emulation/dxvk:dxgi - Enable support for the DirectX Graphics Infrastructure (dxgi.dll)
 app-emulation/dxvk-nvapi:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up)
 app-emulation/looking-glass:host - Install Windows host binaries in ISO.
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
