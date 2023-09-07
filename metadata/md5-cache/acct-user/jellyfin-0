@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst preinst prerm pretend
-DESCRIPTION=Jellyfin user
-EAPI=7
-INHERIT=acct-user
-KEYWORDS=~amd64
-RDEPEND=acct-group/jellyfin acct-group/video
-SLOT=0
-_eclasses_=user-info	9951b1a0e4f026d16c33a001fd2d5cdf	acct-user	fd6725fcc11ecffded6fe9228b8e3448
-_md5_=04d4674eca589142b249a1dd552c821c

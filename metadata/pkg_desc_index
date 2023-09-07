@@ -1,6 +1,4 @@
-acct-group/jellyfin 0: Jellyfin program group
 acct-group/urbackup 0: Urbackup program group
-acct-user/jellyfin 0: Jellyfin user
 acct-user/urbackup 0: Urbackup program user
 app-admin/gwe 0.15.5 9999-r3: Utility which provides info, control the fans, and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
@@ -48,7 +46,6 @@ games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/sidequest-bin 0.10.36: An open app store for VR devices such as the Oculus Quest 2
 games-util/vkbasalt 0.3.2.9-r1 9999-r1: A vulkan post processing layer
-gui-wm/gamescope 3.12.0_beta3: Efficient micro-compositor for running games
 media-fonts/nerd-fonts 3.0.2: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-libs/alvr 20.1.0 20.2.0: ALVR is an open source remote VR display for the Oculus Go/Quest
 media-sound/Discord-NP 1.6: Last.FM Now Playing info in your Discord status message
