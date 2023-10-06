@@ -1,6 +1,6 @@
 acct-group/urbackup 0: Urbackup program group
 acct-user/urbackup 0: Urbackup program user
-app-admin/gwe 0.15.5 9999-r3: Utility which provides info, control the fans, and overclock your NVIDIA card
+app-admin/gwe 0.15.6 9999-r3: Utility which provides info, control the fans, and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-backup/urbackup-certificate 20151210: Urbackup client/server ECDSA signing key
 app-backup/urbackup-client 2.5.22-r1 2.5.24: Client for UrBackup server
@@ -37,7 +37,7 @@ dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and co
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
-games-arcade/osu-lazer 2023.621.0 2023.815.0 2023.924.1 9999-r1: rhythm is just a *click* away!
+games-arcade/osu-lazer 2023.924.1 9999-r1: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
 games-util/goverlay-bin 0.9.1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
 games-util/mangohud 0.6.9-r1 9999-r6: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
