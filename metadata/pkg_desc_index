@@ -3,8 +3,8 @@ acct-user/urbackup 0: Urbackup program user
 app-admin/gwe 0.15.6 9999-r3: Utility which provides info, control the fans, and overclock your NVIDIA card
 app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pigpio library
 app-backup/urbackup-certificate 20151210: Urbackup client/server ECDSA signing key
-app-backup/urbackup-client 2.5.22-r1 2.5.24: Client for UrBackup server
-app-backup/urbackup-server 2.5.27-r1 2.5.31: Fast and easily configured backup server
+app-backup/urbackup-client 2.5.25: Client for UrBackup server
+app-backup/urbackup-server 2.5.31: Fast and easily configured backup server
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk-nvapi 0.6 0.6.2 0.6.3 9999: Alternative NVAPI implementation on top of DXVK
 app-emulation/looking-glass 1_beta6-r1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
