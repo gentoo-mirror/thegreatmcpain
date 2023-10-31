@@ -18,7 +18,6 @@ dev-perl/FindBin 1.53: FindBin - Locate directory of original perl script
 dev-perl/Mojo-Discord 8: Perl Modules that implement parts of the Discord API.
 dev-perl/Mojo-UserAgent-Role-Queued 1.15: Non-blocking recent tracks information from Last.FM
 dev-perl/Mojo-WebService-LastFM 0.02: Non-blocking recent tracks information from Last.FM
-dev-perl/PathTools 3.75: PathTools - Tools for working with directory and file names
 dev-perl/Role-EventEmitter 0.003: Role::EventEmitter - Event emitter role
 dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/injector 0.19.0: Python dependency injection framework, inspired by Guice
