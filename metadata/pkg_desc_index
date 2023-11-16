@@ -56,7 +56,7 @@ media-tv/discord-rich-presence-plex 9999-r3: A Python script that displays your 
 media-tv/jellyfin-mpv-shim 2.6.0: Cast media from Jellyfin to MPV
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/bdsup2sub-meson 9999: Port of the original BDSup2Sub to C++ and Qt. (Fork that uses the meson buildsystem.)
-media-video/dovi_tool 2.0.3: CLI tool combining multiple utilities for working with Dolby Vision
+media-video/dovi_tool 2.0.3 2.1.0: CLI tool combining multiple utilities for working with Dolby Vision
 media-video/hdr10plus_editor 9999: A simple editor for editing scenes in a HDR10+ JSON
 media-video/hdr10plus_tool 1.6.0: CLI utility to work with HDR10+ in HEVC files.
 media-video/mpv 05122022: Media player for the command line (HDR DRM patches)
