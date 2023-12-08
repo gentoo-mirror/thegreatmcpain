@@ -11,5 +11,5 @@ LICENSE=AGPL-3
 RDEPEND=acct-user/urbackup acct-group/urbackup app-backup/urbackup-certificate dev-db/sqlite dev-libs/crypto++ X? ( x11-libs/wxGTK:* ) zlib? ( sys-libs/zlib )
 SLOT=0
 SRC_URI=https://www.urbackup.org/downloads/Client/2.5.25/urbackup-client-2.5.25.tar.gz
-_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	6b3c606c5de2531072ffd36eca06a5a9	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	systemd	c8b03e8df84486aa991d4396686e8942
+_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	b97a0a7215b2f463a485ff0599ab30bb	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	systemd	c8b03e8df84486aa991d4396686e8942
 _md5_=310973336188299bbd6793d250a1a811
