@@ -7,16 +7,15 @@ ETYPE="sources"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="6.6-6"
+GIT_COMMIT="6.6-12"
 
 CKV="$(ver_cut 1-2)"
-ETYPE="sources"
 
 inherit kernel-2
 #detect_version
 K_NOSETEXTRAVERSION="don't_set_it"
 
-DESCRIPTION="The Liquorix Kernel Sources v5.x"
+DESCRIPTION="The Liquorix Kernel Sources v6.x"
 HOMEPAGE="https://liquorix.net/"
 LIQUORIX_VERSION="${GIT_COMMIT/_p[0-9]*}"
 LIQUORIX_FILE="${P}.tar.gz"
@@ -24,7 +23,6 @@ LIQUORIX_URI="https://github.com/damentz/liquorix-package/archive/${LIQUORIX_VER
 SRC_URI="${KERNEL_URI} ${LIQUORIX_URI}";
 
 KEYWORDS="-* ~amd64 ~ppc ~ppc64 ~x86"
-IUSE=""
 
 KV_FULL="${PVR/_p/-pf}"
 S="${WORKDIR}"/linux-"${KV_FULL}"
