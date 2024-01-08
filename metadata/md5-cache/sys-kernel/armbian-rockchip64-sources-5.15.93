@@ -6,9 +6,9 @@ INHERIT=kernel-2 unpacker
 IUSE=symlink build
 KEYWORDS=~arm64
 LICENSE=GPL-2
-RDEPEND=!build? ( app-alternatives/cpio dev-lang/perl app-alternatives/bc sys-devel/bison app-alternatives/lex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RDEPEND=!build? ( app-alternatives/cpio dev-lang/perl app-alternatives/bc app-alternatives/yacc app-alternatives/lex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
 SLOT=5.15.93
 SRC_URI=mirror://armbian-packages/pool/main/l/linux-source-5.15.93-current-rockchip64/linux-source-current-rockchip64_23.02.2_all.deb -> armbian-rockchip64-sources-5.15.93.deb
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	crossdev	f04338ff78f213a4a55c5c37b3c6563e	estack	c61c368a76fdf3a82fdf8dbaebea3804	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	kernel-2	9638cb6c727a3d1da773e8a7e8b98f19	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	crossdev	f04338ff78f213a4a55c5c37b3c6563e	estack	c61c368a76fdf3a82fdf8dbaebea3804	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	kernel-2	e0121c8eaf287badf479a22ce41c88fd	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09
 _md5_=0a192bc66676ce2a0d27ce6841416d1c
