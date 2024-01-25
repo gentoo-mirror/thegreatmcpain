@@ -80,6 +80,6 @@ sys-kernel/liquorix-sources 5.19.17_p2 6.4.15_p1 6.5.11_p2 6.6.11_p1 6.7.1_p1: T
 virtual/linux-sources 3-r7: Virtual for Linux kernel sources
 x11-misc/i3lock-color 2.13.4: Simple screen locker
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
-x11-misc/qt5ct-kde 1.5: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
+x11-misc/qt5ct-kde 1.8: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
 x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
