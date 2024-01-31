@@ -62,7 +62,7 @@ media-video/hdr10plus_tool 1.6.0: CLI utility to work with HDR10+ in HEVC files.
 media-video/mpv 05122022: Media player for the command line (HDR DRM patches)
 media-video/nvencc 9999: HEVC/H264 video encoder using NVEnc
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
-media-video/sup2srt 1.0.3 1.0.5: Convert SUP graphic subtitles to text-based SRT format
+media-video/sup2srt 1.0.5 9999: Convert SUP graphic subtitles to text-based SRT format
 net-im/discord-rpc 3.4.0-r1: Library for interfacing your game with a locally running Discord desktop client.
 net-im/discord-wayland 0.0.22: All-in-one voice and text chat for gamers (system electron and wayland)
 net-im/vencord-desktop 0.4.4 1.5.0: Gives you the performance of web Discord with the confort of Discord Desktop
