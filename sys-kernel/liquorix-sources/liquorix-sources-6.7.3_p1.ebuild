@@ -1,4 +1,4 @@
-# Copyright 2020-2023 Gentoo Authors
+# Copyright 2020-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -7,7 +7,7 @@ ETYPE="sources"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="6.7-4"
+GIT_COMMIT="6.7-7"
 
 CKV="$(ver_cut 1-2)"
 
@@ -44,9 +44,11 @@ src_unpack() {
 
 src_prepare(){
 	# Taken from
-	# https://github.com/damentz/liquorix-package/blob/5.6/linux-liquorix/debian/patches/series
+	# https://github.com/damentz/liquorix-package/blob/6.7/linux-liquorix/debian/patches/series
 	local lqx_patches="${WORKDIR}/liquorix-package-${GIT_COMMIT}/linux-liquorix/debian/patches"
 	eapply "${lqx_patches}/zen/v${PV/_p/-lqx}.patch"
+	# Probably temporary (added in 6.7-7)
+	eapply "${lqx_patches}/zen/nvidia-export-symbol.patch"
 
 	# Adds config options for OpenRC/Systemd
 	eapply "${FILESDIR}"/4567_distro-Gentoo-Kconfig.patch
