@@ -10,4 +10,4 @@ RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/Vencord/Vesktop/archive/v1.5.0.tar.gz -> vencord-desktop-1.5.0.tar.gz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
-_md5_=55b30ab3eedf4aae5d80391efedc3aee
+_md5_=41e7d8214b1a2528e04bfd21a2c32243
