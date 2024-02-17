@@ -39,7 +39,7 @@ dev-vcs/git-annex 10.20220624: manage files with git, without checking their con
 games-action/mcpelauncher-linux 9999: Minecraft Bedrock Launcher for Linux (unofficial)
 games-arcade/osu-lazer 2023.924.1 2023.1026.0 2024.131.0 9999-r1: rhythm is just a *click* away!
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
-games-util/goverlay-bin 0.9.1: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
+games-util/goverlay-bin 1.0: GOverlay is a Graphical UI to help manage Linux overlays. (binary version)
 games-util/mangohud 0.6.9-r1 9999-r6: A Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon for mcpelauncher
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
