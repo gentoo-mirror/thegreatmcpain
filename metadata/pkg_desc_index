@@ -46,7 +46,7 @@ games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/sidequest-bin 0.10.36: An open app store for VR devices such as the Oculus Quest 2
 games-util/vkbasalt 0.3.2.9-r1 9999-r1: A vulkan post processing layer
 media-fonts/nerd-fonts 3.0.2: Collection of fonts that are patched to include a high number of glyphs (icons).
-media-libs/alvr 20.1.0 20.2.0: ALVR is an open source remote VR display for the Oculus Go/Quest
+media-libs/alvr 20.7.0: ALVR is an open source remote VR display for the Oculus Go/Quest
 media-sound/Discord-NP 1.6: Last.FM Now Playing info in your Discord status message
 media-sound/gomp 1.0.1: MPD client with builtin cover-art view and LastFM integration.
 media-sound/mpd-discord-rpc 1.5.4: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
