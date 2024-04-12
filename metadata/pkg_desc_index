@@ -64,7 +64,7 @@ media-video/nvencc 9999: HEVC/H264 video encoder using NVEnc
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.5 9999: Convert SUP graphic subtitles to text-based SRT format
 net-im/vencord-desktop 1.5.0 1.5.1: Gives you the performance of web Discord with the confort of Discord Desktop
-net-im/webcord 4.4.1: A Discord and Fosscord client made with the Electron API.
+net-im/webcord 4.4.1 4.8.0: A Discord and Fosscord client made with the Electron API.
 net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
