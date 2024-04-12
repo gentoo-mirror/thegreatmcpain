@@ -7,6 +7,6 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=|| ( >=app-accessibility/at-spi2-core-2.46.0:2 ( app-accessibility/at-spi2-atk dev-libs/atk ) ) dev-libs/expat dev-libs/glib:2 dev-libs/nspr dev-libs/nss dev-util/android-tools media-libs/alsa-lib media-libs/mesa[gbm(+)] net-print/cups sys-apps/dbus x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3 x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libdrm x11-libs/libxcb x11-libs/libxkbcommon x11-libs/libxshmfence x11-libs/pango
 SLOT=0
-SRC_URI=https://github.com/SideQuestVR/SideQuest/releases/download/v0.10.36/SideQuest-0.10.36.tar.xz
+SRC_URI=https://github.com/SideQuestVR/SideQuest/releases/download/v0.10.39/SideQuest-0.10.39.tar.xz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3
-_md5_=2faa145b7935136a682ea35a40773694
+_md5_=afbc51a88343c90db05b5d33f15e126b
