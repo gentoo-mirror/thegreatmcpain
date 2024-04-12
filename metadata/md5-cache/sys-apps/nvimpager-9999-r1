@@ -2,7 +2,7 @@ BDEPEND=app-text/pandoc >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DEPEND=app-shells/bash:* >=app-editors/neovim-0.4.0[-nvimpager]
 DESCRIPTION=Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/lucc/nvimpager
 INHERIT=git-r3
 LICENSE=BSD-2
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=app-shells/bash:* >=app-editors/neovim-0.4.0[-nvimpager]
 SLOT=0
 _eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=fbb6fe635df33be307c5deeca29f18bf
+_md5_=cc1ce938e6989ca9bd3ce3f1a0c3da03

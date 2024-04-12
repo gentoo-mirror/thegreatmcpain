@@ -1,11 +1,11 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst unpack
 DESCRIPTION=Dark theme for qbittorrent webui
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/repslet/nightwalker
 INHERIT=git-r3
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=57a3dd36dc8181123b2eace2f53cf262
+_md5_=406c60b463ffa87bccc9aeb25ee49512

@@ -58,11 +58,10 @@ media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.5 9999: Convert SUP graphic subtitles to text-based SRT format
 net-im/vencord-desktop 1.5.0 1.5.1: Gives you the performance of web Discord with the confort of Discord Desktop
 net-im/webcord 4.4.1 4.8.0: A Discord and Fosscord client made with the Electron API.
-net-nntp/ngpost 4.14 9999: Usenet poster developed in C++/QT
+net-nntp/ngpost 4.16: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
-net-vpn/openpyn-nordvpn 9999: Easily connect to and switch between, OpenVPN servers hosted by NordVPN on Linux
-sys-apps/nvimpager 0.9 0.10.2 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
-sys-apps/pnpm-bin 8.15.5: Fast, disk space efficient package manager, alternative to npm and yarn
+sys-apps/nvimpager 0.12.0 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
+sys-apps/pnpm-bin 8.15.6: Fast, disk space efficient package manager, alternative to npm and yarn
 sys-kernel/armbian-rockchip64-sources 5.15.93: Armbian kernel sources (rockchip64,current)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
