@@ -7,7 +7,7 @@ ETYPE="sources"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="6.7-17"
+GIT_COMMIT="6.8-4"
 
 CKV="$(ver_cut 1-2)"
 
@@ -47,8 +47,6 @@ src_prepare(){
 	# https://github.com/damentz/liquorix-package/blob/6.7/linux-liquorix/debian/patches/series
 	local lqx_patches="${WORKDIR}/liquorix-package-${GIT_COMMIT}/linux-liquorix/debian/patches"
 	eapply "${lqx_patches}/zen/v${PV/_p/-lqx}.patch"
-	# Probably temporary (added in 6.7-17)
-	eapply "${lqx_patches}/zen/nvidia-export-symbol.patch"
 
 	# Adds config options for OpenRC/Systemd
 	eapply "${FILESDIR}"/4567_distro-Gentoo-Kconfig.patch
