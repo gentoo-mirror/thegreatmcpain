@@ -9,7 +9,6 @@ app-backup/urbackup-server:hardened - Enables GCC runtime fortification
 app-backup/urbackup-server:mail - Enables email notifications
 app-backup/urbackup-server:zlib - Enables compression
 app-emulation/dxvk-nvapi:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up)
-app-emulation/looking-glass:host - Install Windows host binaries in ISO.
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
 dev-util/electron:bluetooth - Enable Bluetooth. Disabling bluetooth does break WebAuthn. Could also break something else. Improved patch is welcome.
