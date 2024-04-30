@@ -62,6 +62,7 @@ net-nntp/ngpost 4.16: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 sys-apps/nvimpager 0.12.0 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
 sys-apps/pnpm-bin 8.15.6: Fast, disk space efficient package manager, alternative to npm and yarn
+sys-fs/btdu-bin 0.5.1: sampling disk usage profiler for btrfs (binary)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded

@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=sampling disk usage profiler for btrfs (binary)
+EAPI=8
+HOMEPAGE=https://github.com/CyberShadow/btdu
+KEYWORDS=-* ~amd64 ~arm64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=amd64? ( https://github.com/CyberShadow/btdu/releases/download/v0.5.1/btdu-static-x86_64 -> btdu-bin-0.5.1.amd64.bin ) arm64? ( https://github.com/CyberShadow/btdu/releases/download/v0.5.1/btdu-glibc-aarch64 -> btdu-bin-0.5.1.aarch64.bin )
+_md5_=510a4c70a32bc2ee54f8550cb9bdff38
