@@ -66,5 +66,4 @@ virtual/linux-sources 3-r9: Virtual for Linux kernel sources
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
 x11-misc/qt5ct-kde 1.8-r1: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
 x11-misc/qt6ct-kde 0.9: Qt6 Configuration Tool (for DE/WM without Qt integration) 'KDE Fixes'
-x11-themes/arc-gruvbox-theme 9999: A flat theme with transparent elements
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
