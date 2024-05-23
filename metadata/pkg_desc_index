@@ -15,7 +15,7 @@ app-portage/showem 1.0.6: View output of a parallel emerge from a separate termi
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/qt6pas 6.2.7: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-python/Rx 3.2.0: Reactive Extensions for Python
-dev-python/injector 0.19.0: Python dependency injection framework, inspired by Guice
+dev-python/injector 0.21.0: Python dependency injection framework, inspired by Guice
 dev-python/jellyfin-apiclient-python 1.9.2: Python API client for Jellyfin
 dev-python/plexapi 4.13.4 9999: Python bindings for the Plex API.
 dev-python/py3nvml 0.2.7: Python 3 bindings for the NVIDIA Management Library
