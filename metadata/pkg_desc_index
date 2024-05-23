@@ -13,7 +13,6 @@ app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and ke
 app-portage/showem 1.0.6: View output of a parallel emerge from a separate terminal
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/qt6pas 6.2.7: Free Pascal Qt5 bindings library updated by lazarus IDE.
-dev-python/Rx 3.2.0: Reactive Extensions for Python
 dev-python/injector 0.21.0: Python dependency injection framework, inspired by Guice
 dev-python/jellyfin-apiclient-python 1.9.2: Python API client for Jellyfin
 dev-python/proxy_tools 0.1.0_p1: Simple proxy (as in the GoF design pattern)
