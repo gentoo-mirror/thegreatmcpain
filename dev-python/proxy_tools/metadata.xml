@@ -6,7 +6,7 @@
 		<name>TheGreatMcPain</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">r0x0r/pywebview</remote-id>
-		<remote-id type="pypi">pywebview</remote-id>
+		<remote-id type="github">jtushman/proxy_tools</remote-id>
+		<remote-id type="pypi">proxy_tools</remote-id>
 	</upstream>
 </pkgmetadata>
