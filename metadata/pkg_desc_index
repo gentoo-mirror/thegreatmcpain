@@ -23,7 +23,7 @@ dev-python/pywebview 4.4.1 5.1: A lightweight cross-platform wrapper around a we
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/reactivex 4.0.4: ReactiveX for Python
 dev-util/electron 25.8.0 27.3.0: Cross platform application development framework based on web technologies
-dev-util/esbuild 0.19.3 0.20.2: An extremely fast JavaScript and CSS bundler and minifier
+dev-util/esbuild 0.21.3: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
@@ -52,16 +52,16 @@ media-video/obs-looking-glass 1_beta6 9999: Plugin for OBS Studio to stream dire
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.5 9999: Convert SUP graphic subtitles to text-based SRT format
 net-im/vencord-desktop 1.5.2: Gives you the performance of web Discord with the confort of Discord Desktop
-net-im/webcord 4.4.1 4.8.0: A Discord and Fosscord client made with the Electron API.
+net-im/webcord 4.9.2: A Discord and Fosscord client made with the Electron API.
 net-nntp/ngpost 4.16: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
-sys-apps/nvimpager 0.12.0 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
-sys-apps/pnpm-bin 9.0.6: Fast, disk space efficient package manager, alternative to npm and yarn
+sys-apps/nvimpager 0.13.0 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
+sys-apps/pnpm-bin 9.1.2: Fast, disk space efficient package manager, alternative to npm and yarn
 sys-fs/btdu-bin 0.5.1: sampling disk usage profiler for btrfs (binary)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 6.7.12_p1 6.8.9_p1 6.8.9_p2 6.8.10_p1: The Liquorix Kernel Sources v6.x
+sys-kernel/liquorix-sources 6.7.12_p1 6.8.9_p1 6.8.9_p2 6.8.10_p1 6.8.10_p2: The Liquorix Kernel Sources v6.x
 virtual/linux-sources 3-r9: Virtual for Linux kernel sources
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
 x11-misc/qt5ct-kde 1.8-r1: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
