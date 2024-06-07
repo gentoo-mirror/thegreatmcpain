@@ -19,7 +19,7 @@ dev-python/proxy_tools 0.1.0_p1: Simple proxy (as in the GoF design pattern)
 dev-python/py3nvml 0.2.7: Python 3 bindings for the NVIDIA Management Library
 dev-python/pystray 0.19.5: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.2.0: Python API to MPV using JSON IPC
-dev-python/pywebview 4.4.1 5.1: A lightweight cross-platform wrapper around a webview component
+dev-python/pywebview 4.4.1-r1 5.1-r1: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/reactivex 4.0.4: ReactiveX for Python
 dev-util/electron 25.8.0 27.3.0: Cross platform application development framework based on web technologies
