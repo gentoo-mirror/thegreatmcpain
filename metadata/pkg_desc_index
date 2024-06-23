@@ -22,7 +22,7 @@ dev-python/python-mpv-jsonipc 1.2.0: Python API to MPV using JSON IPC
 dev-python/pywebview 4.4.1-r1 5.1-r1: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/reactivex 4.0.4: ReactiveX for Python
-dev-util/electron 25.8.0 27.3.0: Cross platform application development framework based on web technologies
+dev-util/electron 30.1.2: Cross platform application development framework based on web technologies
 dev-util/esbuild 0.21.3: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
@@ -61,7 +61,7 @@ sys-fs/btdu-bin 0.5.1: sampling disk usage profiler for btrfs (binary)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 6.7.12_p1 6.8.11_p1 6.9.3_p1 6.9.5_p1: The Liquorix Kernel Sources v6.x
+sys-kernel/liquorix-sources 6.7.12_p1 6.8.11_p1 6.9.3_p1 6.9.5_p1 6.9.6_p1: The Liquorix Kernel Sources v6.x
 virtual/linux-sources 3-r9: Virtual for Linux kernel sources
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
 x11-misc/qt5ct-kde 1.8-r1: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
