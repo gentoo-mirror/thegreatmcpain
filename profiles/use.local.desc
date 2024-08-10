@@ -119,7 +119,6 @@ media-fonts/nerd-fonts:tinos - Install Nerd-fonts-patched Tinos fonts
 media-fonts/nerd-fonts:ubuntu - Install Nerd-fonts-patched Ubuntu fonts
 media-fonts/nerd-fonts:ubuntumono - Install Nerd-fonts-patched Ubuntu Mono fonts
 media-fonts/nerd-fonts:victormono - Install Nerd-fonts-patched Victor Mono fonts
-media-libs/alvr:nvidia - Enables nvidia support
 media-tv/jellyfin-mpv-shim:discord - Enable discord rich presence
 media-tv/jellyfin-mpv-shim:display-mirroring - Enable display-mirroring
 media-tv/jellyfin-mpv-shim:shaders - Install MPV shader pack
