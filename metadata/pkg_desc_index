@@ -22,7 +22,7 @@ dev-python/python-mpv-jsonipc 1.2.0: Python API to MPV using JSON IPC
 dev-python/pywebview 4.4.1-r1 5.1-r1: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/reactivex 4.0.4: ReactiveX for Python
-dev-util/electron 30.1.2: Cross platform application development framework based on web technologies
+dev-util/electron 30.1.2 31.3.1: Cross platform application development framework based on web technologies
 dev-util/esbuild 0.23.0: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
@@ -52,7 +52,7 @@ media-video/obs-looking-glass 1_beta6 9999: Plugin for OBS Studio to stream dire
 media-video/ofsextractor 9999: 3D Plane extractor for 3D Bluray MVC streams.
 media-video/sup2srt 1.0.5 9999: Convert SUP graphic subtitles to text-based SRT format
 net-im/vencord-desktop 1.5.3: Gives you the performance of web Discord with the confort of Discord Desktop
-net-im/webcord 4.10.0: A Discord and Fosscord client made with the Electron API.
+net-im/webcord 4.10.0-r2: A Discord and Fosscord client made with the Electron API.
 net-nntp/ngpost 4.16: Usenet poster developed in C++/QT
 net-p2p/qbittorrent-nightwalker 9999: Dark theme for qbittorrent webui
 sys-apps/nvimpager 0.13.0 9999-r1: Use nvim as a pager to view manpages, diff, etc with nvim's syntax highlighting.
