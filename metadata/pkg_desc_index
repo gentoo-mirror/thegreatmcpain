@@ -60,7 +60,7 @@ sys-fs/btdu-bin 0.5.1: sampling disk usage profiler for btrfs (binary)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 6.10.7_p1 6.10.8_p2: The Liquorix Kernel Sources v6.x
+sys-kernel/liquorix-sources 6.10.7_p1 6.10.8_p2 6.10.9_p1: The Liquorix Kernel Sources v6.x
 virtual/linux-sources 3-r9: Virtual for Linux kernel sources
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
 x11-misc/qt5ct-kde 1.8-r2: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
