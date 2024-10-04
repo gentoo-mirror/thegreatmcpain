@@ -37,6 +37,7 @@ games-util/mcpelauncher-msa-client 9999: Microsoft Account authentication daemon
 games-util/mcpelauncher-ui-qt 9999: mcpelauncher-linux UI
 games-util/sidequest-bin 0.10.42: An open app store for VR devices such as the Oculus Quest 2
 games-util/vkbasalt 0.3.2.10 9999-r1: A vulkan post processing layer
+gui-apps/qt6ct-kde 0.9: Qt6 Configuration Tool (for DE/WM without Qt integration) 'KDE Fixes'
 media-fonts/nerd-fonts 3.2.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-libs/alvr 20.9.1 20.10.0 20.11.0: ALVR is an open source remote VR display for the Oculus Go/Quest
 media-sound/gomp 1.0.9: MPD client with builtin cover-art view and LastFM integration.
@@ -65,5 +66,4 @@ sys-kernel/liquorix-sources 6.10.9_p1 6.10.11_p2 6.10.12_p1 6.11.1_p1: The Liquo
 virtual/linux-sources 3-r9: Virtual for Linux kernel sources
 x11-misc/primus_vk 1.6.2-r1: Vulkan GPU-offloading layer
 x11-misc/qt5ct-kde 1.8-r2: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
-x11-misc/qt6ct-kde 0.9: Qt6 Configuration Tool (for DE/WM without Qt integration) 'KDE Fixes'
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
