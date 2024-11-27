@@ -40,6 +40,7 @@ gui-apps/qt6ct-kde 0.9: Qt6 Configuration Tool (for DE/WM without Qt integration
 gui-apps/qt6gtk2 0.3: GTK+2.0 integration plugins for Qt6
 media-fonts/nerd-fonts 3.2.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-libs/alvr 20.9.1 20.10.0 20.11.0: ALVR is an open source remote VR display for the Oculus Go/Quest
+media-libs/rockchip-mali-jellyfin 9999: Rockchip Userspace Mali GPU Driver (jellyfin fork)
 media-libs/rockchip-mpp-jellyfin 9999: Rockchip Media Process Platform (MPP) module (jellyfin fork)
 media-libs/rockchip-rga-jellyfin 9999: Rockchip Raster Graphic Acceleration Unit library (jellyfin fork)
 media-sound/gomp 1.0.9: MPD client with builtin cover-art view and LastFM integration.
