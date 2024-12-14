@@ -1,20 +1,19 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit git-r3 cmake toolchain-funcs flag-o-matic
 
 DESCRIPTION="Minecraft Bedrock Launcher for Linux (unofficial)"
 HOMEPAGE="https://github.com/minecraft-linux/mcpelauncher-manifest"
 SRC_URI="https://github.com/nlohmann/json/releases/download/v3.7.3/include.zip -> nlohmann_json-3.7.3.zip"
-EGIT_BRANCH="ng"
+EGIT_BRANCH="qt6"
 EGIT_REPO_URI="https://github.com/minecraft-linux/mcpelauncher-manifest.git"
 
 LICENSE="MIT GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="+ui +msa"
 
 DEPEND="
 	net-misc/curl
@@ -22,16 +21,21 @@ DEPEND="
 	media-libs/libpng
 	dev-libs/libevdev
 	x11-libs/libXi
-	dev-qt/qtwebengine:5
-	sys-devel/clang:*
-	sys-devel/llvm:*"
+	dev-qt/qtwebengine:6
+	dev-qt/qtdeclarative:6
+	dev-qt/qtbase:6
+	dev-libs/libuv
+	llvm-core/clang:*
+	llvm-core/llvm:*"
 RDEPEND="${DEPEND}
-	msa? ( games-util/mcpelauncher-msa-client )
-	ui? ( games-util/mcpelauncher-ui-qt )"
-BDEPEND=""
+	games-util/mcpelauncher-ui-qt"
+BDEPEND="app-arch/unzip"
 
 # Prevent downloading nlohmann_json sources
-PATCHES="${FILESDIR}/system-nlohmann_json.patch"
+PATCHES="
+	${FILESDIR}/system-nlohmann_json.patch
+	${FILESDIR}/disable-optimizations-libc-shim.patch
+"
 
 src_unpack() {
 	unpack "${DISTDIR}/nlohmann_json-3.7.3.zip"
@@ -60,7 +64,8 @@ src_configure() {
 		-DBUILD_SHARED_LIBS=OFF
 		-DUSE_EXTERNAL_JSON=YES               # Workaround for nlohmann_json
 		-DJSON_SOURCES="${WORKDIR}"           # Workaround for nlohmann_json
-		-DJNI_USE_JNIVM=ON
+		-DENABLE_DEV_PATHS=OFF
+		-Wno-dev
 	)
 
 	cmake_src_configure
