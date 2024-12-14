@@ -57,8 +57,6 @@ dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
 dev-vcs/git-annex:pairing - Enable pairing
 dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
 dev-vcs/git-annex:webapp - Enable git-annex webapp
-games-action/mcpelauncher-linux:msa - Install games-util/mcpelauncher-msa-client
-games-action/mcpelauncher-linux:ui - Install games-util/mcpelauncher-ui-qt
 games-fps/gzdoom:gles2 - Enable GLES2 backend
 games-fps/gzdoom:non-free - Enable non-free components
 games-fps/gzdoom:swr - Enable software renderer
@@ -67,7 +65,6 @@ games-util/goverlay-bin:opengl - Use x11-apps/mesa-progs for opengl preview.
 games-util/goverlay-bin:vulkan - Use dev-util/vulkan-tools for vulkan preview.
 games-util/mangohud:tools - "Installs the 'mangoapp' and 'mangohudctl' binaries."
 games-util/mangohud:xnvctrl - "Use XNVctrl as fall back for older Nvidia devices."
-games-util/mcpelauncher-msa-client:qt5 - "Enable QT GUI"
 games-util/vkbasalt:reshade-shaders - Install dev-util/reshade-shaders.
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
