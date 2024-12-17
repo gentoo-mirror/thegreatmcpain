@@ -7,7 +7,7 @@ inherit git-r3 cmake flag-o-matic xdg-utils
 
 DESCRIPTION="mcpelauncher-linux UI"
 HOMEPAGE="https://github.com/minecraft-linux/mcpelauncher-ui-manifest"
-EGIT_BRANCH="qt6"
+EGIT_COMMIT="v${PV}-qt6"
 EGIT_REPO_URI="https://github.com/minecraft-linux/mcpelauncher-ui-manifest.git"
 RESTRICT="network-sandbox"
 
