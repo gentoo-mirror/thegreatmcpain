@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/sassc icons? ( dev-util/gtk-update-icon-cache ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm prepare unpack
+DESCRIPTION=A GTK theme based on the Gruvbox colour palette.
+EAPI=8
+HOMEPAGE=https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme
+INHERIT=git-r3 xdg-utils
+IUSE=+gtk2 +icons
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=gtk2? ( x11-themes/gnome-themes-standard x11-themes/gtk-engines-murrine )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=935620ff4d049dd3e30dff16381b4c8a
