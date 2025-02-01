@@ -40,7 +40,7 @@ games-util/vkbasalt 0.3.2.10 9999-r1: A vulkan post processing layer
 gui-apps/ReGreet 0.2.0 9999: A clean and customizable GTK-based greetd greeter written in Rust
 gui-apps/qt6ct-kde 0.9: Qt6 Configuration Tool (for DE/WM without Qt integration) 'KDE Fixes'
 gui-apps/qt6gtk2 0.3: GTK+2.0 integration plugins for Qt6
-gui-libs/aquamarine 0.7.1: Aquamarine is a very light linux rendering backend library
+gui-libs/aquamarine 0.7.2: Aquamarine is a very light linux rendering backend library
 media-fonts/nerd-fonts 3.2.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-gfx/vk-hdr-layer 9999: Vulkan Wayland HDR WSI Layer
 media-libs/alvr 20.9.1 20.10.0 20.11.0: ALVR is an open source remote VR display for the Oculus Go/Quest
