@@ -71,6 +71,8 @@ gui-apps/ReGreet:systemd - Use system-tmpfiles to create cache and logs folder
 gui-wm/gamescope:libei - Enable emulated input using dev-libs/libei
 gui-wm/gamescope:pipewire - Enable screen capture via PipeWire
 gui-wm/gamescope:wsi-layer - Enable the WSI layer (required for HDR)
+gui-wm/hyprland:legacy-renderer - Enable legacy renderer
+gui-wm/hyprland:qtutils - Install Hyprland QT utility apps
 media-fonts/nerd-fonts:3270 - Install Nerd-fonts-patched 3270 fonts
 media-fonts/nerd-fonts:agave - Install Nerd-fonts-patched Agave fonts
 media-fonts/nerd-fonts:anonymouspro - Install Nerd-fonts-patched Anonymous Pro fonts
