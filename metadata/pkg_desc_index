@@ -77,6 +77,7 @@ sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloa
 sys-kernel/liquorix-sources 6.11.10_p1 6.12.13_p2: The Liquorix Kernel Sources v6.x
 sys-kernel/rockchip-sources 6.1.9999_p3 6.1.9999_p4: Improved Rockchip Linux
 virtual/linux-sources 3-r9: Virtual for Linux kernel sources
+x11-drivers/nvidia-drivers 565.77: NVIDIA Accelerated Graphics Driver
 x11-misc/primus_vk 1.6.4: Vulkan GPU-offloading layer
 x11-misc/qt5ct-kde 1.8-r2: Qt5 configuration tool, similar to qtconfig for Qt4 (KDE fixes)
 x11-themes/gruvbox-gtk-theme 9999: A GTK theme based on the Gruvbox colour palette.
