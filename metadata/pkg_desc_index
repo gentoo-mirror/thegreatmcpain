@@ -5,6 +5,7 @@ app-admin/rpi-fan-ctrl 9999: Simple fan controller for Raspberry PI using the pi
 app-backup/urbackup-certificate 20151210: Urbackup client/server ECDSA signing key
 app-backup/urbackup-client 2.5.25-r2: Client for UrBackup server
 app-backup/urbackup-server 2.5.33: Fast and easily configured backup server
+app-cdr/dvdisaster 0.79.10: Tool for creating error correction data (ecc) for optical media (DVD, CD, BD)
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
 app-emulation/dxvk-nvapi 0.7.0 9999: Alternative NVAPI implementation on top of DXVK
 app-eselect/eselect-electron 0.3: Utility to select the default Electron slot

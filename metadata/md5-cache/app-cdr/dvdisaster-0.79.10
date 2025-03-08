@@ -1,0 +1,16 @@
+BDEPEND=nls? ( sys-devel/gettext ) virtual/os-headers virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare
+DEPEND=dev-libs/glib:2 x11-libs/gdk-pixbuf x11-libs/gtk+:2 nls? ( virtual/libintl )
+DESCRIPTION=Tool for creating error correction data (ecc) for optical media (DVD, CD, BD)
+EAPI=8
+HOMEPAGE=https://dvdisaster.jcea.es/
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=desktop toolchain-funcs xdg
+IUSE=debug nls l10n_cs l10n_de l10n_it l10n_pt-BR l10n_ru l10n_sv
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-3+
+RDEPEND=dev-libs/glib:2 x11-libs/gdk-pixbuf x11-libs/gtk+:2 nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=https://dvdisaster.jcea.es/downloads/dvdisaster-0.79.10.tar.bz2
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=73fc0a57d1635d0badee42ddc79789a5

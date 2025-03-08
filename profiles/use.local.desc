@@ -8,6 +8,7 @@ app-backup/urbackup-server:fuse - Enables mounting VHD containers via FUSE
 app-backup/urbackup-server:hardened - Enables GCC runtime fortification
 app-backup/urbackup-server:mail - Enables email notifications
 app-backup/urbackup-server:zlib - Enables compression
+app-cdr/dvdisaster:debug - Enable memory debugging.
 app-emulation/dxvk-nvapi:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up)
 app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 app-portage/genup:emtee - Enable support for emtee (include emtee dependency).
