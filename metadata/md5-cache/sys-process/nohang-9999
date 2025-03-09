@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=dev-lang/python systemd? ( sys-apps/systemd )
+DESCRIPTION=A sophisticated low memory handler for Linux
+EAPI=8
+HOMEPAGE=https://github.com/hakavlad/nohang
+INHERIT=git-r3
+IUSE=systemd
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/python systemd? ( sys-apps/systemd )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=235878b5c18eedc2a1127ce8b74a42b8
