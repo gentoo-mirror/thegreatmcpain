@@ -29,7 +29,7 @@ dev-qt/qtstyleplugins 5.0.0_p20170311-r1: Additional style plugins for Qt5 (gtk2
 dev-util/electron 30.1.2 31.3.1 32.2.4 33.3.0 34.3.0: Cross platform application development framework based on web technologies
 dev-util/esbuild 0.25.1: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
-dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
+dev-util/reshade-shaders 20250219: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
 games-action/mcpelauncher-linux 1.1.2 9999: Minecraft Bedrock Launcher for Linux (unofficial)
 games-fps/gzdoom 9999: A modder-friendly OpenGL source port based on the DOOM engine
