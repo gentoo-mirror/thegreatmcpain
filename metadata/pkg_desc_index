@@ -7,7 +7,8 @@ app-backup/urbackup-client 2.5.25-r2: Client for UrBackup server
 app-backup/urbackup-server 2.5.33: Fast and easily configured backup server
 app-cdr/dvdisaster 0.79.10: Tool for creating error correction data (ecc) for optical media (DVD, CD, BD)
 app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pinentry version)
-app-emulation/dxvk-nvapi 0.7.0 9999: Alternative NVAPI implementation on top of DXVK
+app-emulation/dxvk-nvapi 0.9.0 9999: Alternative NVAPI implementation on top of DXVK
+app-emulation/dxvk-nvapi-reflex-layer 0.9.0: Nvidia Reflex Vulkan Layer for DXVK-NVAPI
 app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
