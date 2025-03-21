@@ -27,7 +27,7 @@ dev-python/reactivex 4.0.4: ReactiveX for Python
 dev-python/subtitle-filter 1.5.0: Filter Subtitles to remove SDH entries
 dev-qt/qtstyleplugins 5.0.0_p20170311-r1: Additional style plugins for Qt5 (gtk2, cleanlook, plastic, motif)
 dev-util/electron 30.1.2 31.3.1 32.2.4 33.3.0 34.3.0: Cross platform application development framework based on web technologies
-dev-util/esbuild 0.23.0: An extremely fast JavaScript and CSS bundler and minifier
+dev-util/esbuild 0.25.1: An extremely fast JavaScript and CSS bundler and minifier
 dev-util/mpv-shim-default-shaders 2.1.0: Preconfigured set of MPV shaders and configs for MPV Shim media clients.
 dev-util/reshade-shaders 20230302: Post-processing shaders written in the ReShade FX shader language
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
@@ -52,7 +52,6 @@ media-libs/libvmaf 3.0.0 9999: C libary for Netflix's Perceptual video quality a
 media-libs/rockchip-mali-jellyfin 9999: Rockchip Userspace Mali GPU Driver (jellyfin fork)
 media-libs/rockchip-mpp-jellyfin 9999: Rockchip Media Process Platform (MPP) module (jellyfin fork)
 media-libs/rockchip-rga-jellyfin 9999: Rockchip Raster Graphic Acceleration Unit library (jellyfin fork)
-media-sound/gomp 1.0.9: MPD client with builtin cover-art view and LastFM integration.
 media-sound/mpd-discord-rpc 1.7.2: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-tv/jellyfin-mpv-shim 2.8.0: Cast media from Jellyfin to MPV
