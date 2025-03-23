@@ -14,6 +14,7 @@ app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-goin
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.6: View output of a parallel emerge from a separate terminal
 dev-libs/glaze 4.3.1: Extremely fast, in memory, JSON and interface library for modern C++
+dev-libs/hyprland-protocols 0.6.2: Wayland protocol extensions for Hyprland
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/qt6pas 6.2.7: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-python/injector 0.21.0: Python dependency injection framework, inspired by Guice
@@ -42,10 +43,10 @@ games-util/vkbasalt 0.3.2.10 9999-r1: A vulkan post processing layer
 gui-apps/ReGreet 0.2.0 9999: A clean and customizable GTK-based greetd greeter written in Rust
 gui-apps/qt6ct-kde 0.9: Qt6 Configuration Tool (for DE/WM without Qt integration) 'KDE Fixes'
 gui-apps/qt6gtk2 0.3: GTK+2.0 integration plugins for Qt6
-gui-libs/aquamarine 0.7.2: Aquamarine is a very light linux rendering backend library
-gui-libs/hyprutils 0.5.0: Hyprland utilities library used across the ecosystem
+gui-libs/aquamarine 0.7.2 0.8.0: Aquamarine is a very light linux rendering backend library
+gui-libs/hyprutils 0.5.2: Hyprland utilities library used across the ecosystem
 gui-wm/gamescope 9999: Efficient micro-compositor for running games
-gui-wm/hyprland 0.47.2: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+gui-wm/hyprland 0.47.2 0.48.0: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 media-fonts/nerd-fonts 3.2.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-gfx/vk-hdr-layer 9999: Vulkan Wayland HDR WSI Layer
 media-libs/alvr 20.9.1 20.10.0 20.11.0: ALVR is an open source remote VR display for the Oculus Go/Quest
