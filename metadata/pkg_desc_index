@@ -13,7 +13,7 @@ app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.6: View output of a parallel emerge from a separate terminal
-dev-libs/glaze 4.3.1: Extremely fast, in memory, JSON and interface library for modern C++
+dev-libs/glaze 4.3.1 5.0.1: Extremely fast, in memory, JSON and interface library for modern C++
 dev-libs/hyprland-protocols 0.6.2: Wayland protocol extensions for Hyprland
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/qt6pas 6.2.7: Free Pascal Qt5 bindings library updated by lazarus IDE.
