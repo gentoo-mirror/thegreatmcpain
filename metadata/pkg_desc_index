@@ -18,12 +18,12 @@ dev-libs/hyprland-protocols 0.6.2: Wayland protocol extensions for Hyprland
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/qt6pas 6.2.7: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-python/injector 0.21.0: Python dependency injection framework, inspired by Guice
-dev-python/jellyfin-apiclient-python 1.9.2: Python API client for Jellyfin
+dev-python/jellyfin-apiclient-python 1.11.0: Python API client for Jellyfin
 dev-python/proxy_tools 0.1.0_p1: Simple proxy (as in the GoF design pattern)
 dev-python/py3nvml 0.2.7: Python 3 bindings for the NVIDIA Management Library
 dev-python/pystray 0.19.5: Python library for creating system tray icons
 dev-python/python-mpv-jsonipc 1.2.0: Python API to MPV using JSON IPC
-dev-python/pywebview 4.4.1-r1 5.1-r1: A lightweight cross-platform wrapper around a webview component
+dev-python/pywebview 5.4: A lightweight cross-platform wrapper around a webview component
 dev-python/quantumrandom 9999: A Python interface to the ANU Quantum Random Numbers Server
 dev-python/reactivex 4.0.4: ReactiveX for Python
 dev-python/subtitle-filter 1.5.0: Filter Subtitles to remove SDH entries
@@ -56,7 +56,7 @@ media-libs/rockchip-mpp-jellyfin 9999: Rockchip Media Process Platform (MPP) mod
 media-libs/rockchip-rga-jellyfin 9999: Rockchip Raster Graphic Acceleration Unit library (jellyfin fork)
 media-sound/mpd-discord-rpc 1.7.2: Displays the playing song/album/artist from MPD in Discord using Rich Presence.
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
-media-tv/jellyfin-mpv-shim 2.8.0: Cast media from Jellyfin to MPV
+media-tv/jellyfin-mpv-shim 2.9.0: Cast media from Jellyfin to MPV
 media-video/3dsuptools 9999: WIP 2D to 3D BDSUP subtitle converter (based on BD3D2MK3D).
 media-video/ass2bdnxml 9999: Convert ASS subtitles into BDN XML + PNG images
 media-video/bdsup2subplusplus 1.0.4_beta: Port of the original BDSup2Sub to C++ and Qt. (captainayy fork)
