@@ -50,14 +50,6 @@ dev-util/electron:system-woff2 - Use the system media-libs/woff2 instead of the 
 dev-util/electron:system-zstd - Use the system app-arch/zstd instead of the bundled one
 dev-util/electron:thinlto - Build with ThinLTO support. LTO (Link Time Optimization) achieves better runtime performance through whole-program analysis and cross-module optimization (highly recommended).
 dev-util/electron:ungoogled - Apply ungoogled-chromium modifications to chromium sources (electron sources are untouched be it better or worse). Not yet thoroughly tested! Might break electron apps or electron itself!
-dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
-dev-vcs/git-annex:benchmark - Enable benchmarking
-dev-vcs/git-annex:dbus - Enable dbus support
-dev-vcs/git-annex:gitlfs - Build with git-lfs library (rather than vendored copy)
-dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
-dev-vcs/git-annex:pairing - Enable pairing
-dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
-dev-vcs/git-annex:webapp - Enable git-annex webapp
 games-fps/gzdoom:gles2 - Enable GLES2 backend
 games-fps/gzdoom:non-free - Enable non-free components
 games-fps/gzdoom:swr - Enable software renderer
