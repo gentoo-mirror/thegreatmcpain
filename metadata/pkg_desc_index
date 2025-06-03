@@ -13,9 +13,6 @@ app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.6: View output of a parallel emerge from a separate terminal
-dev-libs/hyprgraphics 0.1.3: Hyprland graphics / resource utilities
-dev-libs/hyprland-protocols 0.6.4: Wayland protocol extensions for Hyprland
-dev-libs/hyprlang 0.6.3: Official implementation library for the hypr config language
 dev-libs/qt5pas 2.6-r1: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-libs/qt6pas 6.2.7: Free Pascal Qt5 bindings library updated by lazarus IDE.
 dev-python/injector 0.21.0: Python dependency injection framework, inspired by Guice
@@ -39,9 +36,7 @@ games-util/mangohud 0.7.2 0.8.0_rc2 9999-r6: A Vulkan/OpenGL overlay for monitor
 games-util/mcpelauncher-ui-qt 1.1.2 9999: mcpelauncher-linux UI
 games-util/sidequest-bin 0.10.42: An open app store for VR devices such as the Oculus Quest 2
 games-util/vkbasalt 0.3.2.10 9999-r1: A vulkan post processing layer
-gui-libs/hyprutils 0.7.1: Hyprland utilities library used across the ecosystem
 gui-wm/gamescope 3.16.11 9999: Efficient micro-compositor for running games
-gui-wm/hyprland 0.49.0: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 media-fonts/nerd-fonts 3.2.0: Collection of fonts that are patched to include a high number of glyphs (icons).
 media-gfx/vk-hdr-layer 9999: Vulkan Wayland HDR WSI Layer
 media-libs/alvr 20.13.0-r1: ALVR is an open source remote VR display for the Oculus Go/Quest
@@ -72,7 +67,7 @@ sys-fs/btdu-bin 0.5.1: sampling disk usage profiler for btrfs (binary)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 6.13.8_p3 6.14.8_p1: The Liquorix Kernel Sources v6.x
+sys-kernel/liquorix-sources 6.13.8_p3 6.14.8_p1 6.14.9_p1: The Liquorix Kernel Sources v6.x
 sys-kernel/rockchip-sources 6.1.9999_p3 6.1.9999_p4 6.1.9999_p5: Improved Rockchip Linux
 sys-process/nohang 9999: A sophisticated low memory handler for Linux
 virtual/linux-sources 3-r9: Virtual for Linux kernel sources
