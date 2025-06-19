@@ -70,7 +70,7 @@ sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloa
 sys-kernel/liquorix-sources 6.13.8_p3 6.14.10_p1 6.15.2_p1: The Liquorix Kernel Sources v6.x
 sys-kernel/rockchip-sources 6.1.9999_p5 6.1.9999_p5-r1: Improved Rockchip Linux
 sys-process/nohang 9999: A sophisticated low memory handler for Linux
-virtual/linux-sources 3-r9: Virtual for Linux kernel sources
+virtual/linux-sources 3-r10: Virtual for Linux kernel sources
 x11-misc/primus_vk 1.6.4: Vulkan GPU-offloading layer
 x11-themes/gruvbox-gtk-theme 9999: A GTK theme based on the Gruvbox colour palette.
 x11-themes/gruvbox-material-gtk-theme 9999: Gruvbox Material theme for GTK
