@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=configure install
+DEPEND=acct-user/urbackup acct-group/urbackup app-backup/urbackup-certificate dev-db/sqlite dev-libs/crypto++ X? ( x11-libs/wxGTK:* ) zlib? ( sys-libs/zlib )
+DESCRIPTION=Client for UrBackup server
+EAPI=8
+HOMEPAGE=https://www.urbackup.org
+INHERIT=wxwidgets systemd
+IUSE=hardened X zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=acct-user/urbackup acct-group/urbackup app-backup/urbackup-certificate dev-db/sqlite dev-libs/crypto++ X? ( x11-libs/wxGTK:* ) zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=https://www.urbackup.org/downloads/Client/2.5.25/urbackup-client-2.5.25.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	wxwidgets	c48bf68858bd3c27c272ff034eb1e14d	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=e392e1b44b09814465f6bd1187f5aaf2
