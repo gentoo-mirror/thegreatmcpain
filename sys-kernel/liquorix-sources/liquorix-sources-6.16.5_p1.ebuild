@@ -7,7 +7,7 @@ ETYPE="sources"
 K_USEPV="yes"
 UNIPATCH_STRICTORDER="yes"
 K_SECURITY_UNSUPPORTED="1"
-GIT_COMMIT="6.13-8"
+GIT_COMMIT="6.16-4"
 
 CKV="$(ver_cut 1-2)"
 
@@ -53,7 +53,7 @@ src_prepare(){
 	done
 
 	# Adds config options for OpenRC/Systemd
-	eapply "${FILESDIR}"/4567_distro-Gentoo-Kconfig.patch
+	eapply "${FILESDIR}"/4567_distro-Gentoo-Kconfig-r1.patch
 
 	eapply_user
 }
