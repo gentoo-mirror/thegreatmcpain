@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst
-DESCRIPTION=FFmpeg for Jellyfin with custom extensions and enhancements (portable binary)
-EAPI=8
-HOMEPAGE=https://github.com/jellyfin/jellyfin-ffmpeg
-KEYWORDS=~amd64 ~arm64
-LICENSE=GPL-3+
-SLOT=0
-SRC_URI=amd64? ( https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.1-7/jellyfin-ffmpeg_7.1.1-7_portable_linux64-gpl.tar.xz ) arm64? ( https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v7.1.1-7/jellyfin-ffmpeg_7.1.1-7_portable_linuxarm64-gpl.tar.xz )
-_md5_=59b9953498c92be4f369baef36c0a649
