@@ -10,6 +10,7 @@ app-crypt/staticgpg 1.4.16-r1: The GNU Privacy Guard (statically linked, no-pine
 app-emulation/dxvk-nvapi 0.9.0 9999: Alternative NVAPI implementation on top of DXVK
 app-emulation/dxvk-nvapi-reflex-layer 0.9.0: Nvidia Reflex Vulkan Layer for DXVK-NVAPI
 app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
+app-misc/via-desktop 2025.10.20: An Electron app designed to provide an offline experience for VIA.
 app-portage/emtee 1.0.5: A faster-startup emerge -DuU --with-bdeps=y --keep-going @world
 app-portage/genup 1.0.28-r1: Update Portage tree, all installed packages, and kernel
 app-portage/showem 1.0.6: View output of a parallel emerge from a separate terminal
@@ -66,7 +67,7 @@ sys-fs/btdu-bin 0.6.0: sampling disk usage profiler for btrfs (binary)
 sys-kernel/buildkernel 1.0.37: Build secure boot EFI kernel with LUKS, LVM and plymouth
 sys-kernel/buildkernel-dracut 1.0.37-r2 9999-r1: Build secure boot EFI kernel with LUKS, LVM and plymouth (Dracut version)
 sys-kernel/genkernel-next 70-r1: Gentoo automatic kernel building scripts, reloaded
-sys-kernel/liquorix-sources 6.16.7_p1 6.16.8_p1 6.16.9_p1 6.16.11_p1 6.17.3_p1 6.17.4_p1: The Liquorix Kernel Sources v6.x
+sys-kernel/liquorix-sources 6.16.7_p1 6.16.8_p1 6.16.9_p1 6.16.11_p1 6.17.3_p1 6.17.4_p1 6.17.5_p1: The Liquorix Kernel Sources v6.x
 sys-kernel/rockchip-sources 6.1.9999_p5 6.1.9999_p5-r1: Improved Rockchip Linux
 sys-kernel/zenpower3 0.2.0-r3 9999: Linux kernel driver for reading sensors of AMD Zen family CPUs
 sys-power/RyzenAdj 0.17.0: The power management tool for mobile and desktop Ryzen APUs
